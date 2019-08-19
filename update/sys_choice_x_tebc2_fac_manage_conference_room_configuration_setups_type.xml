@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type" table="x_tebc2_fac_manage_conference_room_configuration_setups" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Conference Room</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_conference_room_configuration_setups</name>
+            <sequence/>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-07-27 20:58:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b15a6efddb2b178098e6a3cc0b961966</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-08-07 18:24:34</sys_updated_on>
+            <value>Conference Room</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Focus Room</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_conference_room_configuration_setups</name>
+            <sequence/>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-07-27 20:58:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>586a2631db6b178098e6a3cc0b961964</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-08-07 18:24:41</sys_updated_on>
+            <value>Focus Room</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Outdoor</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_conference_room_configuration_setups</name>
+            <sequence/>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-07-27 20:57:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c12a2631db6b178098e6a3cc0b961960</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-08-07 18:24:48</sys_updated_on>
+            <value>Outdoor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Training Room</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_conference_room_configuration_setups</name>
+            <sequence/>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-07-27 20:58:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>364aaefddb2b178098e6a3cc0b961959</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-08-07 18:24:55</sys_updated_on>
+            <value>Training Room</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <name>x_tebc2_fac_manage_conference_room_configuration_setups</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-07-27 20:57:44</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>f43a2631db6b178098e6a3cc0b9619e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type</sys_name>
+            <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+            <sys_update_name>sys_choice_x_tebc2_fac_manage_conference_room_configuration_setups_type</sys_update_name>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-07-27 20:57:44</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

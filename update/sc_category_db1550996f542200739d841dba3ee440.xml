@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer/>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>300</order>
+        <parent/>
+        <roles/>
+        <sc_catalog display_value="Facilities Catalog">f8b190996f542200739d841dba3ee47a</sc_catalog>
+        <show_in_cms>false</show_in_cms>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-27 18:51:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>db1550996f542200739d841dba3ee440</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Badge or Key Access</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sc_category_db1550996f542200739d841dba3ee440</sys_update_name>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-06-27 18:54:28</sys_updated_on>
+        <title>Badge or Key Access</title>
+    </sc_category>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>homepage_image</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>3813</size_bytes>
+        <size_compressed>3793</size_compressed>
+        <state>available</state>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-29 16:34:11</sys_created_on>
+        <sys_id>6dc882f96f1062001d90f00dba3ee45e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-04-13 11:14:45</sys_updated_on>
+        <table_name>ZZ_YYsc_category</table_name>
+        <table_sys_id>db1550996f542200739d841dba3ee440</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAHXXeTQUbvcA8CklQzKWsmVL9i172dJYZ6wNiVGYwTAYwxj7UtlpslP21JCxhUzW
+ocj2RZZvTbIk65DshibFj/f83j/fP+5zz/nce55zz3Oef26StaUJO6sAKwAAYIeYGsKOs+1JsDAf
+n5e9Qe+PE9DP1CEAALjw4SROZctdEDzGc3iIhdG578xMPKKn2vt3d/9DRvb4W4F4TywOQKoZND2m
+8ydk6B7gikP74dFYXwA3UEz82FlP3ADrF4pDe3jiAVUcg1rHeuE/inNHnLSK4tEYd4D6PgfwZIST
+ig0WhQ9G4NwB9/2OTtrZ/nM5OsDVB3HcigM0vmtIPWaWE76LwPmifT0A7wSXEv47mg02EOfqDqAf
+xaz+t80Ai8G4++IBe4M5HcfGfGK2aLyPO6B8fUzq+E1qIYa3bEMK1gowPu69Dr0PVAPWyRSnyQNk
+OAXNG66pb/8W8nZEDSqaD6Lb2G6VQh8b3uI0zLoiJpaWlqa/yA0jgZSyBX5Zw4FQturnYLC0V1dC
+GftViQn9bxo/fQswP6cDNSypTgffwp1Q8RweS1M3vnwRnJlvfes43YHXCUAtDRbuFNNyablPXbd+
+VL6GMy8LLvhqfjdhZwIfEE6VRPY8HNFz1fcsVhZtGOYDTXicZ1lTZY7d4///snHDJHsTv6JTW9/X
+Nx79KvehIvz8iLCw5IP1VuxT+Nsbe2olSpRdFexgx3uS9oZ8qZWl5RbV0az1U0W+qxU3a07zfG/z
+we45M5L/5YBDckDrp7ITly1FhlxHRvg8kIm8n/wodi8Z9aZ/bOyOZcH19x8+GMpYyXT/nhB4qngf
+GRQU9BQ+LhSeM8JghK63r6rBPcwJwSBZCRNsuMjrwnDMMGeLx3SZ9npTjDdWgdOI08CAPnbn9Zck
+R4V1xqZu6/Qg+7IDmJf39fbrmTChSuPaHiTA+719LbUlRBjeiWfTm4ZXbaERUU656oCcfasNWt95
+FjEoBgSurS/7tSPl5CcT1OVcxT5XuHJmONCMAxGySUvdTE9opIbqcv8uPNIZNolaeUlkzksqyxaA
+55ZkL21d93aGgCRzxSzUHAoyJPkdCpy1gEpPICr4ijrS0gjxa4MQGhW6iLyHP011qWb2fufJy7Fh
+ESXSU83MrWMSDHtNIb91B8uR2rLmKGyBMQAigNPJJe5dy/XTVb64gwXty/kpTRuHxavwz31ps6+w
+Vnw11U20qa4F/1m5rr8p2IdH01dSRTu0G761uWrXvTHu5/T4a9avQTrsrgKdX5GL+Is9TNs5Ci5K
+T+dsP7Q6SgQ6eYWG5iZ8nOqSekC/++vlzUPHw8X+zy+ivhjcujxBXAo9/YXZmUrDVuw59l7ghoqJ
+vQ0R4SSSgZfA17Q1B+Y6T3t8LPhq/Xm2HwIgZtyin3ZM44a+0h8X5YAyTj+i7+eX/7Wr6/K1cdDC
+6Ls5Lp6t03nncbS9US4T1808T6yUTCN6FDsD9p6WvhG8LWTIypmxrI04wDbtRHnSrk8ol8HFXEKS
+X+u9VHaIh6i7CajEqDMjcE/B9vP3EpUN3xsGA6eeTwjGxx2S/tb8KqFWtvAI3nEaSzln3PW7tlzi
+GvgUq+vVThVMUqljO0vRpGRQ0UhGXLAhFDq/ymxwEeo0y2+dVVfalp++DPSujJRR2uWRRQajoI/w
+Exn4eGYzFyal5wEFQ6srcAYzbGBsXKFDcOVzrVksrH4ZEz1gd1MTmQU8T6yTb0bQ87mlfMF4CFIO
+ub+0fRin1TM6IoLJFCCQzsg6fTKyrHkcrMVwDP7ZqFSi6xgKjPhurbdPZcbrhRsIXjN+/uRdy4j9
+WbugEPHQmDiQpX7sYzYivgRkKpMOuxLdhJtFbQ0hWqeC4DtD1Qe0o9+k6nSDs+C4h6astZck9Nmu
+CRB4+JioLITWbUnW2rTcP4qwelFFqQFO2avQ/isW0MV1IQT0BfEfCN6/dIL4rWBkrUTPdhL3FRpV
+/s7BYVVdsjgplvJTYvPn4iXng+I7TpSxq/etnpG6um7WFafe9MsaTZeWsmaJ9eGWjxOH9OlMdwe8
+oHxowUt1h5+dXKY+URKLfgaKxra19Yjo0C8oyXvDK+K/aX7Itt0ke8ws7bdvXtmoKbshFpe1mJHH
+vSzxheOUUKiQ+x5rBeeP3m2LqhJQ9NMcrvZfnezjmoQ8PqOUCwa6nec/X6Mnmg0oFx/9uKGf1Sdv
+hjiQNVUiBm+kA7MlGjBG2pCLlpFHjGxBPpnbLw3Ku1z7RsUMiThnG4h1xlHUIibKL7Saz4Cts62C
+bdSO/vAnpfyH8GfadhyHyRbSiIWwIXgrA6n6BLOI0NvvUcAvVO7RFNsGUoeF8MTFwlH0tO4jZ8Y/
+N2tra79rPf978Ne42m5+q/dBIYlEKiqu9s3SIC5aNg23rr5VdlOYWzHTtL/vNJRkodqn1uk88dzG
+xrTcL2NZQlXTFLMSsX4wI5UyL2uxzs/GxqZt4vk+j8XXUC/KXpOlXN6db2BlBaHo5I0rTc/o5q/g
+F3eUUekHJaHWx0OUJXNsdRv2LIeGdX6Bnhi/hGWGh+u+TxdXzS5am9wuBL2wqI9znY+mKWl4NqjE
+ZxIM7AJe8r/84tiHIvhIXM4XmGWSesXEpsh6ZwMVq7e13FsbNJmZq1BiN9mywf9CpaT0a14x19il
+iWItrcG6L/LY9tAYO3EJ76t9dL48YEX6tRfqHQckDmU1notU3WIJjG8sQZmIhpP7HeNhOBqQPj54
+XVriV1zm/JS903wu7+uXd+Ej0KQMwmRqynZfV++NQNxY882aGq5HoXy/84sPd7H+jO3FNQ2Grljp
+QkDxgY1lkc7XnTcXWeiKmYFeivo89UB95PfJxzJWepTBsWDajcA5wOjuGShrlbK8/LfvSUrFizMd
+kekzh0/Cr0fS0sFko4S8g1AKKHpFXNX88vXx8Ey5d8+85PYn00YizAZZb8+9KZndoKnz5iDrY1wJ
+BTe6j5yaoNsxF81VFe5JxrocjrF2HOUefQ+O2un6Myce7HMNPHs6CRRtIhKZRe8Jo0tiOWGmS0tL
+srqOXzHb3nmYGOyo3eYTo4E/rcAhY+jlV1d7rkj23qYLVKkpV64OEgzNnwhJ7023b3bTcoumhpn2
+h7NL/4VU7WNvhvyugSo1Z5YvayRtq1x5GEer6WIEc8FXgf6qEimq9XbRvpLPUNGYnnFU5yvhjqet
+VkM8HIfd3DPzbx7QdaOWdjHmhNQGBYpNaKpS5MqAvML96j/1jnFZyb3C4YSVlcJdA5n8FzmcER4y
+L78mojW44P5QAQ+3JwXW06a1Q2fgMsWMTGxg9V7+UVBKbxTDw6xCeK6jKDLluu8dL9xr+3v3pm6A
+d8jm0H9L2bzjFz8/WwoDT0EhGYSqFeKb0RxLGAVNsdILfOR8sJAAnUclnhOJSCSTycd/GQhmQaGC
+Rup4O63UJ6nL9FWHhIpXy8aWqJp14AfNfbGZkB0tuUpgAsfaasvmVlLqA5+uc+cbT8OSC3cMnqjf
+a93TgLFWkRmjRq4O9+LtVCV9m/8NHIqt4sys7h0n842apm3MJhNJCHdy96eFwxoGVCYLRtEINRlt
+jYU3tddDefqR+WBIv/hG5uAFk7YIiflSRlZlpQVcjv0DnOAlkaiYcdEoY6tOzHJQaG630KT56JtD
+yrDwj97wNQFZUkQTu9i07O9ynj8LaSgf556fiIE7Lz0vX5awMLk24VI/tW8LAxklh91X1rnn+mNT
+WgrFgZv7hUClClVF2eJSnwuUgHMK/DoS/V2Qz+AKSKTPs1xxoPeqjH9VPz5K1oFldqk/OX1WwNW1
+y1xY2D3M66ZNwv4bLLGnGj4/JWObNfIxW3QlMYOQcsEfb0xuDM3GWYa1u5Ky5HvAK/FspZ+Kpj6W
+R38DXmzgjYqJfI40UBg33GEThJEbI/7m1DqXzAwa/UYYDcd6MVk5JweQWHO+agWLm03yzSqW8pie
+4Uq7xHN6lrbfs+Qv0tKM5kxQFBEdF1VjUKEeeR0cN92WTz1+jGVqxJJ8hmPLJrY9hqvsnBfJlxr6
+7/78909GkrGbQ7j3VVWWNbAriFGX9d2nXLzngZ+LCm/QB0x8INq+sBezEfVzN5Ui0hRs5l65FuZL
+M6/QdnQr9Sx+yzZXyuRWM+zTtATfdWUQYCsg+9t9r/oVQx1NlF7BwnJGzq0Xzndj2y29W7kveXP2
+PDyLVqC3dBpe8sahP4zvfXvw/ND6ggLXLaFaU7FaByiKYHNgPX1K4wiPCmARjloep5rN/HMUSbu5
+rNLjQvAXieAnkPmqp88hL1UHkqrYe8xXf2zRLzIPdj8a06OwrFNuyfdspjB5NnaC9jCZH/liqC0s
+gTkl93UGVAhUNziv4Q/5Lj6DskDLeqq99I+HQQkhYF1WmNCj2UPK9oIMraXZ2uj2egUEwmP0Mc7G
+8PYnRdp2o8HuWxa6G2PEuWhEbWDEwXgJSM37lC6oxx1kyBcPm4SUP9WPlU60PpWULm4dmGRChgvf
+rRBtuVTW2iCdHCbZyFVChY+pDQEhNjArc/284YH6qvtU2iv0Lc+8Mrd1J20ZquI0X4xGWfWh01Bh
+rHHK1cXEpBeJ8Go7oomi8Gevs+nqVjlmlc20eukXOe6GZAG4dxaMz5UV15gMtdPLKgLzT/+Tqcyg
+KUkEss9RORc2/pZM1rYBgee16lTV3m8kLEa0dmpFapubTHb6T6bSe8h1ifsPoVwClhfNnmZ5lm5v
+SQ8k18klX/GyxD2uU+WT/UO5u9/pF1fIzXW3QAYjmGs9zUYPypBzbx92MsU9/12SxYuuGdJby+Fm
+bRYr/7L6yYsczYKNaFBubtEWXzDAmCOq2vy359HSQs13bXPKQNNab9ye/bntXwoq4cxYCzxzkVBc
+1DRifUfdPPL6smiy8efVQJyij+OEDvoUwqhF6lpW30exK69rdVXZ5rpXVlx033GbuDQRVeFFtewe
+VgdNOX5mehbnIevxfpenrn0M7J/5qRnBlzHroV7I1WYznn10Yyy0aNcEGL73IOVPLfJ/Lzb/a+85
+4hg6sqMUla7pHm9zAIiRpWEN2CX6/wAh16YG5Q4AAA==</data>
+        <length>5064</length>
+        <position>0</position>
+        <sys_attachment display_value="homepage_image" sys_id="6dc882f96f1062001d90f00dba3ee45e">6dc882f96f1062001d90f00dba3ee45e</sys_attachment>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-29 16:34:11</sys_created_on>
+        <sys_id>21c882f96f1062001d90f00dba3ee45f</sys_id>
+    </sys_attachment_doc>
+</record_update>

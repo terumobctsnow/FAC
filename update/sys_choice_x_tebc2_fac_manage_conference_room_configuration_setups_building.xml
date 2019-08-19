@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="building" table="x_tebc2_fac_manage_conference_room_configuration_setups" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>building</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>10810 1st Floor</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_conference_room_configuration_setups</name>
+            <sequence/>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-07-27 20:48:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>9de7227ddb2b178098e6a3cc0b9619ed</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-08-07 18:01:08</sys_updated_on>
+            <value>10810 1st Floor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>building</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>10810 2nd Floor</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_conference_room_configuration_setups</name>
+            <sequence/>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-07-27 20:48:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b618ea3ddb2b178098e6a3cc0b96198b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-08-07 18:01:19</sys_updated_on>
+            <value>10810 2nd Floor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>building</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>10811 1st Floor</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_conference_room_configuration_setups</name>
+            <sequence/>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-07-27 20:48:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>72282e3ddb2b178098e6a3cc0b9619ae</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-08-07 18:01:27</sys_updated_on>
+            <value>10811 1st Floor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>building</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>10811 2nd Floor</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_conference_room_configuration_setups</name>
+            <sequence/>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-07-27 20:49:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4c48e27ddb2b178098e6a3cc0b9619ef</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-08-07 18:01:33</sys_updated_on>
+            <value>10811 2nd Floor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>building</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>10811 3rd Floor</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_conference_room_configuration_setups</name>
+            <sequence/>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-07-27 20:49:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1e48227ddb2b178098e6a3cc0b961944</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-08-07 18:01:45</sys_updated_on>
+            <value>10811 3rd Floor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>building</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>11158 1st Floor</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_conference_room_configuration_setups</name>
+            <sequence/>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-07-27 20:51:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8cb8ea7ddb2b178098e6a3cc0b96196b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-08-07 18:01:51</sys_updated_on>
+            <value>11158 1st Floor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>building</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>11158 2nd Floor</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_conference_room_configuration_setups</name>
+            <sequence/>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-07-27 20:50:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5278a27ddb2b178098e6a3cc0b96194e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-08-07 18:01:58</sys_updated_on>
+            <value>11158 2nd Floor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>building</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>11158 3rd Floor</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_conference_room_configuration_setups</name>
+            <sequence/>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-07-27 20:50:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>9588aa7ddb2b178098e6a3cc0b961997</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-08-07 18:02:05</sys_updated_on>
+            <value>11158 3rd Floor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>building</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1215 Quail</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_conference_room_configuration_setups</name>
+            <sequence/>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-07-27 20:50:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d198ea7ddb2b178098e6a3cc0b96194e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-08-07 18:02:11</sys_updated_on>
+            <value>1215 Quail</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>building</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>West of 10811</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_conference_room_configuration_setups</name>
+            <sequence/>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-07-27 20:50:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d4a8e67ddb2b178098e6a3cc0b9619b5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-08-07 18:02:18</sys_updated_on>
+            <value>West of 10811</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>building</element>
+            <name>x_tebc2_fac_manage_conference_room_configuration_setups</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-07-27 20:48:13</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>dd08a27ddb2b178098e6a3cc0b961946</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>building</sys_name>
+            <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+            <sys_update_name>sys_choice_x_tebc2_fac_manage_conference_room_configuration_setups_building</sys_update_name>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-07-27 20:48:13</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

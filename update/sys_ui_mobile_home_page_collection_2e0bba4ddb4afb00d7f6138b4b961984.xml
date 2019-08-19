@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_mobile_home_page_collection">
+    <sys_ui_mobile_home_page_collection action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hide_favorites_page>false</hide_favorites_page>
+        <name>Package Pickup App</name>
+        <priority>100</priority>
+        <roles>x_tebc2_fac_manage.packages_user</roles>
+        <sys_class_name>sys_ui_mobile_home_page_collection</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-13 17:04:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2e0bba4ddb4afb00d7f6138b4b961984</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Package Pickup App</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_ui_mobile_home_page_collection_2e0bba4ddb4afb00d7f6138b4b961984</sys_update_name>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-13 17:13:08</sys_updated_on>
+    </sys_ui_mobile_home_page_collection>
+</record_update>

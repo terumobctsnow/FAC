@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="Waste Disposal">c52598596f542200739d841dba3ee4f7</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Batteries/Universal Waste</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>500</order>
+        <ordered_item_link/>
+        <picture/>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=ba76acdd6f542200739d841dba3ee42f&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <redirect_url/>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>f8b190996f542200739d841dba3ee47a</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script/>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-27 20:07:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ba76acdd6f542200739d841dba3ee42f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Batteries/Universal Waste</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sc_cat_item_producer_ba76acdd6f542200739d841dba3ee42f</sys_update_name>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-07-01 22:59:50</sys_updated_on>
+        <table_name>x_tebc2_fac_manage_fac_management_table</table_name>
+        <template display_value="Batteries/Universal Waste">d46f292a6f5c62001d90f00dba3ee4f9</template>
+        <type>item</type>
+        <u_og_include>false</u_og_include>
+        <u_use_item_task_stages>true</u_use_item_task_stages>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=ba76acdd6f542200739d841dba3ee42f"/>
+    <fx_price action="delete_multiple" query="id=ba76acdd6f542200739d841dba3ee42f"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>ba76acdd6f542200739d841dba3ee42f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-27 20:07:46</sys_created_on>
+        <sys_id>7276acdd6f542200739d841dba3ee430</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-06-27 20:07:46</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>ba76acdd6f542200739d841dba3ee42f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-27 20:07:46</sys_created_on>
+        <sys_id>7676acdd6f542200739d841dba3ee430</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-06-27 20:07:46</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes/>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>icon</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1120</size_bytes>
+        <size_compressed>924</size_compressed>
+        <state>available</state>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-29 17:48:18</sys_created_on>
+        <sys_id>d7b9d6b16f5062001d90f00dba3ee4f7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-04-13 15:10:25</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>ba76acdd6f542200739d841dba3ee42f</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAPt/4/8DBgEvN083BkYgnAaEDP//Mcj7uDq6KISkJmfk5efkp2emFit45iXrKYQZ
+6hkYMvy/zdDCwMrKysHKwcPOzsPDycnJw8sDBLwkAEZWDg4udi6QAbw8XCRphYD/RxgXMTAwsjKC
+AQMUMDIxs7CysXNwcnEzMjAzwgCGpAADEyMzMxMLMysrCwtQphYox8AiyCqkaOjIJhyYyK5UKGLU
+OHEhh7LTxoOiQRc/qBgnFTVxcomJS0hKqaqpa2hqmZiamVtYWjm7uLq5e3h6BYeEhoVHREYlp6Sm
+pWdkZhWXlJaVV1RWNbe0trV3dHZNmjxl6rTpM2bOWrR4ydJly1esXLVp85at27bv2Lnr0OEjR48d
+P3Hy1KXLV65eu37j5q2Hjx4/efrs+YuXrz5++vzl67fvP37+EgQ6mYmFhZmFHeRkRqZykH8EWVgV
+DdmEHAPZEwuFlYwaOUScJi7ceJBT2Tjog2hS0UUuMRWTh6ofQa4GO5o4NzeR5Wi4m+FO/n+AQZCD
+wYjBiJlRiYFJkJFZkPH/LQYeZkYgh1mQwZ7ht16XxgKmLuMA34INX0/aNaT8i7/WoL5o1eFKmeNJ
+c8yMm6//0brKIBLoyiB6qmJ32GzPbWENU4xOKN8TMQwK2cBgyMWdq2CcwtzYs0F59brqo1U2s95N
+LU5mrgwXOnLPZU7du9KfD+scJSJFPVkSepoPrnm25NEV2aXp6Rftpm93enQp82RsfOiTSpE43Z2X
+Yu74G0usPeVd+OzE+w5P1g/cEtef8IWkTCi+nRmfuff3vqwJJ8ItZCbfV567vD//yPVne+IUrtbE
+8z7rXn1aZXtjefTCvxciFyTFKYvExeScY9Yw0s5NlS6bvKO2/cP8Y8vjPqSuPdJ+ZsfGsz3/di+M
+v7vRtujDT5fJV09XhZtyhC6XtPoUlHvvZKas6bbu8nW3Kt9lhwVMjjulq7ps996S9y93vvplxDnn
+nATvgpX+jyRthBsYzhlZPJF68Xr6h8Xc3cHlTcvS86d84zgzfyXLP9Mr4VE3nt/QWNS1gEtjUYOd
+38f2A7JB34+8f8TPfz6Txfjst06hsgmiEzekHloSpK2979lBhcQNtf4baix/JGc/sPZeIXv0yqwp
++0oPvbmdZ/ftxqLOmR+l2pT1zpw/VsC06levCMOJRR4i7lItLgxaKxgYrBjYGfgOBL9Y1ACyDB3b
+/78JANTB3qdgBAAA</data>
+        <length>1236</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="d7b9d6b16f5062001d90f00dba3ee4f7">d7b9d6b16f5062001d90f00dba3ee4f7</sys_attachment>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-29 17:48:18</sys_created_on>
+        <sys_id>1bb9d6b16f5062001d90f00dba3ee4f7</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes/>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>picture</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1120</size_bytes>
+        <size_compressed>924</size_compressed>
+        <state/>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-07-20 22:09:28</sys_created_on>
+        <sys_id>fdeed3a46f342a00739d841dba3ee46f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-07-20 22:09:28</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>ba76acdd6f542200739d841dba3ee42f</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAPt/4/8DBgEvN083BkYgnAaEDP//Mcj7uDq6KISkJmfk5efkp2emFit45iXrKYQZ
+6hkYMvy/zdDCwMrKysHKwcPOzsPDycnJw8sDBLwkAEZWDg4udi6QAbw8XCRphYD/RxgXMTAwsjKC
+AQMUMDIxs7CysXNwcnEzMjAzwgCGpAADEyMzMxMLMysrCwtQphYox8AiyCqkaOjIJhyYyK5UKGLU
+OHEhh7LTxoOiQRc/qBgnFTVxcomJS0hKqaqpa2hqmZiamVtYWjm7uLq5e3h6BYeEhoVHREYlp6Sm
+pWdkZhWXlJaVV1RWNbe0trV3dHZNmjxl6rTpM2bOWrR4ydJly1esXLVp85at27bv2Lnr0OEjR48d
+P3Hy1KXLV65eu37j5q2Hjx4/efrs+YuXrz5++vzl67fvP37+EgQ6mYmFhZmFHeRkRqZykH8EWVgV
+DdmEHAPZEwuFlYwaOUScJi7ceJBT2Tjog2hS0UUuMRWTh6ofQa4GO5o4NzeR5Wi4m+FO/n+AQZCD
+wYjBiJlRiYFJkJFZkPH/LQYeZkYgh1mQwZ7ht16XxgKmLuMA34INX0/aNaT8i7/WoL5o1eFKmeNJ
+c8yMm6//0brKIBLoyiB6qmJ32GzPbWENU4xOKN8TMQwK2cBgyMWdq2CcwtzYs0F59brqo1U2s95N
+LU5mrgwXOnLPZU7du9KfD+scJSJFPVkSepoPrnm25NEV2aXp6Rftpm93enQp82RsfOiTSpE43Z2X
+Yu74G0usPeVd+OzE+w5P1g/cEtef8IWkTCi+nRmfuff3vqwJJ8ItZCbfV567vD//yPVne+IUrtbE
+8z7rXn1aZXtjefTCvxciFyTFKYvExeScY9Yw0s5NlS6bvKO2/cP8Y8vjPqSuPdJ+ZsfGsz3/di+M
+v7vRtujDT5fJV09XhZtyhC6XtPoUlHvvZKas6bbu8nW3Kt9lhwVMjjulq7ps996S9y93vvplxDnn
+nATvgpX+jyRthBsYzhlZPJF68Xr6h8Xc3cHlTcvS86d84zgzfyXLP9Mr4VE3nt/QWNS1gEtjUYOd
+38f2A7JB34+8f8TPfz6Txfjst06hsgmiEzekHloSpK2979lBhcQNtf4baix/JGc/sPZeIXv0yqwp
++0oPvbmdZ/ftxqLOmR+l2pT1zpw/VsC06levCMOJRR4i7lItLgxaKxgYrBjYGfgOBL9Y1ACyDB3b
+/78JANTB3qdgBAAA</data>
+        <length>1236</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="fdeed3a46f342a00739d841dba3ee46f">fdeed3a46f342a00739d841dba3ee46f</sys_attachment>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-07-20 22:09:28</sys_created_on>
+        <sys_id>31eed3a46f342a00739d841dba3ee470</sys_id>
+    </sys_attachment_doc>
+</record_update>

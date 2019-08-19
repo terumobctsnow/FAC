@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="FAC Management">d021dc596f542200739d841dba3ee428</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage display_value="Facilities Catalog">a6c158596f542200739d841dba3ee40e</homepage>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Facilities Catalog</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>50</order>
+        <override_menu_roles>true</override_menu_roles>
+        <query>catalog_home.do?sysparm_view=facilities_catalog</query>
+        <report/>
+        <roles>x_tebc2_fac_manage.user</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-29 16:53:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>960c427d6f1062001d90f00dba3ee458</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Facilities Catalog</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_app_module_960c427d6f1062001d90f00dba3ee458</sys_update_name>
+        <sys_updated_by>mleighton</sys_updated_by>
+        <sys_updated_on>2018-07-18 19:57:46</sys_updated_on>
+        <timeline_page/>
+        <title>Facilities Catalog</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

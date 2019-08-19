@@ -1,0 +1,1272 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"activities":{},"ends":["ccd8af11dbcabf00d91118df4b961977"],"subflows":[],"stages":{}}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition table="x_tebc2_fac_manage_packages">stateNOT IN3,4^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="NOT IN" or="false" value="3,4"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <condition_type>run_match</condition_type>
+        <description>Send a daily reminder email until package ticket is closed.</description>
+        <expected_sequences>04d82351dbcabf00d91118df4b9619ee,8cd82351dbcabf00d91118df4b9619ec,c0d82351dbcabf00d91118df4b9619e9,04d82351dbcabf00d91118df4b9619ef,ccd82351dbcabf00d91118df4b9619e6</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>04d82351dbcabf00d91118df4b9619ee,8cd82351dbcabf00d91118df4b9619ec,c0d82351dbcabf00d91118df4b9619e9,04d82351dbcabf00d91118df4b9619ef,ccd82351dbcabf00d91118df4b9619e6,ccd8af11dbcabf00d91118df4b961977</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>Package Pickup Reminder</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">04d82351dbcabf00d91118df4b9619ee</start>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>04d8af11dbcabf00d91118df4b961976</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:03:48</sys_updated_on>
+        <table>x_tebc2_fac_manage_packages</table>
+        <timezone/>
+        <validated>false</validated>
+        <workflow display_value="Package Pickup Reminder">4b1ddb51db8abf00d91118df4b961936</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description>Send a daily reminder email until package ticket is closed.</description>
+        <name>Package Pickup Reminder</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 14:11:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>4b1ddb51db8abf00d91118df4b961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Package Pickup Reminder</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>wf_workflow_4b1ddb51db8abf00d91118df4b961936</sys_update_name>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 14:11:20</sys_updated_on>
+        <table>x_tebc2_fac_manage_packages</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>04d82351dbcabf00d91118df4b9619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Package Pickup Reminder">04d8af11dbcabf00d91118df4b961976</workflow_version>
+        <x>31</x>
+        <y>0</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=04d82351dbcabf00d91118df4b9619ee"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">04d82351dbcabf00d91118df4b9619ee</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>4cd82351dbcabf00d91118df4b9619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Check Ticket State</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>04d82351dbcabf00d91118df4b9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Package Pickup Reminder">04d8af11dbcabf00d91118df4b961976</workflow_version>
+        <x>724</x>
+        <y>28</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=04d82351dbcabf00d91118df4b9619ef"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>04d82351dbcabf00d91118df4b9619ef</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>08d82351dbcabf00d91118df4b9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value>stateIN1,2,-5^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>04d82351dbcabf00d91118df4b9619ef</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>8cd82351dbcabf00d91118df4b9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>04d82351dbcabf00d91118df4b9619ef</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>c8d82351dbcabf00d91118df4b9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>04d82351dbcabf00d91118df4b9619ef</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>08d82351dbcabf00d91118df4b9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value>stateIN1,2,-5^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>04d82351dbcabf00d91118df4b9619ef</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>c8d82351dbcabf00d91118df4b9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>04d82351dbcabf00d91118df4b9619ef</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>8cd82351dbcabf00d91118df4b9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Check Ticket State">04d82351dbcabf00d91118df4b9619ef</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>84d82351dbcabf00d91118df4b9619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Check Ticket State">04d82351dbcabf00d91118df4b9619ef</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>04d82351dbcabf00d91118df4b9619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>ccd8af11dbcabf00d91118df4b961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Package Pickup Reminder">04d8af11dbcabf00d91118df4b961976</workflow_version>
+        <x>1062</x>
+        <y>163</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=ccd8af11dbcabf00d91118df4b961977"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Send Reminder</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>ccd82351dbcabf00d91118df4b9619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Package Pickup Reminder">04d8af11dbcabf00d91118df4b961976</workflow_version>
+        <x>222</x>
+        <y>341</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=ccd82351dbcabf00d91118df4b9619e6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ccd82351dbcabf00d91118df4b9619e6</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>00d82351dbcabf00d91118df4b9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value>Reminder for ${number} - Package is waiting for pickup</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ccd82351dbcabf00d91118df4b9619e6</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>4cd82351dbcabf00d91118df4b9619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ccd82351dbcabf00d91118df4b9619e6</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>84d82351dbcabf00d91118df4b9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ccd82351dbcabf00d91118df4b9619e6</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>88d82351dbcabf00d91118df4b9619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ccd82351dbcabf00d91118df4b9619e6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>c0d82351dbcabf00d91118df4b9619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value>${pacakge_for}</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ccd82351dbcabf00d91118df4b9619e6</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>c0d82351dbcabf00d91118df4b9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value>Package for: ${pacakge_for}&#13;
+&#13;
+Package Pickup Location: ${package_pickup_location}&#13;
+&#13;
+Package Barcode: ${package_barcode}&#13;
+&#13;
+Package from: ${sender}&#13;
+&#13;
+This is a reminder that you have a package to pickup. &#13;
+&#13;
+If you have already picked up your package, please click the link below.&#13;
+&#13;
+${mailto:mailto.packagereceived}&#13;
+&#13;
+If you are experiencing trouble finding your package, please click the link below.&#13;
+&#13;
+${mailto:mailto.packagenotfound}</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ccd82351dbcabf00d91118df4b9619e6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>c0d82351dbcabf00d91118df4b9619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value>${pacakge_for}</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ccd82351dbcabf00d91118df4b9619e6</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>84d82351dbcabf00d91118df4b9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ccd82351dbcabf00d91118df4b9619e6</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>00d82351dbcabf00d91118df4b9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value>Reminder for ${number} - Package is waiting for pickup</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ccd82351dbcabf00d91118df4b9619e6</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>c0d82351dbcabf00d91118df4b9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value>Package for: ${pacakge_for}&#13;
+&#13;
+Package Pickup Location: ${package_pickup_location}&#13;
+&#13;
+Package Barcode: ${package_barcode}&#13;
+&#13;
+Package from: ${sender}&#13;
+&#13;
+This is a reminder that you have a package to pickup. &#13;
+&#13;
+If you have already picked up your package, please click the link below.&#13;
+&#13;
+${mailto:mailto.packagereceived}&#13;
+&#13;
+If you are experiencing trouble finding your package, please click the link below.&#13;
+&#13;
+${mailto:mailto.packagenotfound}</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ccd82351dbcabf00d91118df4b9619e6</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>88d82351dbcabf00d91118df4b9619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ccd82351dbcabf00d91118df4b9619e6</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>4cd82351dbcabf00d91118df4b9619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Send Reminder">ccd82351dbcabf00d91118df4b9619e6</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>0cd82351dbcabf00d91118df4b9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Create Event">9f680b92c0a801640026553f665b429f</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>User Notified</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>8cd82351dbcabf00d91118df4b9619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Package Pickup Reminder">04d8af11dbcabf00d91118df4b961976</workflow_version>
+        <x>177</x>
+        <y>33</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=8cd82351dbcabf00d91118df4b9619ec"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8cd82351dbcabf00d91118df4b9619ec</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>08d82351dbcabf00d91118df4b9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 2&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="">c35dd3ef0a0a0ba96248a70947e35325</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8cd82351dbcabf00d91118df4b9619ec</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>44d82351dbcabf00d91118df4b9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value>current.sys_id</value>
+        <variable display_value="">c35dd0310a0a0ba96248a70936d276b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8cd82351dbcabf00d91118df4b9619ec</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>80d82351dbcabf00d91118df4b9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8cd82351dbcabf00d91118df4b9619ec</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>80d82351dbcabf00d91118df4b9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8cd82351dbcabf00d91118df4b9619ec</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>44d82351dbcabf00d91118df4b9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value>current.sys_id</value>
+        <variable display_value="">c35dd0310a0a0ba96248a70936d276b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8cd82351dbcabf00d91118df4b9619ec</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>08d82351dbcabf00d91118df4b9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 2&#13;
+	return "";&#13;
+}());</value>
+        <variable display_value="">c35dd3ef0a0a0ba96248a70947e35325</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="User Notified">8cd82351dbcabf00d91118df4b9619ec</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>8cd82351dbcabf00d91118df4b9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Timer">3961a1da0a0a0b5c00ecd84822f70d85</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Wait 24 hours</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>c0d82351dbcabf00d91118df4b9619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Package Pickup Reminder">04d8af11dbcabf00d91118df4b961976</workflow_version>
+        <x>447</x>
+        <y>32</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=c0d82351dbcabf00d91118df4b9619e9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>00d82351dbcabf00d91118df4b9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>08d82351dbcabf00d91118df4b9619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>0cd82351dbcabf00d91118df4b9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>40d82351dbcabf00d91118df4b9619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>44d82351dbcabf00d91118df4b9619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>48d82351dbcabf00d91118df4b9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>4cd82351dbcabf00d91118df4b9619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>80d82351dbcabf00d91118df4b9619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>84d82351dbcabf00d91118df4b9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value>1970-01-01 00:01:00</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>88d82351dbcabf00d91118df4b9619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>8cd82351dbcabf00d91118df4b9619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>c0d82351dbcabf00d91118df4b9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>c4d82351dbcabf00d91118df4b9619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>c8d82351dbcabf00d91118df4b9619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>ccd82351dbcabf00d91118df4b9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>8cd82351dbcabf00d91118df4b9619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>c4d82351dbcabf00d91118df4b9619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>00d82351dbcabf00d91118df4b9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>88d82351dbcabf00d91118df4b9619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>48d82351dbcabf00d91118df4b9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>0cd82351dbcabf00d91118df4b9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>84d82351dbcabf00d91118df4b9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value>1970-01-01 00:01:00</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>44d82351dbcabf00d91118df4b9619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>08d82351dbcabf00d91118df4b9619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>40d82351dbcabf00d91118df4b9619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>4cd82351dbcabf00d91118df4b9619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>c8d82351dbcabf00d91118df4b9619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>80d82351dbcabf00d91118df4b9619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>ccd82351dbcabf00d91118df4b9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c0d82351dbcabf00d91118df4b9619e9</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>c0d82351dbcabf00d91118df4b9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait 24 hours">c0d82351dbcabf00d91118df4b9619e9</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>c4d82351dbcabf00d91118df4b9619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">04d82351dbcabf00d91118df4b9619f0</condition>
+        <from display_value="Check Ticket State">04d82351dbcabf00d91118df4b9619ef</from>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>0cd82351dbcabf00d91118df4b9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <to display_value="Send Reminder">ccd82351dbcabf00d91118df4b9619e6</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">4cd82351dbcabf00d91118df4b9619ee</condition>
+        <from display_value="Begin">04d82351dbcabf00d91118df4b9619ee</from>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>40d82351dbcabf00d91118df4b9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <to display_value="User Notified">8cd82351dbcabf00d91118df4b9619ec</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">8cd82351dbcabf00d91118df4b9619ed</condition>
+        <from display_value="User Notified">8cd82351dbcabf00d91118df4b9619ec</from>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>44d82351dbcabf00d91118df4b9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <to display_value="Wait 24 hours">c0d82351dbcabf00d91118df4b9619e9</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">c4d82351dbcabf00d91118df4b9619ec</condition>
+        <from display_value="Wait 24 hours">c0d82351dbcabf00d91118df4b9619e9</from>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>48d82351dbcabf00d91118df4b9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <to display_value="Check Ticket State">04d82351dbcabf00d91118df4b9619ef</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">0cd82351dbcabf00d91118df4b9619e8</condition>
+        <from display_value="Send Reminder">ccd82351dbcabf00d91118df4b9619e6</from>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>84d82351dbcabf00d91118df4b9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <to display_value="Wait 24 hours">c0d82351dbcabf00d91118df4b9619e9</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">84d82351dbcabf00d91118df4b9619f0</condition>
+        <from display_value="Check Ticket State">04d82351dbcabf00d91118df4b9619ef</from>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>8cd82351dbcabf00d91118df4b9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <to display_value="End">ccd8af11dbcabf00d91118df4b961977</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 15:02:27</sys_created_on>
+        <sys_id>c4d8af11dbcabf00d91118df4b961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 15:02:27</sys_updated_on>
+        <workflow_version display_value="Package Pickup Reminder">04d8af11dbcabf00d91118df4b961976</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=4b1ddb51db8abf00d91118df4b961936^sys_id!=04d8af11dbcabf00d91118df4b961976">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

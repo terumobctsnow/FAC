@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="Repair">e43558596f542200739d841dba3ee412</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Furniture</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>100</order>
+        <ordered_item_link/>
+        <picture/>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=82802c5d6f542200739d841dba3ee405&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <redirect_url/>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>f8b190996f542200739d841dba3ee47a</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script/>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-27 19:42:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>82802c5d6f542200739d841dba3ee405</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Furniture</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sc_cat_item_producer_82802c5d6f542200739d841dba3ee405</sys_update_name>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-07-01 23:00:42</sys_updated_on>
+        <table_name>x_tebc2_fac_manage_fac_management_table</table_name>
+        <template display_value="Furniture Repair">83bf6d2a6f5c62001d90f00dba3ee4bd</template>
+        <type>item</type>
+        <u_og_include>false</u_og_include>
+        <u_use_item_task_stages>true</u_use_item_task_stages>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=82802c5d6f542200739d841dba3ee405"/>
+    <fx_price action="delete_multiple" query="id=82802c5d6f542200739d841dba3ee405"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>82802c5d6f542200739d841dba3ee405</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-27 19:42:13</sys_created_on>
+        <sys_id>54a0e85d6f542200739d841dba3ee4f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-06-27 19:42:13</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>82802c5d6f542200739d841dba3ee405</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-27 19:42:13</sys_created_on>
+        <sys_id>58a0e85d6f542200739d841dba3ee4f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-06-27 19:42:13</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes/>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>icon</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1641</size_bytes>
+        <size_compressed>1466</size_compressed>
+        <state>available</state>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-29 21:52:40</sys_created_on>
+        <sys_id>47a193b56f9062001d90f00dba3ee40e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-04-13 11:14:48</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>82802c5d6f542200739d841dba3ee405</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>1960</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="47a193b56f9062001d90f00dba3ee40e">47a193b56f9062001d90f00dba3ee40e</sys_attachment>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-29 21:52:40</sys_created_on>
+        <sys_id>0ba193b56f9062001d90f00dba3ee40e</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes/>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>picture</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1641</size_bytes>
+        <size_compressed>1466</size_compressed>
+        <state>available</state>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-07-20 22:20:18</sys_created_on>
+        <sys_id>6061efe06f342a001d90f00dba3ee480</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-04-15 18:03:12</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>82802c5d6f542200739d841dba3ee405</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>1960</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="6061efe06f342a001d90f00dba3ee480">6061efe06f342a001d90f00dba3ee480</sys_attachment>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-07-20 22:20:18</sys_created_on>
+        <sys_id>2461efe06f342a001d90f00dba3ee480</sys_id>
+    </sys_attachment_doc>
+</record_update>

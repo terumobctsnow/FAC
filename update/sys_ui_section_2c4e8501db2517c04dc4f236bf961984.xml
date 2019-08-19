@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Notes/Activities" section_id="2c4e8501db2517c04dc4f236bf961984" sys_domain="global" table="x_tebc2_fac_manage_fac_management_table" version="3" view="conference_room">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>0</position>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-05-31 18:54:18</sys_created_on>
+            <sys_id>b05ba8abdb5e97000743f076bf961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes/Activities" display_value="Notes/Activities" name="x_tebc2_fac_manage_fac_management_table" sys_domain="global" view="f164e43ddbb21300a7bbff961d96196d">2c4e8501db2517c04dc4f236bf961984</sys_ui_section>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-05-31 18:54:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>1</position>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-05-31 18:54:18</sys_created_on>
+            <sys_id>345ba8abdb5e97000743f076bf961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes/Activities" display_value="Notes/Activities" name="x_tebc2_fac_manage_fac_management_table" sys_domain="global" view="f164e43ddbb21300a7bbff961d96196d">2c4e8501db2517c04dc4f236bf961984</sys_ui_section>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-05-31 18:54:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>2</position>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-05-31 18:54:18</sys_created_on>
+            <sys_id>b45ba8abdb5e97000743f076bf961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes/Activities" display_value="Notes/Activities" name="x_tebc2_fac_manage_fac_management_table" sys_domain="global" view="f164e43ddbb21300a7bbff961d96196d">2c4e8501db2517c04dc4f236bf961984</sys_ui_section>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-05-31 18:54:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>close_notes</element>
+            <position>3</position>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-05-31 18:54:18</sys_created_on>
+            <sys_id>785bacabdb5e97000743f076bf96190b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes/Activities" display_value="Notes/Activities" name="x_tebc2_fac_manage_fac_management_table" sys_domain="global" view="f164e43ddbb21300a7bbff961d96196d">2c4e8501db2517c04dc4f236bf961984</sys_ui_section>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-05-31 18:54:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>4</position>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-05-31 18:54:18</sys_created_on>
+            <sys_id>f85bacabdb5e97000743f076bf96190b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">b832d3560a0001c700d781efe21e22f5</sys_ui_formatter>
+            <sys_ui_section caption="Notes/Activities" display_value="Notes/Activities" name="x_tebc2_fac_manage_fac_management_table" sys_domain="global" view="f164e43ddbb21300a7bbff961d96196d">2c4e8501db2517c04dc4f236bf961984</sys_ui_section>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-05-31 18:54:18</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Notes/Activities</caption>
+            <header>false</header>
+            <name>x_tebc2_fac_manage_fac_management_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-04-16 20:15:01</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>2c4e8501db2517c04dc4f236bf961984</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Notes/Activities</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+            <sys_update_name>sys_ui_section_2c4e8501db2517c04dc4f236bf961984</sys_update_name>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-04-16 20:15:01</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Conference Room" name="conference_room">f164e43ddbb21300a7bbff961d96196d</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

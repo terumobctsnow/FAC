@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>true</global>
+        <group/>
+        <link_element/>
+        <name>Conference or Focus Room Set-up</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>ttaylor</sys_created_by>
+        <sys_created_on>2018-03-28 19:06:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>af3703bedb4917800743f076bf9619be</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>Conference or Focus Room Set-up</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_template_af3703bedb4917800743f076bf9619be</sys_update_name>
+        <sys_updated_by>mleighton</sys_updated_by>
+        <sys_updated_on>2018-06-28 19:07:19</sys_updated_on>
+        <table>x_tebc2_fac_manage_fac_management_table</table>
+        <template>item=Conference or Focus Room Setup - New^category=Conference Room Support^EQ</template>
+        <user/>
+        <view/>
+    </sys_template>
+</record_update>

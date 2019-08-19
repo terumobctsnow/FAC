@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_ui_policy">
+    <catalog_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>true</applies_target_record>
+        <applies_to>item</applies_to>
+        <catalog_conditions>IO:bcf5442ddb91db800743f076bf9619d3=true^EQ</catalog_conditions>
+        <catalog_item display_value="Conference or Focus Room Set-Up">677b2831db34d7404dc4f236bf961964</catalog_item>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>false</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>false</on_load>
+        <order>150</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>if event true other read only</short_description>
+        <sys_class_name>catalog_ui_policy</sys_class_name>
+        <sys_created_by>mleighton</sys_created_by>
+        <sys_created_on>2018-05-30 21:52:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>d28ac493db5297000743f076bf96193c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>if event true other read only</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>catalog_ui_policy_d28ac493db5297000743f076bf96193c</sys_update_name>
+        <sys_updated_by>mleighton</sys_updated_by>
+        <sys_updated_on>2018-06-04 16:39:48</sys_updated_on>
+        <table/>
+        <u_invisible/>
+        <u_mandatory/>
+        <u_read_only/>
+        <u_visible/>
+        <ui_type>0</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_ui_policy>
+</record_update>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="Warehouse Support">e8f3f46bdb91f7c02568d2984b9619b4</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"><span style="font-size: x-large;"> Drivers will endeavor to complete the Warehouse to Warehouse moves within 24 hours of the request (Mon-Fri).</span></p>
+<p> </p>]]></description>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Warehouse to Warehouse Pallet/Equipment Move</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>500</order>
+        <ordered_item_link/>
+        <picture/>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=782c745f6f0ba2001d90f00dba3ee45a&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>f8b190996f542200739d841dba3ee47a</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script/>
+        <short_description>Warehouse to Warehouse Pallet/Equipment Move</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-11-17 19:55:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>782c745f6f0ba2001d90f00dba3ee45a</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Warehouse to Warehouse Pallet/Equipment Move</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sc_cat_item_producer_782c745f6f0ba2001d90f00dba3ee45a</sys_update_name>
+        <sys_updated_by>gfehnel</sys_updated_by>
+        <sys_updated_on>2019-05-15 13:39:58</sys_updated_on>
+        <table_name>x_tebc2_fac_manage_fac_management_table</table_name>
+        <template display_value="Warehouse Pallet or Equipment Move">904115176f4ba2001d90f00dba3ee477</template>
+        <type>item</type>
+        <u_og_include>false</u_og_include>
+        <u_use_item_task_stages>true</u_use_item_task_stages>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=782c745f6f0ba2001d90f00dba3ee45a"/>
+    <fx_price action="delete_multiple" query="id=782c745f6f0ba2001d90f00dba3ee45a"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>782c745f6f0ba2001d90f00dba3ee45a</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-11-17 19:55:04</sys_created_on>
+        <sys_id>4fee709f6f0ba2001d90f00dba3ee435</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-11-17 19:55:04</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>782c745f6f0ba2001d90f00dba3ee45a</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-11-17 19:55:04</sys_created_on>
+        <sys_id>43ee709f6f0ba2001d90f00dba3ee436</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-11-17 19:55:04</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>icon</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1639</size_bytes>
+        <size_compressed>1659</size_compressed>
+        <state>available</state>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-11-17 19:56:34</sys_created_on>
+        <sys_id>814f3c9f6f0ba2001d90f00dba3ee492</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-04-18 15:44:37</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>782c745f6f0ba2001d90f00dba3ee45a</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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
+07dnBgAA</data>
+        <length>2216</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="814f3c9f6f0ba2001d90f00dba3ee492">814f3c9f6f0ba2001d90f00dba3ee492</sys_attachment>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-11-17 19:56:34</sys_created_on>
+        <sys_id>454f3c9f6f0ba2001d90f00dba3ee492</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>picture</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1639</size_bytes>
+        <size_compressed>1659</size_compressed>
+        <state>available</state>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-11-17 19:56:51</sys_created_on>
+        <sys_id>9d5f705f6f0ba2001d90f00dba3ee492</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-05-14 22:35:31</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>782c745f6f0ba2001d90f00dba3ee45a</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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
+07dnBgAA</data>
+        <length>2216</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="9d5f705f6f0ba2001d90f00dba3ee492">9d5f705f6f0ba2001d90f00dba3ee492</sys_attachment>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-11-17 19:56:51</sys_created_on>
+        <sys_id>515f705f6f0ba2001d90f00dba3ee493</sys_id>
+    </sys_attachment_doc>
+</record_update>

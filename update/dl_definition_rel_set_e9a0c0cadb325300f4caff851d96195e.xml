@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_definition_rel_set">
+    <dl_definition_rel_set action="INSERT_OR_UPDATE">
+        <always_replace>false</always_replace>
+        <dl_definition display_value="Assignment of Room Setup Lookup">00b6653ddbfd13002d8d5478dc9619a7</dl_definition>
+        <matcher_table>x_tebc2_fac_manage_conference_room_configuration_setups</matcher_table>
+        <matcher_table_field>assigned_to</matcher_table_field>
+        <source_table>x_tebc2_fac_manage_fac_management_table</source_table>
+        <source_table_field>assigned_to</source_table_field>
+        <sys_class_name>dl_definition_rel_set</sys_class_name>
+        <sys_created_by>mleighton</sys_created_by>
+        <sys_created_on>2018-06-20 20:28:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e9a0c0cadb325300f4caff851d96195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assigned_to</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>dl_definition_rel_set_e9a0c0cadb325300f4caff851d96195e</sys_update_name>
+        <sys_updated_by>mleighton</sys_updated_by>
+        <sys_updated_on>2018-06-20 20:28:45</sys_updated_on>
+    </dl_definition_rel_set>
+</record_update>

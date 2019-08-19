@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="Repair">e43558596f542200739d841dba3ee412</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Temperature</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>600</order>
+        <ordered_item_link/>
+        <picture/>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=54ae585d6f542200739d841dba3ee412&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <redirect_url/>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>f8b190996f542200739d841dba3ee47a</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script/>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-27 19:33:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>54ae585d6f542200739d841dba3ee412</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Temperature</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sc_cat_item_producer_54ae585d6f542200739d841dba3ee412</sys_update_name>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-07-01 23:01:33</sys_updated_on>
+        <table_name>x_tebc2_fac_manage_fac_management_table</table_name>
+        <template display_value="Temperature">ef30f56a6f5c62001d90f00dba3ee4e6</template>
+        <type>item</type>
+        <u_og_include>false</u_og_include>
+        <u_use_item_task_stages>true</u_use_item_task_stages>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=54ae585d6f542200739d841dba3ee412"/>
+    <fx_price action="delete_multiple" query="id=54ae585d6f542200739d841dba3ee412"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>54ae585d6f542200739d841dba3ee412</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-27 19:33:28</sys_created_on>
+        <sys_id>1cae585d6f542200739d841dba3ee412</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-06-27 19:33:28</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>54ae585d6f542200739d841dba3ee412</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-27 19:33:28</sys_created_on>
+        <sys_id>10ae585d6f542200739d841dba3ee413</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-06-27 19:33:28</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>icon</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1956</size_bytes>
+        <size_compressed>1979</size_compressed>
+        <state>available</state>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-29 21:05:57</sys_created_on>
+        <sys_id>66f6cbf96f106200739d841dba3ee4f1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-04-13 11:14:48</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>54ae585d6f542200739d841dba3ee412</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2644</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="66f6cbf96f106200739d841dba3ee4f1">66f6cbf96f106200739d841dba3ee4f1</sys_attachment>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-29 21:05:57</sys_created_on>
+        <sys_id>2af6cbf96f106200739d841dba3ee4f1</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>picture</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1956</size_bytes>
+        <size_compressed>1979</size_compressed>
+        <state>available</state>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-07-20 22:18:40</sys_created_on>
+        <sys_id>e00127246f342a001d90f00dba3ee40f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-04-16 16:07:34</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>54ae585d6f542200739d841dba3ee412</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2644</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="e00127246f342a001d90f00dba3ee40f">e00127246f342a001d90f00dba3ee40f</sys_attachment>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-07-20 22:18:40</sys_created_on>
+        <sys_id>240127246f342a001d90f00dba3ee40f</sys_id>
+    </sys_attachment_doc>
+</record_update>

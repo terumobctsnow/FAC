@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">716281160b100300d97d8bf637673ac7</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <compiled_snapshot>716281160b100300d97d8bf637673ac7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Package Pickup Reminder">1576bc21db42ff00d91118df4b961995</flow>
+        <order>2.1</order>
+        <parent_ui_id>7a1947d4-6619-42fc-a299-962505b0ee25</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 20:41:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ad76bc21db42ff00d91118df4b9619ad</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_hub_action_instance_ad76bc21db42ff00d91118df4b9619ad</sys_update_name>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-17 14:03:09</sys_updated_on>
+        <ui_id>81e835b7-9f52-414c-914d-e91526853f5f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ad76bc21db42ff00d91118df4b9619ad"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ad76bc21db42ff00d91118df4b9619ad</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 20:41:42</sys_created_on>
+        <sys_id>a176bc21db42ff00d91118df4b9619b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 20:41:42</sys_updated_on>
+        <value>Reminder for ${number} - Package is waiting for pickup</value>
+        <variable display_value="">0a62c1160b100300d97d8bf637673a05</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ad76bc21db42ff00d91118df4b9619ad</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 20:41:42</sys_created_on>
+        <sys_id>ed76bc21db42ff00d91118df4b9619b3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-17 14:03:09</sys_updated_on>
+        <value>&lt;p&gt;Package for: ${package_for}&lt;/p&gt;
+&lt;p&gt;Package Pickup Location: ${package_pickup_location}&lt;/p&gt;
+&lt;p&gt;Package Barcode: ${package_barcode}&lt;/p&gt;
+&lt;p&gt;Package from: ${sender}&lt;/p&gt;
+&lt;p&gt;This is a reminder that you have a package to pickup. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;If you have already picked up your package, please click the link below.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;${mailto:mailto.packagereceived}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;If you are experiencing trouble finding your package, please click the link below.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; ${mailto:mailto.packagenotfound}&lt;/p&gt;</value>
+        <variable display_value="">4e62c1160b100300d97d8bf637673a10</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ad76bc21db42ff00d91118df4b9619ad"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>ad76bc21db42ff00d91118df4b9619ad</id>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 20:41:42</sys_created_on>
+        <sys_id>6d76bc21db42ff00d91118df4b9619b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 20:41:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>ad76bc21db42ff00d91118df4b9619ad</id>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 20:41:42</sys_created_on>
+        <sys_id>a976bc21db42ff00d91118df4b9619b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 20:41:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>ad76bc21db42ff00d91118df4b9619ad</id>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 20:41:42</sys_created_on>
+        <sys_id>e576bc21db42ff00d91118df4b9619b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 20:41:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>{{7a1947d4-6619-42fc-a299-962505b0ee25.item.pacakge_for}}</value>
+    </sys_element_mapping>
+</record_update>

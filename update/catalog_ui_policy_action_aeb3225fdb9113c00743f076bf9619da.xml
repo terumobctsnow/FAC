@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Conference or Focus Room Set-Up">677b2831db34d7404dc4f236bf961964</catalog_item>
+        <catalog_variable>IO:6fd53075db34d7404dc4f236bf96194a</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>mleighton</sys_created_by>
+        <sys_created_on>2018-04-11 15:59:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>aeb3225fdb9113c00743f076bf9619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>event_setup</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_aeb3225fdb9113c00743f076bf9619da</sys_update_name>
+        <sys_updated_by>mleighton</sys_updated_by>
+        <sys_updated_on>2018-04-11 15:59:04</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Room Cap Read Only">cc810d92dbcd93800743f076bf9619eb</ui_policy>
+        <variable>event_setup</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

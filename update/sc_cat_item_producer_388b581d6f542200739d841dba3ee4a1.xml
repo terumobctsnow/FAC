@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="Ergonomics Assessment">f41590996f542200739d841dba3ee423</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"><font size="5">Please <strong><a title="click here" href="https://myworknet.terumobct.com/work/get-setup/ergonomics-support/Pages/default-global.aspx" target="_blank"><u><span style="color: #0000ff;">click here</span></u></a><span style="color: #0000ff;">&nbsp;</span></strong>to complete the ergonomics self-evaluation before proceeding.</font></p>]]></description>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Ergonomics Assessment</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>100</order>
+        <ordered_item_link/>
+        <picture/>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=388b581d6f542200739d841dba3ee4a1&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <redirect_url/>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>f8b190996f542200739d841dba3ee47a</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script/>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-27 19:20:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>388b581d6f542200739d841dba3ee4a1</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Ergonomics Assessment</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sc_cat_item_producer_388b581d6f542200739d841dba3ee4a1</sys_update_name>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-08-05 15:18:02</sys_updated_on>
+        <table_name>x_tebc2_fac_manage_fac_management_table</table_name>
+        <template display_value="Ergonomics Assessment">3b6e6d2a6f5c62001d90f00dba3ee4b4</template>
+        <type>item</type>
+        <u_og_include>false</u_og_include>
+        <u_use_item_task_stages>true</u_use_item_task_stages>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=388b581d6f542200739d841dba3ee4a1"/>
+    <fx_price action="delete_multiple" query="id=388b581d6f542200739d841dba3ee4a1"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>388b581d6f542200739d841dba3ee4a1</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-27 19:20:27</sys_created_on>
+        <sys_id>2dab981d6f542200739d841dba3ee411</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-06-27 19:20:27</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>388b581d6f542200739d841dba3ee4a1</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-27 19:20:27</sys_created_on>
+        <sys_id>21ab981d6f542200739d841dba3ee412</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-06-27 19:20:27</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>icon</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>2300</size_bytes>
+        <size_compressed>2309</size_compressed>
+        <state/>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-29 21:03:47</sys_created_on>
+        <sys_id>ba760bf96f106200739d841dba3ee402</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-06-29 21:03:47</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>388b581d6f542200739d841dba3ee4a1</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>3084</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="ba760bf96f106200739d841dba3ee402">ba760bf96f106200739d841dba3ee402</sys_attachment>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-29 21:03:47</sys_created_on>
+        <sys_id>7e760bf96f106200739d841dba3ee402</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>picture</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>2300</size_bytes>
+        <size_compressed>2309</size_compressed>
+        <state>available</state>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-07-20 21:40:00</sys_created_on>
+        <sys_id>8e281b606f342a00739d841dba3ee494</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-05-24 09:16:11</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>388b581d6f542200739d841dba3ee4a1</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>3084</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="8e281b606f342a00739d841dba3ee494">8e281b606f342a00739d841dba3ee494</sys_attachment>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-07-20 21:40:00</sys_created_on>
+        <sys_id>42281b606f342a00739d841dba3ee495</sys_id>
+    </sys_attachment_doc>
+</record_update>

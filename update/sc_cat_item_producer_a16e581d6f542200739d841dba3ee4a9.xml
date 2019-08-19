@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="Repair">e43558596f542200739d841dba3ee412</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Carpentry</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>300</order>
+        <ordered_item_link/>
+        <picture/>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=a16e581d6f542200739d841dba3ee4a9&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <redirect_url/>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>f8b190996f542200739d841dba3ee47a</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script/>
+        <short_description>Wall and floor repair, painting, ceiling tile</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-27 19:32:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a16e581d6f542200739d841dba3ee4a9</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Carpentry</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sc_cat_item_producer_a16e581d6f542200739d841dba3ee4a9</sys_update_name>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-07-25 18:28:20</sys_updated_on>
+        <table_name>x_tebc2_fac_manage_fac_management_table</table_name>
+        <template display_value="Carpentry">b2efe92a6f5c62001d90f00dba3ee4a4</template>
+        <type>item</type>
+        <u_og_include>false</u_og_include>
+        <u_use_item_task_stages>true</u_use_item_task_stages>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=a16e581d6f542200739d841dba3ee4a9"/>
+    <fx_price action="delete_multiple" query="id=a16e581d6f542200739d841dba3ee4a9"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>a16e581d6f542200739d841dba3ee4a9</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-27 19:32:28</sys_created_on>
+        <sys_id>696e581d6f542200739d841dba3ee4a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-06-27 19:32:28</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>a16e581d6f542200739d841dba3ee4a9</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-27 19:32:28</sys_created_on>
+        <sys_id>6d6e581d6f542200739d841dba3ee4a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-06-27 19:32:28</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes/>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>icon</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1593</size_bytes>
+        <size_compressed>1418</size_compressed>
+        <state>available</state>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-29 20:56:21</sys_created_on>
+        <sys_id>cac40f716f9062001d90f00dba3ee460</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-04-13 11:14:48</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>a16e581d6f542200739d841dba3ee4a9</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAJ2TeTjUeRzHv7/5zZjDOMYd454QUeSKMHLLbiVDpV3HRI7KfUwPExKyrY0cZR9P
+jhI2GxkmbHLmqGRQYVjjbLt2maQh/Ha0u/2z/2z7+vz1ed7P9/O8vn+8kRGEByRdHV0cASScfOEA
+ZAOoujnY2qt5BNCDToedDDsRHBCl5nKabqDmaWiw0xAgXJAKMBgMDoMjYrFEIh6PJ4oRhYh9ARAG
+hyNgCZsHxIiEL3r6F0gnVAoAhIE+Af4GQsFojAgWhyeIQgCG/uFfoSRAQTCMQsMYDBotTBKFGUCT
+MFLqhrYi0gf9sBoRMkbJ2SU4zb21bbLunAXKLv/IFDxBTl5hi+JWLW2dbbrGJqZm5rst7OwdHJ2c
+XVwPedA8vQ4fOUo/HhB4Iig4JCo6JjYunnHmXOr5tPSMC5k5l3Pz8guuXC0sLbt+o/xmRWXVnTpW
+fQP7bmNTe0dn14Punt6+waHhp8+ej4yOTU3PzM7Nv/jt5atF/rul98sfBCurJKEyCo2G0dhNZQgV
+t/kfEhqjbigiZXsQ6xchrWGUjJPZm11S24bX3OW+IOsfySHIUYynti5uWn+S/m/OKf9L+rPzZ2Wk
+FZBwwAgYwZDQngTBJAgZA0QYEi4wCdiAjwZJBGBxAKJigAzIBSxwABPK7YkeoTQ3xaSJRgdTsrNk
+SVCgfyJAF4K1JUHBIgKOLNIe5TdR7rwsPJpToUFX7uwzn9xeFVfs15NpSgNTj1IDk/ZY6Ids4Jkc
+2cftbuIJXYUOCau/izVbrxRL3GMqJng3PNNPeJrvxW7wkG/4EMlge+o620YXKHj+UjtOLZpTSayl
+a9amE4pVnQZQAxBV1Yo5ZDHc5JXa8gSvt14SJ1aX3cZv77UkrkoTKpWHL8VrJVk7CfR4lmEZKure
+otPM7lOiE19XubIyfiD77+zIE+eXT+/kwqd0R3yhpfIr98WZaiFeTAJr0HMwlHaV3pyFK4kNUqKz
+ohzduvJaAt51bM8UX1wjQny3o463iwWZMx1j9jlKCGDtL4fxoy/0LKl9jNYsqhE3S5bhbzoLEuNu
+xn/0Gaj2G9IOouQ/0HlbtPD43pStkuk0dKrLZZyqvVtNEaym7ZajSTnalYG+Pls06ZItWdJJLQtX
+jB3APpysD1v7Lt9nWWr/ulZjscQla2XB/Iup+Tq52pBS3yrOV3hL+5oWs3Ke+FCel2MbxHEhGl2H
+X7q0WAvMHM0Un6QvMaSP3fOU2pNtJ/UHvfFiTrderTvPMoPj1oma854HKjsWmKsztMWJ6rcddceO
+PWQY38GMc2fZdxkUAjR7OpB3PEbhQRA88h71NsawIN2o5/AZ05lrz42hV5MSSwiQmoyP2pf/8JAk
+Nfq1b8XycqfBsA5pf27/Xg2tIyuU99rm4LW8w2KsDAJCKiaGEwu52/iX3/mTyST2nH6vakcO2KO3
+nM6p70kwI64Wcb/tFi9TGKtpz6h6xj+fy4ooW+f7d/hFOpEr1VQkePULqDH22laxShOOrtebVjTs
++6vVwkrbKwcQe1hg9bqaeW2KSv658bbAp70pq+inNRuzlPl+r5yzDeuDIq0ZhucaHHZRiiVda9qw
+heD3+2yT7302tEhBHwIMEMC8YR2gt6Of0MBpDB8nE7PCdeA3SmHpFvq5+8JOssPtFMayuytDnDPK
+Sqv0R2hwDYCo0ghox95YnUQAb8gDAbN9oJqxwLUbVg8NZTXfTbFNz/xmn3v8yHGykcmo5xbAl9A0
+hvrPtqct2KyjhjYQMIGAxVVgM2UXr7qRHIyAZPmza8wkLbZgC+/HYDmPwZLtqZIq3hfkNT/2Uh5d
+tLrqbNUFztyKuOWqeRFtD9E8fIEIAOGADMxRScrChuoLO/qpqmeR0T8B93HbsDkGAAA=</data>
+        <length>1896</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="cac40f716f9062001d90f00dba3ee460">cac40f716f9062001d90f00dba3ee460</sys_attachment>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-29 20:56:21</sys_created_on>
+        <sys_id>0ec40f716f9062001d90f00dba3ee460</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes/>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>picture</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1593</size_bytes>
+        <size_compressed>1418</size_compressed>
+        <state>available</state>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-07-20 21:38:11</sys_created_on>
+        <sys_id>53b713e06f342a00739d841dba3ee42c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-07-19 16:26:35</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>a16e581d6f542200739d841dba3ee4a9</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAJ2TeTjUeRzHv7/5zZjDOMYd454QUeSKMHLLbiVDpV3HRI7KfUwPExKyrY0cZR9P
+jhI2GxkmbHLmqGRQYVjjbLt2maQh/Ha0u/2z/2z7+vz1ed7P9/O8vn+8kRGEByRdHV0cASScfOEA
+ZAOoujnY2qt5BNCDToedDDsRHBCl5nKabqDmaWiw0xAgXJAKMBgMDoMjYrFEIh6PJ4oRhYh9ARAG
+hyNgCZsHxIiEL3r6F0gnVAoAhIE+Af4GQsFojAgWhyeIQgCG/uFfoSRAQTCMQsMYDBotTBKFGUCT
+MFLqhrYi0gf9sBoRMkbJ2SU4zb21bbLunAXKLv/IFDxBTl5hi+JWLW2dbbrGJqZm5rst7OwdHJ2c
+XVwPedA8vQ4fOUo/HhB4Iig4JCo6JjYunnHmXOr5tPSMC5k5l3Pz8guuXC0sLbt+o/xmRWXVnTpW
+fQP7bmNTe0dn14Punt6+waHhp8+ej4yOTU3PzM7Nv/jt5atF/rul98sfBCurJKEyCo2G0dhNZQgV
+t/kfEhqjbigiZXsQ6xchrWGUjJPZm11S24bX3OW+IOsfySHIUYynti5uWn+S/m/OKf9L+rPzZ2Wk
+FZBwwAgYwZDQngTBJAgZA0QYEi4wCdiAjwZJBGBxAKJigAzIBSxwABPK7YkeoTQ3xaSJRgdTsrNk
+SVCgfyJAF4K1JUHBIgKOLNIe5TdR7rwsPJpToUFX7uwzn9xeFVfs15NpSgNTj1IDk/ZY6Ids4Jkc
+2cftbuIJXYUOCau/izVbrxRL3GMqJng3PNNPeJrvxW7wkG/4EMlge+o620YXKHj+UjtOLZpTSayl
+a9amE4pVnQZQAxBV1Yo5ZDHc5JXa8gSvt14SJ1aX3cZv77UkrkoTKpWHL8VrJVk7CfR4lmEZKure
+otPM7lOiE19XubIyfiD77+zIE+eXT+/kwqd0R3yhpfIr98WZaiFeTAJr0HMwlHaV3pyFK4kNUqKz
+ohzduvJaAt51bM8UX1wjQny3o463iwWZMx1j9jlKCGDtL4fxoy/0LKl9jNYsqhE3S5bhbzoLEuNu
+xn/0Gaj2G9IOouQ/0HlbtPD43pStkuk0dKrLZZyqvVtNEaym7ZajSTnalYG+Pls06ZItWdJJLQtX
+jB3APpysD1v7Lt9nWWr/ulZjscQla2XB/Iup+Tq52pBS3yrOV3hL+5oWs3Ke+FCel2MbxHEhGl2H
+X7q0WAvMHM0Un6QvMaSP3fOU2pNtJ/UHvfFiTrderTvPMoPj1oma854HKjsWmKsztMWJ6rcddceO
+PWQY38GMc2fZdxkUAjR7OpB3PEbhQRA88h71NsawIN2o5/AZ05lrz42hV5MSSwiQmoyP2pf/8JAk
+Nfq1b8XycqfBsA5pf27/Xg2tIyuU99rm4LW8w2KsDAJCKiaGEwu52/iX3/mTyST2nH6vakcO2KO3
+nM6p70kwI64Wcb/tFi9TGKtpz6h6xj+fy4ooW+f7d/hFOpEr1VQkePULqDH22laxShOOrtebVjTs
++6vVwkrbKwcQe1hg9bqaeW2KSv658bbAp70pq+inNRuzlPl+r5yzDeuDIq0ZhucaHHZRiiVda9qw
+heD3+2yT7302tEhBHwIMEMC8YR2gt6Of0MBpDB8nE7PCdeA3SmHpFvq5+8JOssPtFMayuytDnDPK
+Sqv0R2hwDYCo0ghox95YnUQAb8gDAbN9oJqxwLUbVg8NZTXfTbFNz/xmn3v8yHGykcmo5xbAl9A0
+hvrPtqct2KyjhjYQMIGAxVVgM2UXr7qRHIyAZPmza8wkLbZgC+/HYDmPwZLtqZIq3hfkNT/2Uh5d
+tLrqbNUFztyKuOWqeRFtD9E8fIEIAOGADMxRScrChuoLO/qpqmeR0T8B93HbsDkGAAA=</data>
+        <length>1896</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="53b713e06f342a00739d841dba3ee42c">53b713e06f342a00739d841dba3ee42c</sys_attachment>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-07-20 21:38:11</sys_created_on>
+        <sys_id>17b713e06f342a00739d841dba3ee42c</sys_id>
+    </sys_attachment_doc>
+</record_update>

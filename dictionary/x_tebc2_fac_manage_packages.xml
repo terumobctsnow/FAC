@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Packages" max_length="40" name="x_tebc2_fac_manage_packages" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Package for" max_length="32" name="pacakge_for" reference="sys_user" reference_qual="active=true^city=Lakewood^EQ" reference_qual_condition="active=true^city=Lakewood^EQ" type="reference"/>
+        <element attributes="barcode" label="Package Barcode" max_length="80" name="package_barcode" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Package Pickup Location" max_length="40" name="package_pickup_location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="810 Building Package Pickup" value="810 Building Package Pickup"/>
+                <element inactive_on_update="false" label="811 Building Package Pickup" value="811 Building Package Pickup"/>
+            </choice>
+        </element>
+        <element label="Package from" max_length="100" name="sender" type="string"/>
+    </element>
+</database>

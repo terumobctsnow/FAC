@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>cozbusb</sys_created_by>
+        <sys_created_on>2016-07-05 17:41:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>96b11df36f50e2001d90f00dba3ee4ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Glide API: user roles and groups</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_scope_privilege_96b11df36f50e2001d90f00dba3ee4ba</sys_update_name>
+        <sys_updated_by>cozbusb</sys_updated_by>
+        <sys_updated_on>2016-07-05 17:41:30</sys_updated_on>
+        <target_name>Glide API: user roles and groups</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>

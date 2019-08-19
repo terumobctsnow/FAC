@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_tebc2_fac_manage_conference_room_configuration_setups" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>meeting_space</element>
+            <list_id display_value="x_tebc2_fac_manage_conference_room_configuration_setups" element="NULL" name="x_tebc2_fac_manage_conference_room_configuration_setups" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">dea5bbfddbfe1300f4caff851d9619c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 19:40:20</sys_created_on>
+            <sys_id>16a5bbfddbfe1300f4caff851d9619c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 19:40:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>building</element>
+            <list_id display_value="x_tebc2_fac_manage_conference_room_configuration_setups" element="NULL" name="x_tebc2_fac_manage_conference_room_configuration_setups" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">dea5bbfddbfe1300f4caff851d9619c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 19:40:20</sys_created_on>
+            <sys_id>96a5bbfddbfe1300f4caff851d9619c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 19:40:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>type</element>
+            <list_id display_value="x_tebc2_fac_manage_conference_room_configuration_setups" element="NULL" name="x_tebc2_fac_manage_conference_room_configuration_setups" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">dea5bbfddbfe1300f4caff851d9619c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 19:40:20</sys_created_on>
+            <sys_id>96a5b731db325300f4caff851d961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 19:40:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>owner</element>
+            <list_id display_value="x_tebc2_fac_manage_conference_room_configuration_setups" element="NULL" name="x_tebc2_fac_manage_conference_room_configuration_setups" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">dea5bbfddbfe1300f4caff851d9619c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 19:40:20</sys_created_on>
+            <sys_id>1aa5b731db325300f4caff851d961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 19:40:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>owner_s_phone</element>
+            <list_id display_value="x_tebc2_fac_manage_conference_room_configuration_setups" element="NULL" name="x_tebc2_fac_manage_conference_room_configuration_setups" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">dea5bbfddbfe1300f4caff851d9619c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 19:40:20</sys_created_on>
+            <sys_id>9aa5b731db325300f4caff851d961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 19:40:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>round</element>
+            <list_id display_value="x_tebc2_fac_manage_conference_room_configuration_setups" element="NULL" name="x_tebc2_fac_manage_conference_room_configuration_setups" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">dea5bbfddbfe1300f4caff851d9619c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 19:40:20</sys_created_on>
+            <sys_id>1ea5b731db325300f4caff851d961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 19:40:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_table</element>
+            <list_id display_value="x_tebc2_fac_manage_conference_room_configuration_setups" element="NULL" name="x_tebc2_fac_manage_conference_room_configuration_setups" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">dea5bbfddbfe1300f4caff851d9619c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 19:40:20</sys_created_on>
+            <sys_id>9ea5b731db325300f4caff851d961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 19:40:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>theatre</element>
+            <list_id display_value="x_tebc2_fac_manage_conference_room_configuration_setups" element="NULL" name="x_tebc2_fac_manage_conference_room_configuration_setups" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">dea5bbfddbfe1300f4caff851d9619c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 19:40:20</sys_created_on>
+            <sys_id>12a5b731db325300f4caff851d961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 19:40:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>banquet</element>
+            <list_id display_value="x_tebc2_fac_manage_conference_room_configuration_setups" element="NULL" name="x_tebc2_fac_manage_conference_room_configuration_setups" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">dea5bbfddbfe1300f4caff851d9619c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 19:40:20</sys_created_on>
+            <sys_id>92a5b731db325300f4caff851d961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 19:40:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>classroom</element>
+            <list_id display_value="x_tebc2_fac_manage_conference_room_configuration_setups" element="NULL" name="x_tebc2_fac_manage_conference_room_configuration_setups" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">dea5bbfddbfe1300f4caff851d9619c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 19:40:20</sys_created_on>
+            <sys_id>16a5b731db325300f4caff851d961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 19:40:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>clusters</element>
+            <list_id display_value="x_tebc2_fac_manage_conference_room_configuration_setups" element="NULL" name="x_tebc2_fac_manage_conference_room_configuration_setups" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">dea5bbfddbfe1300f4caff851d9619c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 19:40:20</sys_created_on>
+            <sys_id>96a5b731db325300f4caff851d961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 19:40:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>event_setup</element>
+            <list_id display_value="x_tebc2_fac_manage_conference_room_configuration_setups" element="NULL" name="x_tebc2_fac_manage_conference_room_configuration_setups" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">dea5bbfddbfe1300f4caff851d9619c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 19:40:20</sys_created_on>
+            <sys_id>1aa5b731db325300f4caff851d961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 19:40:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>arrangeable_furniture</element>
+            <list_id display_value="x_tebc2_fac_manage_conference_room_configuration_setups" element="NULL" name="x_tebc2_fac_manage_conference_room_configuration_setups" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">dea5bbfddbfe1300f4caff851d9619c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 19:40:20</sys_created_on>
+            <sys_id>9aa5b731db325300f4caff851d961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 19:40:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>flipchart_markerboard</element>
+            <list_id display_value="x_tebc2_fac_manage_conference_room_configuration_setups" element="NULL" name="x_tebc2_fac_manage_conference_room_configuration_setups" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">dea5bbfddbfe1300f4caff851d9619c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>13</position>
+            <sum>false</sum>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 19:40:20</sys_created_on>
+            <sys_id>1ea5b731db325300f4caff851d961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 19:40:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>podium</element>
+            <list_id display_value="x_tebc2_fac_manage_conference_room_configuration_setups" element="NULL" name="x_tebc2_fac_manage_conference_room_configuration_setups" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">dea5bbfddbfe1300f4caff851d9619c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>14</position>
+            <sum>false</sum>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 19:40:20</sys_created_on>
+            <sys_id>9ea5b731db325300f4caff851d961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 19:40:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>camera</element>
+            <list_id display_value="x_tebc2_fac_manage_conference_room_configuration_setups" element="NULL" name="x_tebc2_fac_manage_conference_room_configuration_setups" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">dea5bbfddbfe1300f4caff851d9619c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>15</position>
+            <sum>false</sum>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 19:40:20</sys_created_on>
+            <sys_id>12a5b731db325300f4caff851d961989</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 19:40:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>audio_and_video_capable</element>
+            <list_id display_value="x_tebc2_fac_manage_conference_room_configuration_setups" element="NULL" name="x_tebc2_fac_manage_conference_room_configuration_setups" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">dea5bbfddbfe1300f4caff851d9619c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>16</position>
+            <sum>false</sum>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 19:40:20</sys_created_on>
+            <sys_id>92a5b731db325300f4caff851d961989</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 19:40:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_tebc2_fac_manage_conference_room_configuration_setups" element="NULL" name="x_tebc2_fac_manage_conference_room_configuration_setups" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">dea5bbfddbfe1300f4caff851d9619c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>17</position>
+            <sum>false</sum>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 19:40:20</sys_created_on>
+            <sys_id>16a5b731db325300f4caff851d961989</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 19:40:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="x_tebc2_fac_manage_conference_room_configuration_setups" element="NULL" name="x_tebc2_fac_manage_conference_room_configuration_setups" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">dea5bbfddbfe1300f4caff851d9619c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>18</position>
+            <sum>false</sum>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 19:40:20</sys_created_on>
+            <sys_id>96a5b731db325300f4caff851d961989</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 19:40:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_tebc2_fac_manage_conference_room_configuration_setups</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 19:40:20</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>dea5bbfddbfe1300f4caff851d9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_tebc2_fac_manage_conference_room_configuration_setups</sys_name>
+            <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+            <sys_update_name>sys_ui_list_x_tebc2_fac_manage_conference_room_configuration_setups_null</sys_update_name>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 19:40:20</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

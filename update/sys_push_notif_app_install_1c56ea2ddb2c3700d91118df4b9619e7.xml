@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_app_install">
+    <sys_push_notif_app_install action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <last_registered_on>2019-04-01 15:16:14</last_registered_on>
+        <sys_class_name>sys_push_notif_app_install</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-04-01 15:16:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1c56ea2ddb2c3700d91118df4b9619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dkbPQErTJh8:APA91bH3X9mZyTYCgyIMbvJj0Z2kMD8O24wjZ4ApmOSjpGjgwJvhEo6VV_l2AMYy8rsU1UNmRkY84Pd9i3PVDsW9GGU5JHAuXg5h8oDjhg6bKt-V3rSb-ec6-aAFw56NXsM11cWODFxt</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_push_application_id display_value="ServiceNow Classic Mobile Application">ab704041ff1102009738ffffffffff33</sys_push_application_id>
+        <sys_push_platform_id display_value="Google">53e75f30ff0002009738ffffffffff12</sys_push_platform_id>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_push_notif_app_install_1c56ea2ddb2c3700d91118df4b9619e7</sys_update_name>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-04-01 15:16:14</sys_updated_on>
+        <sys_user_id display_value="Cori Campbell (ccampbell)">9a51998ddb0477002568d2984b9619f5</sys_user_id>
+        <token>dkbPQErTJh8:APA91bH3X9mZyTYCgyIMbvJj0Z2kMD8O24wjZ4ApmOSjpGjgwJvhEo6VV_l2AMYy8rsU1UNmRkY84Pd9i3PVDsW9GGU5JHAuXg5h8oDjhg6bKt-V3rSb-ec6-aAFw56NXsM11cWODFxt</token>
+    </sys_push_notif_app_install>
+</record_update>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="4cf661b3db3632004dc4f236bf9619cc" sys_domain="global" table="x_tebc2_fac_manage_timecards" version="3" view="Mobile">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>jalexan</sys_created_by>
+            <sys_created_on>2017-05-24 22:02:59</sys_created_on>
+            <sys_id>351729b3db3632004dc4f236bf9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_timecards" sys_domain="global" view="c51ae3100f311100b176fb1792050eb9">4cf661b3db3632004dc4f236bf9619cc</sys_ui_section>
+            <sys_updated_by>jalexan</sys_updated_by>
+            <sys_updated_on>2017-05-24 22:02:59</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>jalexan</sys_created_by>
+            <sys_created_on>2017-05-24 22:02:59</sys_created_on>
+            <sys_id>b51729b3db3632004dc4f236bf9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_timecards" sys_domain="global" view="c51ae3100f311100b176fb1792050eb9">4cf661b3db3632004dc4f236bf9619cc</sys_ui_section>
+            <sys_updated_by>jalexan</sys_updated_by>
+            <sys_updated_on>2017-05-24 22:02:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_card_user</element>
+            <position>2</position>
+            <sys_created_by>jalexan</sys_created_by>
+            <sys_created_on>2017-05-24 22:02:59</sys_created_on>
+            <sys_id>391729b3db3632004dc4f236bf9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_timecards" sys_domain="global" view="c51ae3100f311100b176fb1792050eb9">4cf661b3db3632004dc4f236bf9619cc</sys_ui_section>
+            <sys_updated_by>jalexan</sys_updated_by>
+            <sys_updated_on>2017-05-24 22:02:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>jalexan</sys_created_by>
+            <sys_created_on>2017-05-24 22:02:59</sys_created_on>
+            <sys_id>b91729b3db3632004dc4f236bf9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_timecards" sys_domain="global" view="c51ae3100f311100b176fb1792050eb9">4cf661b3db3632004dc4f236bf9619cc</sys_ui_section>
+            <sys_updated_by>jalexan</sys_updated_by>
+            <sys_updated_on>2017-05-24 22:02:59</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <position>4</position>
+            <sys_created_by>jalexan</sys_created_by>
+            <sys_created_on>2017-05-24 22:02:59</sys_created_on>
+            <sys_id>3d1729b3db3632004dc4f236bf9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_timecards" sys_domain="global" view="c51ae3100f311100b176fb1792050eb9">4cf661b3db3632004dc4f236bf9619cc</sys_ui_section>
+            <sys_updated_by>jalexan</sys_updated_by>
+            <sys_updated_on>2017-05-24 22:02:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>calendar_duration</element>
+            <position>5</position>
+            <sys_created_by>jalexan</sys_created_by>
+            <sys_created_on>2017-05-24 22:02:59</sys_created_on>
+            <sys_id>bd1729b3db3632004dc4f236bf9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_timecards" sys_domain="global" view="c51ae3100f311100b176fb1792050eb9">4cf661b3db3632004dc4f236bf9619cc</sys_ui_section>
+            <sys_updated_by>jalexan</sys_updated_by>
+            <sys_updated_on>2017-05-24 22:02:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>item</element>
+            <position>6</position>
+            <sys_created_by>jalexan</sys_created_by>
+            <sys_created_on>2017-05-24 22:02:59</sys_created_on>
+            <sys_id>311729b3db3632004dc4f236bf9619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_timecards" sys_domain="global" view="c51ae3100f311100b176fb1792050eb9">4cf661b3db3632004dc4f236bf9619cc</sys_ui_section>
+            <sys_updated_by>jalexan</sys_updated_by>
+            <sys_updated_on>2017-05-24 22:02:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>7</position>
+            <sys_created_by>jalexan</sys_created_by>
+            <sys_created_on>2017-05-24 22:02:59</sys_created_on>
+            <sys_id>b11729b3db3632004dc4f236bf9619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_timecards" sys_domain="global" view="c51ae3100f311100b176fb1792050eb9">4cf661b3db3632004dc4f236bf9619cc</sys_ui_section>
+            <sys_updated_by>jalexan</sys_updated_by>
+            <sys_updated_on>2017-05-24 22:02:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>jalexan</sys_created_by>
+            <sys_created_on>2017-05-24 22:02:59</sys_created_on>
+            <sys_id>351729b3db3632004dc4f236bf9619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_timecards" sys_domain="global" view="c51ae3100f311100b176fb1792050eb9">4cf661b3db3632004dc4f236bf9619cc</sys_ui_section>
+            <sys_updated_by>jalexan</sys_updated_by>
+            <sys_updated_on>2017-05-24 22:02:59</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>9</position>
+            <sys_created_by>jalexan</sys_created_by>
+            <sys_created_on>2017-05-24 22:02:59</sys_created_on>
+            <sys_id>b51729b3db3632004dc4f236bf9619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_timecards" sys_domain="global" view="c51ae3100f311100b176fb1792050eb9">4cf661b3db3632004dc4f236bf9619cc</sys_ui_section>
+            <sys_updated_by>jalexan</sys_updated_by>
+            <sys_updated_on>2017-05-24 22:02:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>10</position>
+            <sys_created_by>jalexan</sys_created_by>
+            <sys_created_on>2017-05-24 22:02:59</sys_created_on>
+            <sys_id>391729b3db3632004dc4f236bf9619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_timecards" sys_domain="global" view="c51ae3100f311100b176fb1792050eb9">4cf661b3db3632004dc4f236bf9619cc</sys_ui_section>
+            <sys_updated_by>jalexan</sys_updated_by>
+            <sys_updated_on>2017-05-24 22:02:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>11</position>
+            <sys_created_by>jalexan</sys_created_by>
+            <sys_created_on>2017-05-24 22:02:59</sys_created_on>
+            <sys_id>b91729b3db3632004dc4f236bf9619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_timecards" sys_domain="global" view="c51ae3100f311100b176fb1792050eb9">4cf661b3db3632004dc4f236bf9619cc</sys_ui_section>
+            <sys_updated_by>jalexan</sys_updated_by>
+            <sys_updated_on>2017-05-24 22:02:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>com_glideapp_questionset_default_question_editor.xml</element>
+            <position>12</position>
+            <sys_created_by>jalexan</sys_created_by>
+            <sys_created_on>2017-05-24 22:02:59</sys_created_on>
+            <sys_id>3d1729b3db3632004dc4f236bf9619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Facilities Variable Editor">1266cc666f986200739d841dba3ee49c</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_timecards" sys_domain="global" view="c51ae3100f311100b176fb1792050eb9">4cf661b3db3632004dc4f236bf9619cc</sys_ui_section>
+            <sys_updated_by>jalexan</sys_updated_by>
+            <sys_updated_on>2017-05-24 22:02:59</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>13</position>
+            <sys_created_by>jalexan</sys_created_by>
+            <sys_created_on>2017-05-24 22:02:59</sys_created_on>
+            <sys_id>bd1729b3db3632004dc4f236bf9619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_timecards" sys_domain="global" view="c51ae3100f311100b176fb1792050eb9">4cf661b3db3632004dc4f236bf9619cc</sys_ui_section>
+            <sys_updated_by>jalexan</sys_updated_by>
+            <sys_updated_on>2017-05-24 22:02:59</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_tebc2_fac_manage_timecards</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jalexan</sys_created_by>
+            <sys_created_on>2017-05-24 22:02:19</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>4cf661b3db3632004dc4f236bf9619cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_tebc2_fac_manage_timecards</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+            <sys_update_name>sys_ui_section_4cf661b3db3632004dc4f236bf9619cc</sys_update_name>
+            <sys_updated_by>jalexan</sys_updated_by>
+            <sys_updated_on>2017-05-24 22:02:19</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Mobile" name="Mobile">c51ae3100f311100b176fb1792050eb9</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

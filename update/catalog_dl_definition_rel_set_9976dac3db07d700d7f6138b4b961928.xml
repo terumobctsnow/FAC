@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_dl_definition_rel_set">
+    <catalog_dl_definition_rel_set action="INSERT_OR_UPDATE">
+        <always_replace>true</always_replace>
+        <applies_to>item</applies_to>
+        <catalog_item display_value="Conference or Focus Room Set-Up">677b2831db34d7404dc4f236bf961964</catalog_item>
+        <dl_definition display_value="Room Setup Lookup">a3a3da43db07d700d7f6138b4b961948</dl_definition>
+        <matcher_table>x_tebc2_fac_manage_conference_room_configuration_setups</matcher_table>
+        <matcher_table_field>classroom</matcher_table_field>
+        <source_catalog_variable>IO:882afbe0db4d9f400743f076bf96196c</source_catalog_variable>
+        <source_table/>
+        <source_table_field/>
+        <source_variable>classroom</source_variable>
+        <sys_class_name>catalog_dl_definition_rel_set</sys_class_name>
+        <sys_created_by>mleighton</sys_created_by>
+        <sys_created_on>2018-07-06 20:12:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9976dac3db07d700d7f6138b4b961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>catalog_dl_definition_rel_set_9976dac3db07d700d7f6138b4b961928</sys_update_name>
+        <sys_updated_by>mleighton</sys_updated_by>
+        <sys_updated_on>2018-07-06 20:12:29</sys_updated_on>
+        <variable_set/>
+    </catalog_dl_definition_rel_set>
+</record_update>

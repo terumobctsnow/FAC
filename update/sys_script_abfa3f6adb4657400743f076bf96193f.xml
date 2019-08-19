@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_tebc2_fac_manage_fac_management_table</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>setting SSR image</name>
+        <onclick/>
+        <order>200</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+    var fieldName = 'table_arrangement'; //todo: change this to your field name 
+    var tableName = 'x_tebc2_fac_manage_fac_management_table'; //todo: change this to your table name
+    var recipientID = current.getValue('sys_id'); //This grabs the Incident's sys_id(particular record)
+    var grAttachment = new GlideRecord('sys_attachment'); //This looks at the sys_attachment table
+
+    grAttachment.addQuery('table_name', 'ZZ_YY' + tableName); //This says on the sys_attachment table, if table_name is ZZ_YY + table name
+    grAttachment.addQuery('table_sys_id', recipientID); //This says on the sys_attachment table, if the table_sys_id is the sys_id from the particular record
+    grAttachment.addQuery('file_name', fieldName); //This says on the sys_attachment table, if the file_name is the field_name
+    grAttachment.setLimit(1); //This only looks for one match so it doesnt bog down the query
+
+    grAttachment.query();
+    
+    if (!grAttachment.next() && current.getValue('item') == 'Conference or Focus Room Setup - New') {
+        GlideSysAttachment.copy(
+            //Donor data
+            tableName, //donor table name
+            '84122971db23178098e6a3cc0b961955', //donor sys_id // Update with Table sys ID from new record in Prod
+
+            //recipient data
+            tableName, //recipient table name
+            recipientID //recipient sys_id
+        );
+    }
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>mleighton</sys_created_by>
+        <sys_created_on>2018-05-16 21:12:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>abfa3f6adb4657400743f076bf96193f</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>setting SSR image</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_script_abfa3f6adb4657400743f076bf96193f</sys_update_name>
+        <sys_updated_by>mleighton</sys_updated_by>
+        <sys_updated_on>2018-07-27 15:45:21</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+</record_update>

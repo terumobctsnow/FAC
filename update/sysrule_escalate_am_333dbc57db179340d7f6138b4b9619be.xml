@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_escalate_am">
+    <sysrule_escalate_am action="INSERT_OR_UPDATE">
+        <advanced_condition/>
+        <assignment_script/>
+        <calendar display_value="Monday thru Friday (9 - 5)">bea4c03cc611227801d411166792a145</calendar>
+        <condition table="x_tebc2_fac_manage_fac_management_table">assigned_to=2b47e2a20fd7e100539437f692050e41^stateIN1,8,2^EQ<item display_table="sys_user" display_value="Habib Habyarimana (hhabusb)" endquery="false" field="assigned_to" goto="false" newquery="false" operator="=" or="false" value="2b47e2a20fd7e100539437f692050e41"/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="1,8,2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>Reminder to reassign tickets</description>
+        <name>FAC Inactivity </name>
+        <order>100</order>
+        <pause_condition/>
+        <reset_condition/>
+        <sys_class_name>sysrule_escalate_am</sys_class_name>
+        <sys_created_by>ttaylor</sys_created_by>
+        <sys_created_on>2018-07-19 18:39:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>333dbc57db179340d7f6138b4b9619be</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>FAC Inactivity </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sysrule_escalate_am_333dbc57db179340d7f6138b4b9619be</sys_update_name>
+        <sys_updated_by>ttaylor</sys_updated_by>
+        <sys_updated_on>2018-07-19 20:01:34</sys_updated_on>
+        <table>x_tebc2_fac_manage_fac_management_table</table>
+        <threshold/>
+        <wait>1970-01-01 00:01:00</wait>
+    </sysrule_escalate_am>
+</record_update>

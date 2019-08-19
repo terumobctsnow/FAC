@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Conference or Focus Room Set-Up">677b2831db34d7404dc4f236bf961964</catalog_item>
+        <catalog_variable>IO:05051029dbd1db800743f076bf961957</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>mleighton</sys_created_by>
+        <sys_created_on>2018-05-30 21:49:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e2c9c853db5297000743f076bf9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_shape_available</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_e2c9c853db5297000743f076bf9619ff</sys_update_name>
+        <sys_updated_by>mleighton</sys_updated_by>
+        <sys_updated_on>2018-05-30 21:49:18</sys_updated_on>
+        <table/>
+        <ui_policy display_value="if classroom true other read only">62c90853db5297000743f076bf961939</ui_policy>
+        <variable>u_shape_available</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

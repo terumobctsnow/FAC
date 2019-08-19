@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition><![CDATA[current.variable_pool.changes();]]></advanced_condition>
+        <affected_field_on_event/>
+        <category display_value="FAC Management" name="FAC Management">5cb361c5db610300002b7a8eaf961946</category>
+        <collection>x_tebc2_fac_manage_fac_management_table</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description>Notify the Assigned to when a variable changes.</description>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>antivirus.infected</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">Variables were updated to the following:</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
+<div><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><strong>SSR#</strong>: ${number}&nbsp;</span></div>
+<div><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><strong>Category</strong>: ${category}</span></div>
+<div><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><strong>Item</strong>: ${item}</span></div>
+<div><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><strong>Date Needed</strong>: ${due_date}</span></div>
+<div><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">${mail_script:fac_from}</span></div>
+<div>&nbsp;</div>
+<div><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">If you need more information regarding which variable was updated, go to the History section of the SSR. &nbsp;To view the history: &nbsp;Right-click on SSR header &gt; hover over 'History' &gt; select 'Calendar'.&nbsp; Expand the most recent Update details to view updates.</span></div>
+<p style="font-variant-numeric: normal; font-variant-east-asian: normal; line-height: normal; widows: 1; font-stretch: normal;">&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Facilities - Variable Changes</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>assigned_to</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>false</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>${number} - ${item} variables have been updated</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>ttaylor</sys_created_by>
+        <sys_created_on>2019-03-28 20:16:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>4e638f18db643b00d91118df4b96198d</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Facilities - Variable Changes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sysevent_email_action_4e638f18db643b00d91118df4b96198d</sys_update_name>
+        <sys_updated_by>ttaylor</sys_updated_by>
+        <sys_updated_on>2019-03-29 16:06:07</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

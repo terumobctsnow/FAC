@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer/>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>700</order>
+        <parent/>
+        <roles/>
+        <sc_catalog display_value="Facilities Catalog">f8b190996f542200739d841dba3ee47a</sc_catalog>
+        <show_in_cms>false</show_in_cms>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-27 18:52:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1e3510d96f542200739d841dba3ee480</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Custodial Support</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sc_category_1e3510d96f542200739d841dba3ee480</sys_update_name>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-06-27 18:54:54</sys_updated_on>
+        <title>Custodial Support</title>
+    </sc_category>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes/>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>homepage_image</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1746</size_bytes>
+        <size_compressed>1698</size_compressed>
+        <state>available</state>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-29 16:37:39</sys_created_on>
+        <sys_id>d09906f96f1062001d90f00dba3ee48d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-04-13 11:14:45</sys_updated_on>
+        <table_name>ZZ_YYsc_category</table_name>
+        <table_sys_id>1e3510d96f542200739d841dba3ee480</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAJWUazjUeRvHf////OewY2b8x4xyDI9D2FDROnaRbBgrhzFcSZscKsohJSGZpPZ5
+bCSLkh0xjMnIssKQw05XByRnnjSDh22xhtFeMcpx1vaivZ7refV87ut+873uw/d+cytGFBMAZRxy
+PwQgGICwrQCKeUB1iQ89kwgggAAAHLakBUA5EBYTEg7CRFsKpJCAdIBDEASL4LBY3Be4rVQi4HAE
+JRKRqEQkklDSJ1ASRRlVppBoNDqdRtPS1NTU0vkMhMfjySSyGoqqaahSVTV0/l8UIkAlAD/gh4Go
+AKZCGCqkeAauAgDDGAgCf4NDsBAGT4D/S/wEunU2gsFgyTgE/0mAYAygIlg9Fdw/aPQ9B3xu40+c
+u/pz/17nAX1V1ja1kichaTmhvkwDAvfgtUdhF6yp/zNSIQYkDLTlB0MFjmDCG0HW4vNrmyMw+g4L
+lT88GQRP3cujXrGDsPKlamjV9T9Q2JiZZYhnXTolvUyZjhfn5CWKdmzupkaabXvdXsd36S27nSsv
+96bXi32cVPstrGUWd0TVu7CYKpvB60Jf77oJ3xJ9aBE4odvzNbdTTQUl845dMR/X+E1gIJdn8oUb
+pA9wgEASpTSIRwO90/PMwgxN1HIOA4KSxsaeB1FD09w2CZMh0jN8fc+XZtlh5II9wX6GfMkRFLU+
+rFQ/hjnR/9KBC5kL8qQBQ12dL+vk1AHdfU5etZJGqei6ckgm3+t86VMw/2lXjlM2JhuC7sJwSsaV
+NeH9lV0K0Ki7X1XybvPyzEa5w0nMq2kMimD9ixuIj52leDkpzTfxZeLgb+zD7NhBv6uFsbGZwp64
+5GvISrBZMUFpvz3ffPXG9FjDUM9mhYhlks4z0RL4ZgECpaS0mTK8bcMzuqpZ6CZ7zOl7K+MNcOPS
+mI9yvSK9tROORww+uMBJqWrom/Ko6rlzKY5nsZNuenmAvbjRW7ORfMBFFnI3pIRUVhVVs3BqL1/F
+2e2bCZTAfgYB/kLZevtTj5Hp8a7CnRzzFl0Nk0Iy02rkN2eVohJjcrY6e0GbE8E5GDK/XLt2qtRC
+av/Cr59cUO9ViJVNZplK2cMvUs+ldh7/nc/uVd94nmqYyi2CU268lTQH3Ns3dvq1T9S4Aas+7+pX
+nTk3B7O0arQW62U676cfJsfebFhLl0YYdlhq111hpWQT+hAkWi25/V/59pxRBbCaMNC9bmAch5Jw
+wepWuNwEpjTDPhj/nen4v3cl7SpVlb+nrONTK1vbppujhw94C47uKOCyPIfNUJRH7yxnjTJcpkCF
+a0W957FSr5ZoCyGzIiaDGfqVccnZrotF6aKYtsj9DLNAKTd/YlXr0ehdqwLWtOXubSPrRnB/c6u0
+mhU0X9HYIrGe84hftnbmNSYYjZxdDL2JjRdnLvQlfzlu96M4q4NXMjl7Z3Y5yGv1n+2/QDNTsG3s
+flSNvdJjXWA75YhM6AceV5ZEjM50qPy0etErAw5Gd9yYTz68/jM3Um7moRT3uIm7qsFg/DiqqyJW
+wVkeaRfA+GY5Vjn8Q+DwgMM0dzjPoE3szf1VM94FFCMDMDTHFq4k8TiJpVGZNTPN8/7yqvb3nL5L
+ZeVHmozcUI2oi3arDfbuvKSCF8/Pd1nx3PQTa5roXj3PKG5E+Z7Ek0+K6zUvsIg/1TUazxUQ/Bdj
+q9IY4bbuu0n54sAxR3HmmShmY6VR2Wm/GDTnaGQFrfues3v3rSC8jux71/XWSu1z6eHCID7TU682
+jyajrrCW1RAbYpbD5c6nvafON6+Pp2bAlNxqyIN7ZLFB/G714Dt2OKpt91qyWVUsHOy/F+j63E5F
+fCzQn+57W89BgMmBA4aiKz+mbGcWtUByTcGmztdDM9Ug5ZD0l+/6423nRDo+j6snl44dTvoD/7kQ
+LmqUGa08/HqvObm2i36dEVGucmigxiBPdYcbIhXkz94994GUPVKwsKRMgneqfdB84SWeGb90yjah
+eJ/VXKbdnaO2/mn0H8ZQynJlIWtpMuLJ0MRcCr4j2EiEItDWW0Hg/JIWotDmImlWYvMgiTH7jkA8
+DWOizI4uVRtOq+aFPsi6Bt6cHaLnBesNqKdyTO0NNmnQmb86cYIMQdLJrluNmk4zDhuTvaD60pA5
+K+25g4RvY7zKeP/XIMDWJShVBrxKdCUXnu9uXTQc7b7lh9F2bKlVAJ+m7rXEto/kuXGPN1P3f70/
+BgUcX9S6pdzUtXYl9eMfbP+HbxPav+9t3ejs+VaNvGUXUrz5E7rCA+fSBgAA</data>
+        <length>2268</length>
+        <position>0</position>
+        <sys_attachment display_value="homepage_image" sys_id="d09906f96f1062001d90f00dba3ee48d">d09906f96f1062001d90f00dba3ee48d</sys_attachment>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-29 16:37:39</sys_created_on>
+        <sys_id>149906f96f1062001d90f00dba3ee48d</sys_id>
+    </sys_attachment_doc>
+</record_update>

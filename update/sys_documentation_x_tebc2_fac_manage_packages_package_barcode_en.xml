@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="package_barcode" label="Package Barcode" language="en" table="x_tebc2_fac_manage_packages">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>package_barcode</element>
+            <help/>
+            <hint/>
+            <label>Package Barcode</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_packages</name>
+            <plural>Package Barcodes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ccampbell</sys_created_by>
+            <sys_created_on>2019-06-10 19:35:57</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>5f010898dbcef700d7f6138b4b96190b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Package Barcode</sys_name>
+            <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+            <sys_update_name>sys_documentation_x_tebc2_fac_manage_packages_package_barcode_en</sys_update_name>
+            <sys_updated_by>ccampbell</sys_updated_by>
+            <sys_updated_on>2019-06-10 19:35:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

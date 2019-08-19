@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Long Term (30+days) Contractor Badge Request">937714d96f542200739d841dba3ee442</catalog_item>
+        <catalog_variable>IO:f5a09c5b6ff4a200739d841dba3ee410</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-07-28 20:15:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f771509b6ff4a200739d841dba3ee4fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>additional_contractor_information</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_f771509b6ff4a200739d841dba3ee4fd</sys_update_name>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-07-28 20:15:30</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Need to add additional contractors">6a41d45b6ff4a200739d841dba3ee4cd</ui_policy>
+        <variable>additional_contractor_information</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

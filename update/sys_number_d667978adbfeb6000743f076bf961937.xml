@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_tebc2_fac_manage_timecards">x_tebc2_fac_manage_timecards</category>
+        <maximum_digits>7</maximum_digits>
+        <number>0</number>
+        <prefix>SSRT</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2017-05-19 19:44:21</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>d667978adbfeb6000743f076bf961937</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>SSRT</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_number_d667978adbfeb6000743f076bf961937</sys_update_name>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2017-05-19 20:20:36</sys_updated_on>
+    </sys_number>
+</record_update>

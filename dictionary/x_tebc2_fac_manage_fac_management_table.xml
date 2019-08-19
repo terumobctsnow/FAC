@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasLabels=true" audit="true" extends="task" label="FAC Management" max_length="40" name="x_tebc2_fac_manage_fac_management_table" sizeclass="25042" text_index="true" type="collection">
+        <element label="Additional recycle containers" max_length="40" name="additional_recycle" type="string"/>
+        <element label="Additional trash container" max_length="40" name="additional_trash" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Alternate Contact" max_length="32" name="alternate_contact" reference="sys_user" type="reference"/>
+        <element label="Number of attendees" max_length="40" name="attendees_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Banquet" max_length="40" name="banquet_available" type="boolean"/>
+        <element label="Building" max_length="40" name="building" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Move Assistance/Office Setup" sequence="0" value="Move Assistance/Office Setup"/>
+                <element inactive_on_update="false" label="Badge or Key Access" sequence="1" value="Badge or Key Access"/>
+                <element inactive_on_update="false" label="Waste Disposal" sequence="2" value="Waste Disposal"/>
+                <element inactive_on_update="false" label="Can't Find My Issue" sequence="3" value="Can't Find My Issue"/>
+                <element inactive_on_update="false" label="Custodial Support" sequence="4" value="Custodial Support"/>
+                <element inactive_on_update="false" label="Ergonomics Assessment" sequence="5" value="Ergonomics Assessment"/>
+                <element inactive_on_update="false" label="Signage" sequence="6" value="Signage"/>
+                <element inactive_on_update="false" label="Repair" sequence="7" value="Repair"/>
+                <element inactive_on_update="false" label="Request Something New" sequence="8" value="Request Something New"/>
+                <element inactive_on_update="false" label="Conference Room Support" sequence="9" value="Conference Room Support"/>
+                <element inactive_on_update="false" label="Warehouse Support" sequence="10" value="Warehouse Support"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Classroom" max_length="40" name="classroom_available" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Cluster" max_length="40" name="cluster_available" type="boolean"/>
+        <element label="Contract Companies" max_length="100" name="contract_companies" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Would you like a custodian to contact you?" max_length="40" name="custodian_contact" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Meeting end date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Meeting end time" max_length="40" name="end_time" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Event Setup" max_length="40" name="event_setup_available" type="boolean"/>
+        <element label="Extension cords" max_length="40" name="extension_cords" type="string"/>
+        <element label="Flipchart/Paper" max_length="40" name="flipchart_paper" type="string"/>
+        <element label="Table for food service" max_length="40" name="food_table" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="category" dependent_on_field="category" label="Item" max_length="40" name="item" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Conference Room Support" inactive_on_update="false" label="Conference or Focus Room Set-up" value="Conference or Focus Room Setup - New"/>
+                <element dependent_value="Waste Disposal" inactive_on_update="false" label="Pharmaceutical Waste" value="Pharmaceutical Waste"/>
+                <element dependent_value="Custodial Support" inactive_on_update="false" label="Additional Clean" sequence="0" value="Additional Clean"/>
+                <element dependent_value="Badge or Key Access" inactive_on_update="false" label="Badge Access" sequence="0" value="Badge Access"/>
+                <element dependent_value="Can't Find My Issue" inactive_on_update="false" label="Can't Find My Issue" sequence="0" value="Can't Find My Issue"/>
+                <element dependent_value="Conference Room Support" inactive_on_update="false" label="Conference or Focus Room" sequence="0" value="Conference or Focus Room"/>
+                <element dependent_value="Warehouse Support" inactive_on_update="false" label="Domestic Shipping Request" sequence="0" value="Domestic Shipping Request"/>
+                <element dependent_value="Request Something New" inactive_on_update="false" label="Electrical Install" sequence="0" value="Electrical Install"/>
+                <element dependent_value="Ergonomics Assessment" inactive_on_update="false" label="Ergonomics Assessment" sequence="0" value="Ergonomics Assessment"/>
+                <element dependent_value="Repair" inactive_on_update="false" label="Furniture" sequence="0" value="Furniture"/>
+                <element dependent_value="Signage" inactive_on_update="false" label="Nameplate" sequence="0" value="Nameplate"/>
+                <element dependent_value="Move Assistance/Office Setup" inactive_on_update="false" label="People Move" sequence="0" value="People Move"/>
+                <element dependent_value="Waste Disposal" inactive_on_update="false" label="Recycle" sequence="0" value="Recycle"/>
+                <element dependent_value="Move Assistance/Office Setup" inactive="true" inactive_on_update="true" label="Warehouse Pallet or Equipment Move" sequence="0" value="Warehouse Pallet or Equipment Move"/>
+                <element dependent_value="Request Something New" inactive_on_update="false" label="Cleanroom/Controlled Environment Alteration" sequence="1" value="Cleanroom/Controlled Environment Alteration"/>
+                <element dependent_value="Conference Room Support" inactive_on_update="false" label="Conference or Focus Room Supplies" sequence="1" value="Conference or Focus Room Supplies"/>
+                <element dependent_value="Waste Disposal" inactive_on_update="false" label="Confidential Shred" sequence="1" value="Confidential Shred"/>
+                <element dependent_value="Badge or Key Access" inactive_on_update="false" label="Door Keys" sequence="1" value="Door Keys"/>
+                <element dependent_value="Repair" inactive_on_update="false" label="Doors" sequence="1" value="Doors"/>
+                <element dependent_value="Warehouse Support" inactive_on_update="false" label="International Shipping/Logistics Support" sequence="1" value="International Shipping/Logistics Support"/>
+                <element dependent_value="Custodial Support" inactive_on_update="false" label="Oasis or Restroom Supplies" sequence="1" value="Oasis or Restroom Supplies"/>
+                <element dependent_value="Move Assistance/Office Setup" inactive_on_update="false" label="Product or Box Move" sequence="1" value="Product or Box Move"/>
+                <element dependent_value="Signage" inactive_on_update="false" label="Signage Other" sequence="1" value="Signage Other"/>
+                <element dependent_value="Repair" inactive_on_update="false" label="Carpentry" sequence="2" value="Carpentry"/>
+                <element dependent_value="Custodial Support" inactive_on_update="false" label="Custodial Support Other" sequence="2" value="Custodial Support Other"/>
+                <element dependent_value="Waste Disposal" inactive_on_update="false" label="Electronic Waste" sequence="2" value="Electronic Waste"/>
+                <element dependent_value="Move Assistance/Office Setup" inactive_on_update="false" label="Furniture Reconfigure" sequence="2" value="Furniture Reconfigure"/>
+                <element dependent_value="Badge or Key Access" inactive_on_update="false" label="Furniture/Cabinet Keys" sequence="2" value="Furniture/Cabinet Keys"/>
+                <element dependent_value="Warehouse Support" inactive_on_update="false" label="Material Requisition" sequence="2" value="Material Requisition"/>
+                <element dependent_value="Request Something New" inactive_on_update="false" label="Other Requests" sequence="2" value="Other Requests"/>
+                <element dependent_value="Conference Room Support" inactive_on_update="false" label="Other Support" sequence="2" value="Other Support"/>
+                <element dependent_value="Move Assistance/Office Setup" inactive_on_update="false" label="Furniture Accessories" sequence="3" value="Furniture Accessories"/>
+                <element dependent_value="Waste Disposal" inactive_on_update="false" label="Hazardous Waste" sequence="3" value="Hazardous Waste"/>
+                <element dependent_value="Badge or Key Access" inactive_on_update="false" label="Long Term Contractor Badges" sequence="3" value="Long Term Contractor Badges"/>
+                <element dependent_value="Repair" inactive_on_update="false" label="Plumbing" sequence="3" value="Plumbing"/>
+                <element dependent_value="Warehouse Support" inactive_on_update="false" label="Warehouse to Warehouse Pallet/Equipment Move" sequence="3" value="Warehouse to Warehouse Pallet/Equipment Move"/>
+                <element dependent_value="Waste Disposal" inactive_on_update="false" label="Batteries/Universal Waste" sequence="4" value="Batteries/Universal Waste"/>
+                <element dependent_value="Repair" inactive_on_update="false" label="Electrical" sequence="4" value="Electrical"/>
+                <element dependent_value="Badge or Key Access" inactive_on_update="false" label="Short Term Contractor Activity" sequence="4" value="Short Term Contractor Activity"/>
+                <element dependent_value="Waste Disposal" inactive_on_update="false" label="Other Waste" sequence="5" value="Other Waste"/>
+                <element dependent_value="Repair" inactive_on_update="false" label="Temperature" sequence="5" value="Temperature"/>
+                <element dependent_value="Repair" inactive_on_update="false" label="Leak" sequence="6" value="Leak"/>
+                <element dependent_value="Repair" inactive_on_update="false" label="Coffee/Water/Vending" sequence="7" value="Coffee/Water/Vending"/>
+                <element dependent_value="Repair" inactive_on_update="false" label="Repair Other" sequence="8" value="Repair Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Meeting Space" max_length="32" name="meeting_space" reference="x_tebc2_fac_manage_conference_room_configuration_setups" type="reference"/>
+        <element label="Power strips" max_length="40" name="power_strips" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Project End Date" max_length="40" name="project_end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Project Start Date" max_length="40" name="project_start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Round" max_length="40" name="round_available" type="boolean"/>
+        <element label="Special Instructions" max_length="1000" name="special_instructions" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Meeting start date" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Meeting start time" max_length="40" name="start_time" type="string"/>
+        <element attributes="pdf_cell_type=image,edge_encryption_enabled=true" label="Table Arrangment" max_length="40" name="table_arrangment" type="user_image"/>
+        <element attributes="edge_encryption_enabled=true" label="Theater" max_length="40" name="theater_available" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="U Shape" max_length="40" name="u_shape_available" type="boolean"/>
+    </element>
+</database>

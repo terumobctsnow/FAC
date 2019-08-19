@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Ergonomics Assessment">388b581d6f542200739d841dba3ee4a1</catalog_item>
+        <catalog_variable>IO:699e5aa3db7cb6004dc4f236bf961916</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2017-02-13 21:31:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>69c0e227db7cb6004dc4f236bf9619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>number_of_days</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_69c0e227db7cb6004dc4f236bf9619fe</sys_update_name>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2017-02-13 21:31:14</sys_updated_on>
+        <table/>
+        <ui_policy display_value="if sit-to-stand desk?&quot; field is &quot;Yes&quot;">f7806aa3db7cb6004dc4f236bf9619c6</ui_policy>
+        <variable>number_of_days</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

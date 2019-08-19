@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>export_request</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2/>
+        <comments/>
+        <condition/>
+        <form_action>false</form_action>
+        <form_button>false</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>true</list_action>
+        <list_banner_button>true</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Export Requests</name>
+        <onclick>exportToPdf()</onclick>
+        <order>100</order>
+        <script><![CDATA[function exportToPdf(){
+   var checked = g_list.getChecked(); // get's the sys_id of the checked records 
+   var sys_list = "sys_idIN" + checked.toString();
+   var additional_params = ["active=true"].join("^");
+   var query = [sys_list, additional_params].join("^");
+   var rows = checked.split(",").length; // rows to be sent to the pdf function
+   var view = "conference_room"; // set this to the request view you want to use it on
+   var dialog = new GwtPollDialog(g_list.tableName, query, rows, view, 'unload_pdf+landscape');
+
+   dialog.execute();
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>mleighton</sys_created_by>
+        <sys_created_on>2018-05-02 18:29:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>261f0f02dbb19b000743f076bf961945</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>Export Requests</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_ui_action_261f0f02dbb19b000743f076bf961945</sys_update_name>
+        <sys_updated_by>mleighton</sys_updated_by>
+        <sys_updated_on>2018-06-29 22:09:57</sys_updated_on>
+        <table>x_tebc2_fac_manage_fac_management_table</table>
+        <ui11_compatible>false</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

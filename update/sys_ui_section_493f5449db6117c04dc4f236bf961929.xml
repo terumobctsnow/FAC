@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="493f5449db6117c04dc4f236bf961929" sys_domain="global" table="x_tebc2_fac_manage_fac_management_table" version="3" view="conference_room">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 14:53:59</sys_created_on>
+            <sys_id>3f143275db3e1300f4caff851d9619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">251891a26f5c62001d90f00dba3ee4bb</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_fac_management_table" sys_domain="global" view="f164e43ddbb21300a7bbff961d96196d">493f5449db6117c04dc4f236bf961929</sys_ui_section>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 14:53:59</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 14:53:59</sys_created_on>
+            <sys_id>b3143275db3e1300f4caff851d9619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_fac_management_table" sys_domain="global" view="f164e43ddbb21300a7bbff961d96196d">493f5449db6117c04dc4f236bf961929</sys_ui_section>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 14:53:59</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>2</position>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 14:53:59</sys_created_on>
+            <sys_id>37143275db3e1300f4caff851d9619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_fac_management_table" sys_domain="global" view="f164e43ddbb21300a7bbff961d96196d">493f5449db6117c04dc4f236bf961929</sys_ui_section>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 14:53:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_requester</element>
+            <position>3</position>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 14:53:59</sys_created_on>
+            <sys_id>b7143275db3e1300f4caff851d9619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_fac_management_table" sys_domain="global" view="f164e43ddbb21300a7bbff961d96196d">493f5449db6117c04dc4f236bf961929</sys_ui_section>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 14:53:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_requester.phone</element>
+            <position>4</position>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 14:53:59</sys_created_on>
+            <sys_id>3b143275db3e1300f4caff851d9619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_fac_management_table" sys_domain="global" view="f164e43ddbb21300a7bbff961d96196d">493f5449db6117c04dc4f236bf961929</sys_ui_section>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 14:53:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>alternate_contact</element>
+            <position>5</position>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 14:53:59</sys_created_on>
+            <sys_id>bb143275db3e1300f4caff851d9619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_fac_management_table" sys_domain="global" view="f164e43ddbb21300a7bbff961d96196d">493f5449db6117c04dc4f236bf961929</sys_ui_section>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 14:53:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>alternate_contact.phone</element>
+            <position>6</position>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 14:53:59</sys_created_on>
+            <sys_id>3f143275db3e1300f4caff851d9619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_fac_management_table" sys_domain="global" view="f164e43ddbb21300a7bbff961d96196d">493f5449db6117c04dc4f236bf961929</sys_ui_section>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 14:53:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>7</position>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 14:53:59</sys_created_on>
+            <sys_id>ff147eb5db3e1300f4caff851d9619c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_fac_management_table" sys_domain="global" view="f164e43ddbb21300a7bbff961d96196d">493f5449db6117c04dc4f236bf961929</sys_ui_section>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 14:53:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>item</element>
+            <position>8</position>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 14:53:59</sys_created_on>
+            <sys_id>73147eb5db3e1300f4caff851d9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_fac_management_table" sys_domain="global" view="f164e43ddbb21300a7bbff961d96196d">493f5449db6117c04dc4f236bf961929</sys_ui_section>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 14:53:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 14:53:59</sys_created_on>
+            <sys_id>f3147eb5db3e1300f4caff851d9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_fac_management_table" sys_domain="global" view="f164e43ddbb21300a7bbff961d96196d">493f5449db6117c04dc4f236bf961929</sys_ui_section>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 14:53:59</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_at</element>
+            <position>10</position>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 14:53:59</sys_created_on>
+            <sys_id>77147eb5db3e1300f4caff851d9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_fac_management_table" sys_domain="global" view="f164e43ddbb21300a7bbff961d96196d">493f5449db6117c04dc4f236bf961929</sys_ui_section>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 14:53:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>11</position>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 14:54:00</sys_created_on>
+            <sys_id>f7147eb5db3e1300f4caff851d9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_fac_management_table" sys_domain="global" view="f164e43ddbb21300a7bbff961d96196d">493f5449db6117c04dc4f236bf961929</sys_ui_section>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 14:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>12</position>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 14:54:00</sys_created_on>
+            <sys_id>7b147eb5db3e1300f4caff851d9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_fac_management_table" sys_domain="global" view="f164e43ddbb21300a7bbff961d96196d">493f5449db6117c04dc4f236bf961929</sys_ui_section>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 14:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>13</position>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 14:54:00</sys_created_on>
+            <sys_id>fb147eb5db3e1300f4caff851d9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_fac_management_table" sys_domain="global" view="f164e43ddbb21300a7bbff961d96196d">493f5449db6117c04dc4f236bf961929</sys_ui_section>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 14:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>14</position>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 14:54:00</sys_created_on>
+            <sys_id>7f147eb5db3e1300f4caff851d9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_fac_management_table" sys_domain="global" view="f164e43ddbb21300a7bbff961d96196d">493f5449db6117c04dc4f236bf961929</sys_ui_section>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 14:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>calendar_duration</element>
+            <position>15</position>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 14:54:00</sys_created_on>
+            <sys_id>ff147eb5db3e1300f4caff851d9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_fac_management_table" sys_domain="global" view="f164e43ddbb21300a7bbff961d96196d">493f5449db6117c04dc4f236bf961929</sys_ui_section>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 14:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>due_date</element>
+            <position>16</position>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 14:54:00</sys_created_on>
+            <sys_id>73147eb5db3e1300f4caff851d9619c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_fac_management_table" sys_domain="global" view="f164e43ddbb21300a7bbff961d96196d">493f5449db6117c04dc4f236bf961929</sys_ui_section>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 14:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>17</position>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-06-20 14:54:00</sys_created_on>
+            <sys_id>f3147eb5db3e1300f4caff851d9619c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_fac_management_table" sys_domain="global" view="f164e43ddbb21300a7bbff961d96196d">493f5449db6117c04dc4f236bf961929</sys_ui_section>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-06-20 14:54:00</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_tebc2_fac_manage_fac_management_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>mleighton</sys_created_by>
+            <sys_created_on>2018-04-16 16:49:26</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>493f5449db6117c04dc4f236bf961929</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_tebc2_fac_manage_fac_management_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+            <sys_update_name>sys_ui_section_493f5449db6117c04dc4f236bf961929</sys_update_name>
+            <sys_updated_by>mleighton</sys_updated_by>
+            <sys_updated_on>2018-04-16 16:49:26</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Conference Room" name="conference_room">f164e43ddbb21300a7bbff961d96196d</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

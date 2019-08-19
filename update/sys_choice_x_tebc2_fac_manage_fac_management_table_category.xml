@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="category" table="x_tebc2_fac_manage_fac_management_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Move Assistance/Office Setup</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_fac_management_table</name>
+            <sequence>0</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-08-04 18:12:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>cb88b3dd0f096600d7f9534f62050ed6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-08-04 18:12:39</sys_updated_on>
+            <value>Move Assistance/Office Setup</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Badge or Key Access</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_fac_management_table</name>
+            <sequence>1</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-08-04 18:12:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0f88b3dd0f096600d7f9534f62050ed6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-08-04 18:12:39</sys_updated_on>
+            <value>Badge or Key Access</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Waste Disposal</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_fac_management_table</name>
+            <sequence>2</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-08-04 18:12:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4f88b3dd0f096600d7f9534f62050ed6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-08-04 18:12:39</sys_updated_on>
+            <value>Waste Disposal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Can't Find My Issue</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_fac_management_table</name>
+            <sequence>3</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-08-04 18:12:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8f88b3dd0f096600d7f9534f62050ed6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-08-04 18:12:39</sys_updated_on>
+            <value>Can't Find My Issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Custodial Support</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_fac_management_table</name>
+            <sequence>4</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-08-04 18:12:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>cf88b3dd0f096600d7f9534f62050ed6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-08-04 18:12:39</sys_updated_on>
+            <value>Custodial Support</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ergonomics Assessment</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_fac_management_table</name>
+            <sequence>5</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-08-04 18:12:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0388b3dd0f096600d7f9534f62050ed7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-08-04 18:12:39</sys_updated_on>
+            <value>Ergonomics Assessment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Signage</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_fac_management_table</name>
+            <sequence>6</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-08-04 18:12:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4388b3dd0f096600d7f9534f62050ed7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-08-04 18:12:39</sys_updated_on>
+            <value>Signage</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Repair</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_fac_management_table</name>
+            <sequence>7</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-08-04 18:12:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8388b3dd0f096600d7f9534f62050ed7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-08-04 18:12:39</sys_updated_on>
+            <value>Repair</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request Something New</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_fac_management_table</name>
+            <sequence>8</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-08-04 18:12:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c388b3dd0f096600d7f9534f62050ed7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-08-04 18:12:39</sys_updated_on>
+            <value>Request Something New</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Conference Room Support</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_fac_management_table</name>
+            <sequence>9</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-08-04 18:12:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0788b3dd0f096600d7f9534f62050ed7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-08-04 18:12:39</sys_updated_on>
+            <value>Conference Room Support</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Warehouse Support</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_fac_management_table</name>
+            <sequence>10</sequence>
+            <sys_created_by>gfehnel</sys_created_by>
+            <sys_created_on>2019-05-14 19:54:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b742812bdb95f7c02568d2984b9619e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>gfehnel</sys_updated_by>
+            <sys_updated_on>2019-05-14 19:54:14</sys_updated_on>
+            <value>Warehouse Support</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <name>x_tebc2_fac_manage_fac_management_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-08-04 18:12:39</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>4788b3dd0f096600d7f9534f62050ed7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>category</sys_name>
+            <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+            <sys_update_name>sys_choice_x_tebc2_fac_manage_fac_management_table_category</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-08-04 18:12:39</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

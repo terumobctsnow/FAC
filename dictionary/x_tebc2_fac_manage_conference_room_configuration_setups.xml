@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="dl_matcher" label="Conference room configuration setups" max_length="40" name="x_tebc2_fac_manage_conference_room_configuration_setups" type="collection">
+        <element label="Arrangeable furniture" max_length="40" name="arrangeable_furniture" type="boolean"/>
+        <element dependent="assignment_group" dependent_on_field="assignment_group" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" reference_floats="true" type="reference" use_dependent_field="true"/>
+        <element label="Audio and Video Capable" max_length="40" name="audio_and_video_capable" type="boolean"/>
+        <element label="Banquet" max_length="40" name="banquet" type="integer"/>
+        <element choice="1" label="Building" max_length="40" name="building" type="string">
+            <choice>
+                <element inactive_on_update="false" label="10810 1st Floor" value="10810 1st Floor"/>
+                <element inactive_on_update="false" label="10810 2nd Floor" value="10810 2nd Floor"/>
+                <element inactive_on_update="false" label="10811 1st Floor" value="10811 1st Floor"/>
+                <element inactive_on_update="false" label="10811 2nd Floor" value="10811 2nd Floor"/>
+                <element inactive_on_update="false" label="10811 3rd Floor" value="10811 3rd Floor"/>
+                <element inactive_on_update="false" label="11158 1st Floor" value="11158 1st Floor"/>
+                <element inactive_on_update="false" label="11158 2nd Floor" value="11158 2nd Floor"/>
+                <element inactive_on_update="false" label="11158 3rd Floor" value="11158 3rd Floor"/>
+                <element inactive_on_update="false" label="1215 Quail" value="1215 Quail"/>
+                <element inactive_on_update="false" label="West of 10811" value="West of 10811"/>
+            </choice>
+        </element>
+        <element label="Camera" max_length="40" name="camera" type="boolean"/>
+        <element label="Classroom" max_length="40" name="classroom" type="integer"/>
+        <element label="Clusters" max_length="40" name="clusters" type="integer"/>
+        <element label="Event Setup" max_length="40" name="event_setup" type="integer"/>
+        <element label="Flipchart/Markerboard" max_length="40" name="flipchart_markerboard" type="boolean"/>
+        <element label="Location Phone" max_length="40" name="location_phone" type="string"/>
+        <element display="true" label="Meeting spaces" max_length="40" name="meeting_space" type="string"/>
+        <element label="Owner" max_length="40" name="owner" type="string"/>
+        <element label="Owner's Phone" max_length="40" name="owner_s_phone" type="string"/>
+        <element label="Podium" max_length="40" name="podium" type="boolean"/>
+        <element label="Round" max_length="40" name="round" type="integer"/>
+        <element label="Theatre" max_length="40" name="theatre" type="integer"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Conference Room" value="Conference Room"/>
+                <element inactive_on_update="false" label="Focus Room" value="Focus Room"/>
+                <element inactive_on_update="false" label="Outdoor" value="Outdoor"/>
+                <element inactive_on_update="false" label="Training Room" value="Training Room"/>
+            </choice>
+        </element>
+        <element label="U Table" max_length="40" name="u_table" type="integer"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

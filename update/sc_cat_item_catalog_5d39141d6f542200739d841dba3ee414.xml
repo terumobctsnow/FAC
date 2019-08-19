@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Other Set-Up Support">593914d96f542200739d841dba3ee449</sc_cat_item>
+        <sc_catalog display_value="Facilities Catalog">f8b190996f542200739d841dba3ee47a</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-27 19:09:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5d39141d6f542200739d841dba3ee414</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Facilities Catalog.Conference or Focus Room Supplies</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_5d39141d6f542200739d841dba3ee414</sys_update_name>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-06-27 19:09:47</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Material Requisition">bb248bacdb56b300d7f6138b4b961977</catalog_item>
+        <catalog_variable>IO:32c4c3ecdb56b300d7f6138b4b96198f</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>gfehnel</sys_created_by>
+        <sys_created_on>2019-07-16 21:11:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b52075f7dbee7bc0ef18e3a84b9619b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>equipment</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_b52075f7dbee7bc0ef18e3a84b9619b1</sys_update_name>
+        <sys_updated_by>gfehnel</sys_updated_by>
+        <sys_updated_on>2019-07-16 21:11:40</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make Cost Center Mandatory if Disposable is True">54479cb8dbdab300d7f6138b4b96194d</ui_policy>
+        <variable>equipment</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

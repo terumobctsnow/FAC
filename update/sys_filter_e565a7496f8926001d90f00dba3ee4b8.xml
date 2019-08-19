@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter">
+    <sys_filter action="INSERT_OR_UPDATE">
+        <filter table="x_tebc2_security_lakewood_locations">nameSTARTSWITH^nameISNOTEMPTY^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="false" value=""/>
+            <item endquery="false" field="name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <group/>
+        <last_used>2016-08-03 22:10:30</last_used>
+        <mobile>true</mobile>
+        <roles/>
+        <sys_class_name>sys_filter</sys_class_name>
+        <sys_created_by>jal4usb</sys_created_by>
+        <sys_created_on>2016-08-03 22:10:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>e565a7496f8926001d90f00dba3ee4b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mobile</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_filter_e565a7496f8926001d90f00dba3ee4b8</sys_update_name>
+        <sys_updated_by>jal4usb</sys_updated_by>
+        <sys_updated_on>2016-08-03 22:10:30</sys_updated_on>
+        <table>x_tebc2_security_lakewood_locations</table>
+        <title>mobile</title>
+        <user display_value="Julie Alexander (jal4usb)">1f7263340f020a00d7f9534f62050ef9</user>
+    </sys_filter>
+</record_update>

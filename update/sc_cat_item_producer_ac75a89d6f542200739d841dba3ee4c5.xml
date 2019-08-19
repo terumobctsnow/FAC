@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="Request Something New">3d45dcd56f542200739d841dba3ee49c</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Cleanroom/Controlled Environment Alteration</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>200</order>
+        <ordered_item_link/>
+        <picture/>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=ac75a89d6f542200739d841dba3ee4c5&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <redirect_url/>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>f8b190996f542200739d841dba3ee47a</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script/>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-27 20:03:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ac75a89d6f542200739d841dba3ee4c5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Cleanroom/Controlled Environment Alteration</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sc_cat_item_producer_ac75a89d6f542200739d841dba3ee4c5</sys_update_name>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-07-01 23:00:30</sys_updated_on>
+        <table_name>x_tebc2_fac_manage_fac_management_table</table_name>
+        <template display_value="Cleanroom/Controlled Environment Alterat">e841b56a6f5c62001d90f00dba3ee4b7</template>
+        <type>item</type>
+        <u_og_include>false</u_og_include>
+        <u_use_item_task_stages>true</u_use_item_task_stages>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=ac75a89d6f542200739d841dba3ee4c5"/>
+    <fx_price action="delete_multiple" query="id=ac75a89d6f542200739d841dba3ee4c5"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>ac75a89d6f542200739d841dba3ee4c5</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-27 20:03:15</sys_created_on>
+        <sys_id>6475a89d6f542200739d841dba3ee4c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-06-27 20:03:15</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>ac75a89d6f542200739d841dba3ee4c5</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-27 20:03:15</sys_created_on>
+        <sys_id>7875a89d6f542200739d841dba3ee4c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-06-27 20:03:15</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>icon</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1814</size_bytes>
+        <size_compressed>1837</size_compressed>
+        <state>available</state>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-29 21:22:00</sys_created_on>
+        <sys_id>6daacf3d6f106200739d841dba3ee470</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-04-23 17:00:28</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>ac75a89d6f542200739d841dba3ee4c5</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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
+RK5CYIISh1PzFgcAAA==</data>
+        <length>2452</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="6daacf3d6f106200739d841dba3ee470">6daacf3d6f106200739d841dba3ee470</sys_attachment>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-29 21:22:00</sys_created_on>
+        <sys_id>21aacf3d6f106200739d841dba3ee471</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>picture</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1814</size_bytes>
+        <size_compressed>1837</size_compressed>
+        <state>available</state>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-07-20 22:21:05</sys_created_on>
+        <sys_id>7f81a3646f342a001d90f00dba3ee485</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-04-15 18:02:41</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>ac75a89d6f542200739d841dba3ee4c5</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAAEWB+n4iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMA
+AAInAAACJwG+ElQIAAAAB3RJTUUH4AYREzg4nIhtNAAAAAd0RVh0QXV0aG9yAKmuzEgAAAAMdEVY
+dERlc2NyaXB0aW9uABMJISMAAAAKdEVYdENvcHlyaWdodACsD8w6AAAADnRFWHRDcmVhdGlvbiB0
+aW1lADX3DwkAAAAJdEVYdFNvZnR3YXJlAF1w/zoAAAALdEVYdERpc2NsYWltZXIAt8C0jwAAAAh0
+RVh0V2FybmluZwDAG+aHAAAAB3RFWHRTb3VyY2UA9f+D6wAAAAh0RVh0Q29tbWVudAD2zJa/AAAA
+BnRFWHRUaXRsZQCo7tInAAAF4UlEQVRoge2ay28bxx3HPzNL7pIU9bQcuqpjOWgc1UXQwLHbtEl6
+cls06KkFemmbQ4vmHuSUU/6BXgr0EqCHIvGlCPKwgRRtgdR5OHFrWIoixa+kim1Jlq2HSUl8787O
+TA9MFG0oxhKXlhwj3wvB3fn95vvZ2d2Z35DCWmu5C5S4HUmNMawsXmc1v0i9UsJLd5HtG2Agt5eE
+696OLhGdHhE9f43gvZehdB5dWcGqGiRTOOkeSA2TPPRzkgePdLJLoIMg1vcJJv6B+u8x7OoswoTN
+bZCQGSDx0C/xHv8tMpPtRNdAh0BsGOKf+RvBqb8g/dKt2ydSOA//gtRjf0D29MftHgDZiSTB+D9R
+m4QAEGEdPX4c//RfscZ0wkJ8EH3tCurMMcQmIT6TUDXC919BT03GtQDEBLG1Kv7YMWzhclvxQtXw
+3/kTprwaxwYQE0RPT2FnP0BY3XYOW5gh/PA/cWwAMUCs1uiFC5jCtVgGbK2InhvF1uux8rQPUqth
+CucRtvk1uxUJDLZ0FVNYjJWn/VurWiWcuxCr88+kl+cwSwuxcrQ/IkphS0uxOl9TbRVbLcdK0f5a
+S2tkEO3cJlKI7t3YRAr6hhBO8vNzRkNpEaGqmOJSJFaEdQj8tq1ADBDhedj+Eahexzv6DM7ww4h0
+P0IKEAKkbHyulzaAxWoDfglTnKf20jMIbwDRM7AzIDKXI/XjZ6m/8Ryy5z6ce+7ddKwA6M4iMr0g
+HZLf+z3JQ99v10rDT6zgvn5k9yAm397srOcuIrw0Tm5vHBsNL7GCeweQ2d0El0fbildTY4hkBrmF
+0WylWIWV6MpCegSW/42prEBNITIZRKarZYwNfGy5DNKCfw26DyB74z0f0IFlvLo4hsh2Y6rzqNGX
+cXr3gBhG9uwCx4m0teUi1l5HFy7jDB/B/fZR1PSHeId+EgsCOlDqJvYfhKSLOXsWO/UuIWAR4GUR
+8gsgfgVhVONLdhDhZXEf+GFcCw0fcROIdKapphBY2GBZL5qOfHp7dkAdKazuBH0Ncqfpa5CIhIDs
+ILZrAMStU9pkGnpykEjesu2mLXRqX8us5AlnR7GlRczNq4Sri1AtIIIqCIlN90Kqm2TufsTgfhJ7
+vovM7UN8cWHZpmKDWKUwpTz1Uy/ieA7uD36HcFNYpUBrMBoQjcnRcRCOJJg8QTh9Hu/R3+DkDiC8
++Nuobc8jtlohnPsEdfVt9MQJRKWA6tuL6DqI+8hRZCbTHGMM4cVJ/Im/IxcuUf/kTcSDT+COPIGz
+535Eb1/bI7SlEbE6xCzdQE+dQ+fHCK+cQRTnYf0uSrqPxCNP4h35VWSys/U66sJbBO8+D8sz6y1g
+s7tw9h3C6T9MYuQwMrcX4XqdBzH5BYKJk+jpcfBnscUFbHWlqW5aM+12kThwFPexp3C+8U1MsYg6
+fQx17gS2km/M/BvFJTPIviFIDyEHR3AP/wxn6L74ICa/hJo8jhp7FVu9Cda0NNGcWWJ3P4D36JP4
+o68h5sajI/clspZGhelmSXznp7hHfo3csw8hW78RW4KY/BL+G39Ef/wWbLCzvm0SDvLeh3Aff5rE
+gQdbNtsQ0VbKBKdfILx0cmchAKzGzLxP8N6fMcXlls2aQGwY4o+fQF14HUFndso7IT07Tv3t57Et
+dluaQPT0x6iJ44h68bab24qECQkvnSSYOMVGT0MExCqFmnkHUZjeNoNbkawtE868iS02795HQWo1
+1Ll/7fxz0UrWYK6Ooudmm05FQMzi/xCFmaZGd5TKN7Erk9gwerEjIOHls5ufJ3ZIAks4+wFGqcjx
+KMjM+W011a70jY++fERYjvejzbapON9YWa/TGkh1eRGc2rZ7akfChgTF6EVfAwnKq5/WDl8N6cpK
+5PtdU7OvFVZdg0Oo/T/CXBmF0AdHAyY6i9pwe0ZNOCCjNZ+QEsIEOEnErmHc3Lei51utfoNykdrK
+wucg1lIvLVPJ37g95tcp1d1PZiAX2XL1sn2k++9pGdPxfwftlO6aZ+T/Ox6eNH6C7+wAAAAASUVO
+RK5CYIISh1PzFgcAAA==</data>
+        <length>2452</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="7f81a3646f342a001d90f00dba3ee485">7f81a3646f342a001d90f00dba3ee485</sys_attachment>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-07-20 22:21:05</sys_created_on>
+        <sys_id>3381a3646f342a001d90f00dba3ee486</sys_id>
+    </sys_attachment_doc>
+</record_update>

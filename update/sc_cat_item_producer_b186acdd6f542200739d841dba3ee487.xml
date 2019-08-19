@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="Waste Disposal">c52598596f542200739d841dba3ee4f7</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Other Waste</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>700</order>
+        <ordered_item_link/>
+        <picture/>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=b186acdd6f542200739d841dba3ee487&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <redirect_url/>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>f8b190996f542200739d841dba3ee47a</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script/>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-27 20:07:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b186acdd6f542200739d841dba3ee487</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Other Waste</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sc_cat_item_producer_b186acdd6f542200739d841dba3ee487</sys_update_name>
+        <sys_updated_by>ttaylor</sys_updated_by>
+        <sys_updated_on>2018-08-22 17:00:23</sys_updated_on>
+        <table_name>x_tebc2_fac_manage_fac_management_table</table_name>
+        <template display_value="Other Waste">3a6fa92a6f5c62001d90f00dba3ee485</template>
+        <type>item</type>
+        <u_og_include>false</u_og_include>
+        <u_use_item_task_stages>true</u_use_item_task_stages>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=b186acdd6f542200739d841dba3ee487"/>
+    <fx_price action="delete_multiple" query="id=b186acdd6f542200739d841dba3ee487"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>b186acdd6f542200739d841dba3ee487</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-27 20:07:59</sys_created_on>
+        <sys_id>7986acdd6f542200739d841dba3ee487</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-06-27 20:07:59</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>b186acdd6f542200739d841dba3ee487</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-27 20:07:59</sys_created_on>
+        <sys_id>7d86acdd6f542200739d841dba3ee487</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-06-27 20:07:59</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes/>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>icon</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>2605</size_bytes>
+        <size_compressed>2449</size_compressed>
+        <state>available</state>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-29 21:17:45</sys_created_on>
+        <sys_id>17a94b3d6f106200739d841dba3ee4d2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-04-13 15:10:25</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>b186acdd6f542200739d841dba3ee487</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>3268</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="17a94b3d6f106200739d841dba3ee4d2">17a94b3d6f106200739d841dba3ee4d2</sys_attachment>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-06-29 21:17:45</sys_created_on>
+        <sys_id>57a94b3d6f106200739d841dba3ee4d2</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes/>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>picture</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>2605</size_bytes>
+        <size_compressed>2449</size_compressed>
+        <state>available</state>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-07-20 22:08:57</sys_created_on>
+        <sys_id>c2ced3a46f342a00739d841dba3ee46e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-04-22 16:46:57</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>b186acdd6f542200739d841dba3ee487</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>3268</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="c2ced3a46f342a00739d841dba3ee46e">c2ced3a46f342a00739d841dba3ee46e</sys_attachment>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-07-20 22:08:57</sys_created_on>
+        <sys_id>06ced3a46f342a00739d841dba3ee46e</sys_id>
+    </sys_attachment_doc>
+</record_update>

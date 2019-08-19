@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Facilities Timecards</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_tebc2_fac_manage_timecards</name>
+        <number_ref display_value="SSRT">d667978adbfeb6000743f076bf961937</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <super_class display_value="FAC Management" name="x_tebc2_fac_manage_fac_management_table">582118596f542200739d841dba3ee4f7</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2017-05-19 19:44:19</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>b537578adbfeb6000743f076bf96194b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Facilities Timecards</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_db_object_b537578adbfeb6000743f076bf96194b</sys_update_name>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2017-05-25 16:50:01</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_tebc2_fac_manage.user" name="x_tebc2_fac_manage.user">1c21dc596f542200739d841dba3ee428</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

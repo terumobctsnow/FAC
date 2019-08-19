@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_trigger_auto_script">
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Trigger:2d76bc21db42ff00d91118df4b9619c6</name>
+        <run_as display_value="Cori Campbell (ccampbell)">9a51998ddb0477002568d2984b9619f5</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2019-06-14 20:58:42</run_start>
+        <run_time>1970-01-01 17:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('2d76bc21db42ff00d91118df4b9619c6');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-06-14 20:58:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a65abca5db42ff00d91118df4b9619f3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Trigger:2d76bc21db42ff00d91118df4b9619c6</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_flow_trigger_auto_script_a65abca5db42ff00d91118df4b9619f3</sys_update_name>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-06-14 21:14:42</sys_updated_on>
+        <trigger display_value="">2d76bc21db42ff00d91118df4b9619c6</trigger>
+        <upgrade_safe>false</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+</record_update>

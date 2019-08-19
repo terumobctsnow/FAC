@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="package_pickup_location" label="Package Pickup Location" language="en" table="x_tebc2_fac_manage_packages">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>package_pickup_location</element>
+            <help/>
+            <hint/>
+            <label>Package Pickup Location</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_packages</name>
+            <plural>Package Pickup Locations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ccampbell</sys_created_by>
+            <sys_created_on>2019-06-10 19:31:27</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>59004018dbcef700d7f6138b4b96198e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Package Pickup Location</sys_name>
+            <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+            <sys_update_name>sys_documentation_x_tebc2_fac_manage_packages_package_pickup_location_en</sys_update_name>
+            <sys_updated_by>ccampbell</sys_updated_by>
+            <sys_updated_on>2019-06-10 19:31:27</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
