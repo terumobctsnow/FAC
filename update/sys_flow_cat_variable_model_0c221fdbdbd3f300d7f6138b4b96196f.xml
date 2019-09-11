@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_cat_variable_model">
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>8c221fdbdbd3f300d7f6138b4b96196e</id>
+        <name>Package Pickup Reminder</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-08-21 21:49:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0c221fdbdbd3f300d7f6138b4b96196f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Package Pickup Reminder</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_0c221fdbdbd3f300d7f6138b4b96196f</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-08-21 21:49:40</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>

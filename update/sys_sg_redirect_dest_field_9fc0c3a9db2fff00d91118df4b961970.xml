@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_redirect_dest_field">
+    <sys_sg_redirect_dest_field action="INSERT_OR_UPDATE">
+        <button display_value="FAC View Variable Options">32a0cb29db2fff00d91118df4b96198e</button>
+        <button_table>x_tebc2_fac_manage_fac_management_table</button_table>
+        <constant_value/>
+        <destination_ui_parameter display_value="Variables">59bfb629db2fff00d91118df4b96194c</destination_ui_parameter>
+        <source_field>sys_id</source_field>
+        <source_ui_parameter/>
+        <sys_class_name>sys_sg_redirect_dest_field</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-08-28 20:20:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9fc0c3a9db2fff00d91118df4b961970</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>59bfb629db2fff00d91118df4b96194c</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_redirect_dest_field_9fc0c3a9db2fff00d91118df4b961970</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-08-28 20:20:19</sys_updated_on>
+        <type>field</type>
+    </sys_sg_redirect_dest_field>
+</record_update>

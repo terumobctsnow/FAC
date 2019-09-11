@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Add Comments PKG">28a6b836db5b7300d91118df4b9619f2</button>
+        <item_parameter display_value="Add_Comments_PKG_Comments_IP">bf167cf2db5b7300d91118df4b9619c8</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-08-19 21:15:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9c07b076db5b7300d91118df4b961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bf167cf2db5b7300d91118df4b9619c8</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_9c07b076db5b7300d91118df4b961907</sys_update_name>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-08-19 21:15:08</sys_updated_on>
+        <ui_parameter display_value="Add Comments">6ad63076db5b7300d91118df4b961900</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

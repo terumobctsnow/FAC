@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id display_value="Custodial" name="Custodial">14df53d90fc56600d7f9534f62050e1d</group_id>
+        <report_id display_value="test report">806e89e4db7fff40d91118df4b9619ab</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>essuser15</sys_created_by>
+        <sys_created_on>2019-09-06 19:43:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f8ce49e4db7fff40d91118df4b9619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>806e89e4db7fff40d91118df4b9619ab</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_report_users_groups_f8ce49e4db7fff40d91118df4b9619ee</sys_update_name>
+        <sys_updated_by>essuser15</sys_updated_by>
+        <sys_updated_on>2019-09-06 19:43:50</sys_updated_on>
+        <user_id/>
+    </sys_report_users_groups>
+</record_update>

@@ -22,7 +22,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_tebc2_fac_manage_packages" name="x_tebc2_fac_manage_packages" sys_domain="global" view="Default view">d1918f05db8afb00d7f6138b4b961991</sys_ui_form>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_tebc2_fac_manage_packages" sys_domain="global" view="Default view">15918f05db8afb00d7f6138b4b961990</sys_ui_section>
+            <sys_ui_section caption="Additional Information" display_value="Additional Information" name="x_tebc2_fac_manage_packages" sys_domain="global" view="Default view">15918f05db8afb00d7f6138b4b961990</sys_ui_section>
             <sys_updated_by>ccampbell</sys_updated_by>
             <sys_updated_on>2019-06-13 17:32:34</sys_updated_on>
         </sys_ui_form_section>

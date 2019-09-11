@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Reassign FAC">a383bddddbaf7f00d91118df4b961937</button>
+        <description/>
+        <field_name/>
+        <label>Reassign</label>
+        <location>top</location>
+        <name>Reassign</name>
+        <order>3</order>
+        <parent>2a19e19ddb6f7f00d91118df4b96198b</parent>
+        <parent_table>sys_sg_details_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-08-27 20:42:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a83c711ddbef7f00d91118df4b961993</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Reassign</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_button_instance_a83c711ddbef7f00d91118df4b961993</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-08-27 20:44:39</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+</record_update>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="x_tebc2_fac_manage_fac_management_table" label="Facilities Timecards" max_length="40" name="x_tebc2_fac_manage_timecards" sizeclass="151" text_index="true" type="collection">
+    <element audit="true" extends="x_tebc2_fac_manage_fac_management_table" label="Facilities Timecards" max_length="40" name="x_tebc2_fac_manage_timecards" sizeclass="153" text_index="true" type="collection">
         <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Time Card User" max_length="32" name="time_card_user" reference="sys_user" reference_qual="roles=x_tebc2_fac_manage.user^EQ" reference_qual_condition="roles=x_tebc2_fac_manage.user^EQ" type="reference" use_dynamic_default="true"/>
     </element>
 </database>

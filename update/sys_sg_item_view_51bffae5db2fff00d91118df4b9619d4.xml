@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view">
+    <sys_sg_item_view action="INSERT_OR_UPDATE">
+        <data_item display_value="FAC Variables">558e76e5db2fff00d91118df4b961977</data_item>
+        <dependency_fields>question,value</dependency_fields>
+        <item_view_json>{"Type":"ViewGroup","Margin":{"Top":15,"Bottom":17},"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Children":[{"Type":"Text","Margin":{},"studio_template_field_id":"E1","TextColor":"#293e40","TextAlignment":"Left","MaxLines":2,"Font":{"Weight":"medium","Size":18},"CellId":"question"},{"Type":"ViewGroup","Margin":{"Top":12},"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Children":[{"Type":"Text","Margin":{"Right":8},"studio_template_is_label":true,"studio_template_field_id":"E2","TextColor":"#7d8a8c","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Text":"${value}"},{"Type":"Text","Margin":{},"studio_template_field_id":"E2","TextColor":"#293e40","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"CellId":"value"}]},{"Type":"ViewGroup","Margin":{"Top":8},"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Children":[{"Type":"Text","Margin":{"Right":8},"studio_template_is_label":true,"studio_template_field_id":"E3","TextColor":"#7d8a8c","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13}},{"Type":"Text","Margin":{},"studio_template_field_id":"E3","TextColor":"#293e40","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13}}]},{"Type":"ViewGroup","Margin":{"Top":8},"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Children":[{"Type":"Text","Margin":{"Right":8},"studio_template_is_label":true,"studio_template_field_id":"E4","TextColor":"#7d8a8c","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13}},{"Type":"Text","Margin":{},"studio_template_field_id":"E4","TextColor":"#293e40","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13}}]}],"studio_card_id":"1e53f49d23412300a8ed7f4fc7bf6540"}</item_view_json>
+        <name>FAC Variables item view</name>
+        <short_description/>
+        <sys_class_name>sys_sg_item_view</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-08-28 20:15:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>51bffae5db2fff00d91118df4b9619d4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>FAC Variables item view</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_item_view_51bffae5db2fff00d91118df4b9619d4</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-08-28 21:08:04</sys_updated_on>
+        <ui_styles/>
+    </sys_sg_item_view>
+</record_update>

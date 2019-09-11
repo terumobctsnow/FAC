@@ -14,7 +14,7 @@
         <master>true</master>
         <name>Package Pickup Reminder</name>
         <outputs/>
-        <parent_flow display_value="Package Pickup Reminder">1029d34ddbcafb00d7f6138b4b961994</parent_flow>
+        <parent_flow/>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <sc_callable>false</sc_callable>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_application">
+    <sys_sg_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_offline>false</available_offline>
+        <default>false</default>
+        <description/>
+        <icon display_value="building">eac0a8fedbd73300d91118df4b961916</icon>
+        <name>Facilities Management</name>
+        <order/>
+        <roles/>
+        <sys_class_name>sys_sg_application</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-08-19 19:37:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>26c06876dbd73300d91118df4b961923</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Facilities Management</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_application_26c06876dbd73300d91118df4b961923</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-08-27 18:46:01</sys_updated_on>
+    </sys_sg_application>
+</record_update>

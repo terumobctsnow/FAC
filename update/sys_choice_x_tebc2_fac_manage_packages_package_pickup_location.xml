@@ -8,14 +8,14 @@
             <label>810 Building Package Pickup</label>
             <language>en</language>
             <name>x_tebc2_fac_manage_packages</name>
-            <sequence/>
+            <sequence>0</sequence>
             <sys_created_by>ccampbell</sys_created_by>
             <sys_created_on>2019-06-10 19:32:01</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>7b00c018dbcef700d7f6138b4b961930</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ccampbell</sys_updated_by>
-            <sys_updated_on>2019-06-10 19:32:01</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sswartwood</sys_updated_by>
+            <sys_updated_on>2019-08-19 21:07:52</sys_updated_on>
             <value>810 Building Package Pickup</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -26,15 +26,51 @@
             <label>811 Building Package Pickup</label>
             <language>en</language>
             <name>x_tebc2_fac_manage_packages</name>
-            <sequence/>
+            <sequence>1</sequence>
             <sys_created_by>ccampbell</sys_created_by>
             <sys_created_on>2019-06-10 19:34:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>6320c018dbcef700d7f6138b4b961957</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ccampbell</sys_updated_by>
-            <sys_updated_on>2019-06-10 19:34:19</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sswartwood</sys_updated_by>
+            <sys_updated_on>2019-08-19 21:07:52</sys_updated_on>
             <value>811 Building Package Pickup</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_pickup_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>810 Warehouse</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_packages</name>
+            <sequence>2</sequence>
+            <sys_created_by>sswartwood</sys_created_by>
+            <sys_created_on>2019-08-19 21:07:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8c65f4fedb1b7300d91118df4b961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sswartwood</sys_updated_by>
+            <sys_updated_on>2019-08-19 21:07:52</sys_updated_on>
+            <value>810 Warehouse</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_pickup_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>811 Warehouse</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_packages</name>
+            <sequence>3</sequence>
+            <sys_created_by>sswartwood</sys_created_by>
+            <sys_created_on>2019-08-19 21:07:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1c65b8fedb1b7300d91118df4b9619c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sswartwood</sys_updated_by>
+            <sys_updated_on>2019-08-19 21:07:52</sys_updated_on>
+            <value>811 Warehouse</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>package_pickup_location</element>
@@ -43,7 +79,7 @@
             <sys_created_by>ccampbell</sys_created_by>
             <sys_created_on>2019-06-10 19:32:01</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>8be9a19edbb2f700ef18e3a84b961998</sys_id>
+            <sys_id>53952c36dbdf3300d91118df4b961978</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>package_pickup_location</sys_name>
             <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>

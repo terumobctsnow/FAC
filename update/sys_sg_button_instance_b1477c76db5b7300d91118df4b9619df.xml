@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Add Comments PKG">28a6b836db5b7300d91118df4b9619f2</button>
+        <description/>
+        <field_name/>
+        <label>Add Comments</label>
+        <location>leading_swipe</location>
+        <name>Add Comments</name>
+        <order>4</order>
+        <parent>5a7f2c36db1b7300d91118df4b9619d1</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-08-19 21:16:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b1477c76db5b7300d91118df4b9619df</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Add Comments</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_button_instance_b1477c76db5b7300d91118df4b9619df</sys_update_name>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-08-19 21:19:43</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+</record_update>
