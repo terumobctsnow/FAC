@@ -33,7 +33,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>3d594764db96b300d7f6138b4b961949</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Display if Equipment is selected</sys_name>
         <sys_overrides/>
         <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
@@ -41,8 +41,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
         <sys_update_name>catalog_ui_policy_3d594764db96b300d7f6138b4b961949</sys_update_name>
-        <sys_updated_by>gfehnel</sys_updated_by>
-        <sys_updated_on>2019-06-24 15:05:46</sys_updated_on>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-17 17:22:20</sys_updated_on>
         <table/>
         <u_invisible/>
         <u_mandatory/>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button">
     <sys_sg_button action="INSERT_OR_UPDATE">
+        <acknowledgement_confirm_label/>
         <allow_images_upload>false</allow_images_upload>
         <auto_redirection>false</auto_redirection>
+        <button_table_field_name/>
         <cancel_label/>
         <condition/>
         <condition_script/>
@@ -14,6 +16,7 @@
         <external_browser>false</external_browser>
         <failure_message/>
         <field_name/>
+        <jump_to_previous>false</jump_to_previous>
         <jump_to_screen>false</jump_to_screen>
         <link_label/>
         <link_url/>
@@ -23,10 +26,14 @@
         <name>Pickup PKG</name>
         <phone_number/>
         <phone_type>cellular</phone_type>
+        <preconditions/>
         <relative_url>true</relative_url>
         <roles/>
+        <save_signature_before_action_execution>false</save_signature_before_action_execution>
         <select_current_record>false</select_current_record>
+        <show_acknowledgement>false</show_acknowledgement>
         <show_confirmation>false</show_confirmation>
+        <show_refresh_on_previous>false</show_refresh_on_previous>
         <show_signature>false</show_signature>
         <sms/>
         <success_message/>
@@ -47,6 +54,7 @@
         <table/>
         <take_value_from_field>false</take_value_from_field>
         <type>write_back</type>
+        <use_overlay>false</use_overlay>
         <write_back_action_item display_value="Pickup PKG">b391307adb1b7300d91118df4b961905</write_back_action_item>
     </sys_sg_button>
 </record_update>

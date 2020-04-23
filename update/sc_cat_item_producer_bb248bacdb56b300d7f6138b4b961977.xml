@@ -11,6 +11,7 @@
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description><![CDATA[<p><span style="font-size: 12pt;">Please select from the options below.  After submitting your request you will receive an email.  Once the request is completed, the Materials Team will drop your material off to either the 10810 or 10811 package pickup rooms and a confirmation email will be sent to you.  Please allow up to 24 hours from the time of the request.</span></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
         <group/>
@@ -62,15 +63,15 @@
         <sys_created_on>2019-06-24 14:42:45</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>bb248bacdb56b300d7f6138b4b961977</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Material Requisition</sys_name>
         <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
         <sys_update_name>sc_cat_item_producer_bb248bacdb56b300d7f6138b4b961977</sys_update_name>
-        <sys_updated_by>gfehnel</sys_updated_by>
-        <sys_updated_on>2019-07-16 21:30:56</sys_updated_on>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-17 16:34:28</sys_updated_on>
         <table_name>x_tebc2_fac_manage_fac_management_table</table_name>
         <template display_value="Material Requisition">9be444afdbe6f300d7f6138b4b9619a8</template>
         <type>item</type>
@@ -126,6 +127,7 @@
         <compressed>true</compressed>
         <content_type>image/png</content_type>
         <file_name>icon</file_name>
+        <hash/>
         <image_height>57</image_height>
         <image_width>50</image_width>
         <size_bytes>3060</size_bytes>
@@ -164,6 +166,7 @@
         <compressed>true</compressed>
         <content_type>image/png</content_type>
         <file_name>picture</file_name>
+        <hash/>
         <image_height>171</image_height>
         <image_width>150</image_width>
         <size_bytes>10095</size_bytes>

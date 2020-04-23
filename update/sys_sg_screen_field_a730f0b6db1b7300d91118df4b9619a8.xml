@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
     <sys_sg_screen_field action="INSERT_OR_UPDATE">
         <data_item_field_name>u_placed_in_room_by</data_item_field_name>
+        <description_text/>
+        <description_text_field/>
+        <description_text_type/>
+        <field_name/>
         <hidden>false</hidden>
         <order>20</order>
+        <record_id_field/>
         <screen display_value="Details">527f2c36db1b7300d91118df4b96194f</screen>
         <screen_data_item_table>x_tebc2_fac_manage_packages</screen_data_item_table>
         <sys_class_name>sys_sg_screen_field</sys_class_name>
@@ -20,5 +25,6 @@
         <sys_updated_by>ccampbell</sys_updated_by>
         <sys_updated_on>2019-08-19 20:45:26</sys_updated_on>
         <type>auto</type>
+        <value_only>false</value_only>
     </sys_sg_screen_field>
 </record_update>

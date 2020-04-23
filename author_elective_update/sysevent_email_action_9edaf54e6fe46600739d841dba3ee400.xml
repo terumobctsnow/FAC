@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="DELETE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <collection>x_tebc2_fac_manage_fac_management_table</collection>
+        <condition table="x_tebc2_fac_manage_fac_management_table">assignment_groupVALCHANGES^assigned_toISEMPTY^EQ<item endquery="false" field="assignment_group" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name>approval.cancelled</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>&nbsp;&nbsp;<font face="Courier New">${mail_script:fac_from}</font></p>
+<p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"><font size="3">The following&nbsp; has been assigned to your group but has not been assigned to a specific individual:</font></p>
+<p>&nbsp;</p>
+<p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"><font size="3">SSR#: ${URI_REF}&nbsp;</font></p>
+<p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"><font size="3">Category: ${category}</font></p>
+<p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"><font size="3">Item: ${item}</font></p>
+<p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"><font size="3">Requester: ${u_requester}</font></p>
+<p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"><font size="3">Date Needed: ${due_date}</font></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Facilities - Assignment Group</name>
+        <omit_watermark>false</omit_watermark>
+        <order>200</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>assignment_group</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>${number} - ${item} - Has been assigned to your group</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-07-12 20:38:24</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>9edaf54e6fe46600739d841dba3ee400</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Facilities - Assignment Group</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sysevent_email_action_9edaf54e6fe46600739d841dba3ee400</sys_update_name>
+        <sys_updated_by>ttaylor</sys_updated_by>
+        <sys_updated_on>2017-02-24 18:22:15</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FAC Management">182118596f542200739d841dba3ee4f7</application>
+        <file_path/>
+        <instance_id>77d7af506ff51140ffcca9cc5d3ee449</instance_id>
+        <instance_name>terumobct</instance_name>
+        <name>sysevent_email_action_9edaf54e6fe46600739d841dba3ee400</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;collection&gt;x_tebc2_fac_manage_fac_management_table&lt;/collection&gt;&lt;condition table="x_tebc2_fac_manage_fac_management_table"&gt;assignment_groupVALCHANGES^assigned_toISEMPTY^EQ&lt;item endquery="false" field="assignment_group" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;description/&gt;&lt;event_name&gt;approval.cancelled&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;engine&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&amp;nbsp;&lt;font face="Courier New"&gt;${mail_script:fac_from}&lt;/font&gt;&lt;/p&gt;
+&lt;p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"&gt;&lt;font size="3"&gt;The following&amp;nbsp; has been assigned to your group but has not been assigned to a specific individual:&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"&gt;&lt;font size="3"&gt;SSR#: ${URI_REF}&amp;nbsp;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"&gt;&lt;font size="3"&gt;Category: ${category}&lt;/font&gt;&lt;/p&gt;
+&lt;p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"&gt;&lt;font size="3"&gt;Item: ${item}&lt;/font&gt;&lt;/p&gt;
+&lt;p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"&gt;&lt;font size="3"&gt;Requester: ${u_requester}&lt;/font&gt;&lt;/p&gt;
+&lt;p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"&gt;&lt;font size="3"&gt;Date Needed: ${due_date}&lt;/font&gt;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;Facilities - Assignment Group&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;200&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;assignment_group&lt;/recipient_fields&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;${number} - ${item} - Has been assigned to your group&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jalexan&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-07-12 20:38:24&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;9edaf54e6fe46600739d841dba3ee400&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;Facilities - Assignment Group&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="FAC Management" source="x_tebc2_fac_manage"&gt;182118596f542200739d841dba3ee4f7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="FAC Management"&gt;182118596f542200739d841dba3ee4f7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_9edaf54e6fe46600739d841dba3ee400&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ttaylor&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-02-24 18:22:15&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template/&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1047162618</payload_hash>
+        <record_name>Facilities - Assignment Group</record_name>
+        <reverted_from/>
+        <source>e9dcc06d0fcd66000c7a937f62050e19</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ttaylor</sys_created_by>
+        <sys_created_on>2017-02-24 18:22:15</sys_created_on>
+        <sys_id>681f9a4713cd7e006bf7b6076144b002</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>15a715befd80000000</sys_recorded_at>
+        <sys_updated_by>ttaylor</sys_updated_by>
+        <sys_updated_on>2017-02-24 18:22:15</sys_updated_on>
+        <type>Notification</type>
+        <u_link>[code]&lt;a title="sysevent_email_action_9edaf54e6fe46600739d841dba3ee400" class="linked" href="sysevent_email_action.do?sys_id=9edaf54e6fe46600739d841dba3ee400"&gt;sysevent_email_action_9edaf54e6fe46600739d841dba3ee400&lt;/a&gt;[/code]</u_link>
+        <update_guid/>
+        <update_guid_history/>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ttaylor</sys_created_by>
+        <sys_created_on>2018-04-12 22:25:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sysevent_email_action">sysevent_email_action</sys_db_object>
+        <sys_id>13e1d082c4594182a8b29ec5cf111864</sys_id>
+        <sys_metadata>9edaf54e6fe46600739d841dba3ee400</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Facilities - Assignment Group</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_parent display_value="FAC Management">582118596f542200739d841dba3ee4f7</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_scope_delete display_value="">9391a06a538a4baaacdb46ca9f813089</sys_scope_delete>
+        <sys_update_name>sysevent_email_action_9edaf54e6fe46600739d841dba3ee400</sys_update_name>
+        <sys_update_version display_value="sysevent_email_action_9edaf54e6fe46600739d841dba3ee400">681f9a4713cd7e006bf7b6076144b002</sys_update_version>
+        <sys_updated_by>ttaylor</sys_updated_by>
+        <sys_updated_on>2018-04-12 22:25:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="DELETE">
+        <group_id display_value="Facilities Engineering" name="Facilities Engineering">135f57990fc56600d7f9534f62050e07</group_id>
+        <report_id display_value="Packages - Help Needed">c43ddd2adb908810d91118df4b9619d2</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-10-07 22:29:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8c0e996adb908810d91118df4b96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c43ddd2adb908810d91118df4b9619d2</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_report_users_groups_8c0e996adb908810d91118df4b96198e</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-07 22:29:40</sys_updated_on>
+        <user_id/>
+    </sys_report_users_groups>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FAC Management">182118596f542200739d841dba3ee4f7</application>
+        <file_path/>
+        <instance_id>3bd7af506ff51140ffcca9cc5d3ee43e</instance_id>
+        <instance_name>terumobctdev</instance_name>
+        <name>sys_report_users_groups_8c0e996adb908810d91118df4b96198e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups"><sys_report_users_groups action="INSERT_OR_UPDATE"><group_id display_value="Facilities Engineering" name="Facilities Engineering">135f57990fc56600d7f9534f62050e07</group_id><report_id display_value="Packages - Help Needed">c43ddd2adb908810d91118df4b9619d2</report_id><sys_class_name>sys_report_users_groups</sys_class_name><sys_created_by>sswartwood</sys_created_by><sys_created_on>2019-10-07 22:29:40</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>8c0e996adb908810d91118df4b96198e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>c43ddd2adb908810d91118df4b9619d2</sys_name><sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope><sys_update_name>sys_report_users_groups_8c0e996adb908810d91118df4b96198e</sys_update_name><sys_updated_by>sswartwood</sys_updated_by><sys_updated_on>2019-10-07 22:29:40</sys_updated_on><user_id/></sys_report_users_groups></record_update>]]></payload>
+        <payload_hash>1996104693</payload_hash>
+        <record_name>c43ddd2adb908810d91118df4b9619d2</record_name>
+        <reverted_from/>
+        <source>5e4b68addb908010d91118df4b9619fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-10-07 22:29:40</sys_created_on>
+        <sys_id>880e51eadb908810d91118df4b961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16da857a8500000001</sys_recorded_at>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-07 22:29:40</sys_updated_on>
+        <type>Report Users and Groups</type>
+        <u_link>[code]&lt;a title="sys_report_users_groups_8c0e996adb908810d91118df4b96198e" class="linked" href="sys_report_users_groups.do?sys_id=8c0e996adb908810d91118df4b96198e"&gt;sys_report_users_groups_8c0e996adb908810d91118df4b96198e&lt;/a&gt;[/code]</u_link>
+        <update_guid>4c0e996a789088109bc2ec69ea8e618f</update_guid>
+        <update_guid_history>4c0e996a789088109bc2ec69ea8e618f:1996104693</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-10-08 01:12:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_report_users_groups">sys_report_users_groups</sys_db_object>
+        <sys_id>99bf4dc8f9354024b1af0da695e76984</sys_id>
+        <sys_metadata>8c0e996adb908810d91118df4b96198e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c43ddd2adb908810d91118df4b9619d2</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_parent display_value="Packages - Help Needed">c43ddd2adb908810d91118df4b9619d2</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_scope_delete display_value="">9391a06a538a4baaacdb46ca9f813089</sys_scope_delete>
+        <sys_update_name>sys_report_users_groups_8c0e996adb908810d91118df4b96198e</sys_update_name>
+        <sys_update_version display_value="sys_report_users_groups_8c0e996adb908810d91118df4b96198e">880e51eadb908810d91118df4b961940</sys_update_version>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-08 01:12:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

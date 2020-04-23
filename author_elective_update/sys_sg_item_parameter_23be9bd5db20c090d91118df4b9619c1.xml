@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="DELETE">
+        <default_value/>
+        <name>Other Location</name>
+        <parent>b391307adb1b7300d91118df4b961905</parent>
+        <parent_table>sys_sg_write_back_action_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-10-16 20:55:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>23be9bd5db20c090d91118df4b9619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Other Location</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_23be9bd5db20c090d91118df4b9619c1</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-16 20:55:35</sys_updated_on>
+        <type>string</type>
+    </sys_sg_item_parameter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FAC Management">182118596f542200739d841dba3ee4f7</application>
+        <file_path/>
+        <instance_id>3bd7af506ff51140ffcca9cc5d3ee43e</instance_id>
+        <instance_name>terumobctdev</instance_name>
+        <name>sys_sg_item_parameter_23be9bd5db20c090d91118df4b9619c1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter"><sys_sg_item_parameter action="INSERT_OR_UPDATE"><default_value/><name>Other Location</name><parent>b391307adb1b7300d91118df4b961905</parent><parent_table>sys_sg_write_back_action_item</parent_table><sys_class_name>sys_sg_item_parameter</sys_class_name><sys_created_by>sswartwood</sys_created_by><sys_created_on>2019-10-16 20:55:35</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>23be9bd5db20c090d91118df4b9619c1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Other Location</sys_name><sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope><sys_update_name>sys_sg_item_parameter_23be9bd5db20c090d91118df4b9619c1</sys_update_name><sys_updated_by>sswartwood</sys_updated_by><sys_updated_on>2019-10-16 20:55:35</sys_updated_on><type>string</type></sys_sg_item_parameter></record_update>]]></payload>
+        <payload_hash>-1025219240</payload_hash>
+        <record_name>Other Location</record_name>
+        <reverted_from/>
+        <source>21b2dc77db548410d91118df4b96194f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-10-16 20:55:35</sys_created_on>
+        <sys_id>21ced319db20c090d91118df4b961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16dd65ac3360000001</sys_recorded_at>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-16 20:55:35</sys_updated_on>
+        <type>Item Parameter</type>
+        <u_link>[code]&lt;a title="sys_sg_item_parameter_23be9bd5db20c090d91118df4b9619c1" class="linked" href="sys_sg_item_parameter.do?sys_id=23be9bd5db20c090d91118df4b9619c1"&gt;sys_sg_item_parameter_23be9bd5db20c090d91118df4b9619c1&lt;/a&gt;[/code]</u_link>
+        <update_guid>29ced3191620c0907d2c665420de5885</update_guid>
+        <update_guid_history>29ced3191620c0907d2c665420de5885:-1025219240</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-11-12 17:05:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_item_parameter">sys_sg_item_parameter</sys_db_object>
+        <sys_id>62c4d94ebc9c4a87bbfad493ff438341</sys_id>
+        <sys_metadata>23be9bd5db20c090d91118df4b9619c1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Other Location</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_scope_delete display_value="">9391a06a538a4baaacdb46ca9f813089</sys_scope_delete>
+        <sys_update_name>sys_sg_item_parameter_23be9bd5db20c090d91118df4b9619c1</sys_update_name>
+        <sys_update_version display_value="sys_sg_item_parameter_23be9bd5db20c090d91118df4b9619c1">21ced319db20c090d91118df4b961986</sys_update_version>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-11-12 17:05:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

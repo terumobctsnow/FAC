@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
+    <sys_sg_ui_parameter action="DELETE">
+        <button/>
+        <button_parent_table/>
+        <carried>false</carried>
+        <constant/>
+        <default_value/>
+        <default_value_type>none</default_value_type>
+        <field_name/>
+        <input_source>user</input_source>
+        <input_style>inline</input_style>
+        <input_type>text</input_type>
+        <mandatory>false</mandatory>
+        <multi_select>false</multi_select>
+        <name>sys_id</name>
+        <order>1</order>
+        <parameter_type>screen</parameter_type>
+        <placeholder/>
+        <screen display_value="FAC_embeddedScreen1">91848a2edb4b4890d91118df4b9619a6</screen>
+        <search_type>starts_with</search_type>
+        <source_field/>
+        <sys_class_name>sys_sg_ui_parameter</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2020-02-24 22:34:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>669d9e2fdbcf8c90d91118df4b96190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_id</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_ui_parameter_669d9e2fdbcf8c90d91118df4b96190e</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2020-02-24 22:34:07</sys_updated_on>
+        <table_name/>
+    </sys_sg_ui_parameter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FAC Management">182118596f542200739d841dba3ee4f7</application>
+        <file_path/>
+        <instance_id>3bd7af506ff51140ffcca9cc5d3ee43e</instance_id>
+        <instance_name>terumobctdev</instance_name>
+        <name>sys_sg_ui_parameter_669d9e2fdbcf8c90d91118df4b96190e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter"><sys_sg_ui_parameter action="INSERT_OR_UPDATE"><button/><button_parent_table/><carried>false</carried><constant/><default_value/><default_value_type>none</default_value_type><field_name/><input_source>user</input_source><input_style>inline</input_style><input_type>text</input_type><mandatory>false</mandatory><multi_select>false</multi_select><name>sys_id</name><order>1</order><parameter_type>screen</parameter_type><placeholder/><screen display_value="FAC_embeddedScreen1">91848a2edb4b4890d91118df4b9619a6</screen><search_type>starts_with</search_type><source_field/><sys_class_name>sys_sg_ui_parameter</sys_class_name><sys_created_by>sswartwood</sys_created_by><sys_created_on>2020-02-24 22:34:07</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>669d9e2fdbcf8c90d91118df4b96190e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_id</sys_name><sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope><sys_update_name>sys_sg_ui_parameter_669d9e2fdbcf8c90d91118df4b96190e</sys_update_name><sys_updated_by>sswartwood</sys_updated_by><sys_updated_on>2020-02-24 22:34:07</sys_updated_on><table_name/></sys_sg_ui_parameter></record_update>]]></payload>
+        <payload_hash>-1523978142</payload_hash>
+        <record_name>sys_id</record_name>
+        <reverted_from/>
+        <source>719d3da2db4b4890d91118df4b961972</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2020-02-24 22:34:07</sys_created_on>
+        <sys_id>229d9e2fdbcf8c90d91118df4b961911</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17079560eec0000001</sys_recorded_at>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2020-02-24 22:34:07</sys_updated_on>
+        <type>UI parameter</type>
+        <u_link>[code]&lt;a title="sys_sg_ui_parameter_669d9e2fdbcf8c90d91118df4b96190e" class="linked" href="sys_sg_ui_parameter.do?sys_id=669d9e2fdbcf8c90d91118df4b96190e"&gt;sys_sg_ui_parameter_669d9e2fdbcf8c90d91118df4b96190e&lt;/a&gt;[/code]</u_link>
+        <update_guid>2a9d9e2f5ecf8c9051c73bcded321010</update_guid>
+        <update_guid_history>2a9d9e2f5ecf8c9051c73bcded321010:-1523978142</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2020-02-24 22:34:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_ui_parameter">sys_sg_ui_parameter</sys_db_object>
+        <sys_id>c8064331616a42b096f9f4273e9c7900</sys_id>
+        <sys_metadata>669d9e2fdbcf8c90d91118df4b96190e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_id</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_scope_delete display_value="">9391a06a538a4baaacdb46ca9f813089</sys_scope_delete>
+        <sys_update_name>sys_sg_ui_parameter_669d9e2fdbcf8c90d91118df4b96190e</sys_update_name>
+        <sys_update_version display_value="sys_sg_ui_parameter_669d9e2fdbcf8c90d91118df4b96190e">229d9e2fdbcf8c90d91118df4b961911</sys_update_version>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2020-02-24 22:34:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

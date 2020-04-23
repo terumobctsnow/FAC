@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
+    <sys_sg_ui_parameter action="DELETE">
+        <button/>
+        <button_parent_table/>
+        <carried>false</carried>
+        <constant/>
+        <default_value/>
+        <default_value_type>none</default_value_type>
+        <field_name>state</field_name>
+        <input_source>user</input_source>
+        <input_style>inline</input_style>
+        <input_type>text</input_type>
+        <mandatory>false</mandatory>
+        <multi_select>false</multi_select>
+        <name>packages_all_UI</name>
+        <order>10</order>
+        <parameter_type>screen</parameter_type>
+        <placeholder/>
+        <screen display_value="Package Pickup">597941b6db98c810d91118df4b9619a5</screen>
+        <search_type>starts_with</search_type>
+        <source_field/>
+        <sys_class_name>sys_sg_ui_parameter</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-10-14 14:47:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d167bbe8db60c050d91118df4b961909</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>packages_all_UI</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_ui_parameter_d167bbe8db60c050d91118df4b961909</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-14 15:08:53</sys_updated_on>
+        <table_name>x_tebc2_fac_manage_packages</table_name>
+    </sys_sg_ui_parameter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FAC Management">182118596f542200739d841dba3ee4f7</application>
+        <file_path/>
+        <instance_id>3bd7af506ff51140ffcca9cc5d3ee43e</instance_id>
+        <instance_name>terumobctdev</instance_name>
+        <name>sys_sg_ui_parameter_d167bbe8db60c050d91118df4b961909</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter"><sys_sg_ui_parameter action="INSERT_OR_UPDATE"><button/><button_parent_table/><carried>false</carried><constant/><default_value/><default_value_type>none</default_value_type><field_name>state</field_name><input_source>user</input_source><input_style>inline</input_style><input_type>text</input_type><mandatory>false</mandatory><multi_select>false</multi_select><name>packages_all_UI</name><order>10</order><parameter_type>screen</parameter_type><placeholder/><screen display_value="Package Pickup">597941b6db98c810d91118df4b9619a5</screen><search_type>starts_with</search_type><source_field/><sys_class_name>sys_sg_ui_parameter</sys_class_name><sys_created_by>sswartwood</sys_created_by><sys_created_on>2019-10-14 14:47:42</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>d167bbe8db60c050d91118df4b961909</sys_id><sys_mod_count>6</sys_mod_count><sys_name>packages_all_UI</sys_name><sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope><sys_update_name>sys_sg_ui_parameter_d167bbe8db60c050d91118df4b961909</sys_update_name><sys_updated_by>sswartwood</sys_updated_by><sys_updated_on>2019-10-14 15:08:53</sys_updated_on><table_name>x_tebc2_fac_manage_packages</table_name></sys_sg_ui_parameter></record_update>]]></payload>
+        <payload_hash>-19723319</payload_hash>
+        <record_name>packages_all_UI</record_name>
+        <reverted_from/>
+        <source>21b2dc77db548410d91118df4b96194f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-10-14 15:08:53</sys_created_on>
+        <sys_id>2b3cfbe0dba0c050d91118df4b96195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16dcad0a1a30000001</sys_recorded_at>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-14 15:08:53</sys_updated_on>
+        <type>UI parameter</type>
+        <u_link>[code]&lt;a title="sys_sg_ui_parameter_d167bbe8db60c050d91118df4b961909" class="linked" href="sys_sg_ui_parameter.do?sys_id=d167bbe8db60c050d91118df4b961909"&gt;sys_sg_ui_parameter_d167bbe8db60c050d91118df4b961909&lt;/a&gt;[/code]</u_link>
+        <update_guid>ef3cfbe0aca0c05018c1db506a83595d</update_guid>
+        <update_guid_history>ef3cfbe0aca0c05018c1db506a83595d:-19723319,7bd837ac2160c050a506ffa8b9a66242:2107444728,34687f2c3b60c05019272ba0b361f05b:-1454119268,6d18ff2c9260c050ae5f585620445cb3:673048779,03977be8ea60c050e98fc619d18826d0:706188876,5077332cf360c0505bdd31be89d04344:934700370,d567bbe8f760c0500e3aa75acbd1e20c:-882167978</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-10-14 15:09:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_ui_parameter">sys_sg_ui_parameter</sys_db_object>
+        <sys_id>b9f144631408494fbf433d9958160ed9</sys_id>
+        <sys_metadata>d167bbe8db60c050d91118df4b961909</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>packages_all_UI</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_scope_delete display_value="">9391a06a538a4baaacdb46ca9f813089</sys_scope_delete>
+        <sys_update_name>sys_sg_ui_parameter_d167bbe8db60c050d91118df4b961909</sys_update_name>
+        <sys_update_version display_value="sys_sg_ui_parameter_d167bbe8db60c050d91118df4b961909">2b3cfbe0dba0c050d91118df4b96195e</sys_update_version>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-14 15:09:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

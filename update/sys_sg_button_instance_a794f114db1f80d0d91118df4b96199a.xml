@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Assign FAC to me">94d575d1dbef7f00d91118df4b9619f4</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name>assigned_to</field_name>
+        <icon/>
+        <label>Assign to me</label>
+        <location>top</location>
+        <name>Assign to me</name>
+        <order>10</order>
+        <parent>91848a2edb4b4890d91118df4b9619a6</parent>
+        <parent_table>sys_sg_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2020-02-27 03:32:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a794f114db1f80d0d91118df4b96199a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Assign to me</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_button_instance_a794f114db1f80d0d91118df4b96199a</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2020-02-27 18:16:58</sys_updated_on>
+        <table>x_tebc2_fac_manage_fac_management_table</table>
+    </sys_sg_button_instance>
+</record_update>

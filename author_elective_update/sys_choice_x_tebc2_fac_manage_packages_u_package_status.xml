@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="u_package_status" table="x_tebc2_fac_manage_packages" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_package_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Help - I can't find my package</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_packages</name>
+            <sequence>0</sequence>
+            <sys_created_by>sswartwood</sys_created_by>
+            <sys_created_on>2019-10-17 21:10:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>52cbe435db208490d91118df4b9619bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sswartwood</sys_updated_by>
+            <sys_updated_on>2019-10-17 21:10:31</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_package_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deliver to 158</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_packages</name>
+            <sequence>2</sequence>
+            <sys_created_by>sswartwood</sys_created_by>
+            <sys_created_on>2019-10-18 16:54:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>40aab482db684890d91118df4b9619a3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sswartwood</sys_updated_by>
+            <sys_updated_on>2019-10-18 16:54:40</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_package_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Package received</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_packages</name>
+            <sequence>3</sequence>
+            <sys_created_by>sswartwood</sys_created_by>
+            <sys_created_on>2019-10-17 21:10:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5acbe435db208490d91118df4b9619c1</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sswartwood</sys_updated_by>
+            <sys_updated_on>2019-10-18 16:54:45</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_package_status</element>
+            <name>x_tebc2_fac_manage_packages</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sswartwood</sys_created_by>
+            <sys_created_on>2019-10-17 21:10:31</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>dacbe435db208490d91118df4b9619bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_package_status</sys_name>
+            <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+            <sys_update_name>sys_choice_x_tebc2_fac_manage_packages_u_package_status</sys_update_name>
+            <sys_updated_by>sswartwood</sys_updated_by>
+            <sys_updated_on>2019-10-17 21:10:31</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FAC Management">182118596f542200739d841dba3ee4f7</application>
+        <file_path/>
+        <instance_id>77d7af506ff51140ffcca9cc5d3ee449</instance_id>
+        <instance_name>terumobct</instance_name>
+        <name>sys_choice_x_tebc2_fac_manage_packages_u_package_status</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_package_status" table="x_tebc2_fac_manage_packages" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_package_status</element><hint/><inactive>false</inactive><label>Help - I can't find my package</label><language>en</language><name>x_tebc2_fac_manage_packages</name><sequence>0</sequence><sys_created_by>sswartwood</sys_created_by><sys_created_on>2019-10-17 21:10:31</sys_created_on><sys_domain>global</sys_domain><sys_id>52cbe435db208490d91118df4b9619bf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sswartwood</sys_updated_by><sys_updated_on>2019-10-17 21:10:31</sys_updated_on><value>1</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_package_status</element><hint/><inactive>false</inactive><label>Deliver to 158</label><language>en</language><name>x_tebc2_fac_manage_packages</name><sequence>2</sequence><sys_created_by>sswartwood</sys_created_by><sys_created_on>2019-10-18 16:54:08</sys_created_on><sys_domain>global</sys_domain><sys_id>40aab482db684890d91118df4b9619a3</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>sswartwood</sys_updated_by><sys_updated_on>2019-10-18 16:54:40</sys_updated_on><value>3</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_package_status</element><hint/><inactive>false</inactive><label>Package received</label><language>en</language><name>x_tebc2_fac_manage_packages</name><sequence>3</sequence><sys_created_by>sswartwood</sys_created_by><sys_created_on>2019-10-17 21:10:31</sys_created_on><sys_domain>global</sys_domain><sys_id>5acbe435db208490d91118df4b9619c1</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>sswartwood</sys_updated_by><sys_updated_on>2019-10-18 16:54:45</sys_updated_on><value>2</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_package_status</element><name>x_tebc2_fac_manage_packages</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>sswartwood</sys_created_by><sys_created_on>2019-10-17 21:10:31</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>dacbe435db208490d91118df4b9619bf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_package_status</sys_name><sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope><sys_update_name>sys_choice_x_tebc2_fac_manage_packages_u_package_status</sys_update_name><sys_updated_by>sswartwood</sys_updated_by><sys_updated_on>2019-10-17 21:10:31</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-1326689408</payload_hash>
+        <record_name>Packages.Package Status</record_name>
+        <reverted_from/>
+        <source>b3fc9fcfdbc500108fda3e04399619f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-11-16 03:48:39</sys_created_on>
+        <sys_id>550d5303db0900108fda3e04399619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e7253b94b0000001</sys_recorded_at>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-11-16 03:48:39</sys_updated_on>
+        <type>Choice list</type>
+        <u_link>sys_choice_x_tebc2_fac_manage_packages_u_package_status</u_link>
+        <update_guid>59dab8c21c6848902ebae3ca8564dca4</update_guid>
+        <update_guid_history>59dab8c21c6848902ebae3ca8564dca4:-1326689408,ccdab8c218684890537234fe68f77932:1124887329,31cab4c237684890c786a4715af8635d:1447232762,20ba7c825068489055a40cc57b69f96b:1661910555,1acbe435d72084902cb1a47811ace6c4:-930554216</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-12-19 21:35:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>d90d5303db0900108fda3e04399619f5</sys_id>
+        <sys_metadata>d90d5303db0900108fda3e04399619f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_package_status</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_scope_delete display_value="">9391a06a538a4baaacdb46ca9f813089</sys_scope_delete>
+        <sys_update_name>sys_choice_x_tebc2_fac_manage_packages_u_package_status</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_tebc2_fac_manage_packages_u_package_status">550d5303db0900108fda3e04399619fc</sys_update_version>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-12-19 21:35:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

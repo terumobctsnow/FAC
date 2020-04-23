@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Packages" max_length="40" name="x_tebc2_fac_manage_packages" sizeclass="22" type="collection">
+    <element audit="true" extends="task" label="Packages" max_length="40" name="x_tebc2_fac_manage_packages" sizeclass="648" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Package for" max_length="32" name="pacakge_for" reference="sys_user" reference_qual="active=true^city=Lakewood^EQ" reference_qual_condition="active=true^city=Lakewood^EQ" type="reference"/>
-        <element attributes="barcode" label="Package Barcode" max_length="80" name="package_barcode" type="string"/>
+        <element attributes="barcode" label="Package Tracking #" max_length="80" name="package_barcode" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Package Pickup Location" max_length="40" name="package_pickup_location" type="choice">
             <choice>
                 <element inactive_on_update="false" label="810 Building Package Pickup" sequence="0" value="810 Building Package Pickup"/>
@@ -10,8 +10,34 @@
                 <element inactive_on_update="false" label="811 Warehouse" sequence="3" value="811 Warehouse"/>
             </choice>
         </element>
-        <element label="Carrier from" max_length="100" name="sender" type="string"/>
+        <element choice="3" label="Carrier from" max_length="100" name="sender" type="string">
+            <choice>
+                <element inactive_on_update="false" label="FedEx" sequence="10" value="FedEx"/>
+                <element inactive_on_update="false" label="UPS" sequence="20" value="UPS"/>
+                <element inactive_on_update="false" label="DHL" sequence="30" value="DHL"/>
+                <element inactive_on_update="false" label="Other" sequence="40" value="Other"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Additional Information" max_length="4000" name="u_additional_info" type="string"/>
-        <element label="Placed in Room by" max_length="32" name="u_placed_in_room_by" reference="sys_user" reference_qual="active=true^roles=x_tebc2_fac_manage.user^EQ" reference_qual_condition="active=true^roles=x_tebc2_fac_manage.user^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" default="903a1d57db6884d0d91118df4b961951" label="Package group" max_length="32" name="u_assignment_group" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="On behalf of Associate" max_length="40" name="u_behalf_of_associate" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Carrier" max_length="40" name="u_carrier_other" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" default="903a1d57db6884d0d91118df4b961951" label="Package receivers" max_length="32" name="u_package_receivers" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Package Status" max_length="40" name="u_package_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Help - I can't find my package" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Deliver to 158" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Deliver to 1215" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Package received" sequence="4" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" dependent="u_assignment_group" dependent_on_field="u_assignment_group" label="Placed in Room by" max_length="32" name="u_placed_in_room_by" reference="sys_user" reference_qual="active=true^titleLIKEShipping and Receiving ^EQ" reference_qual_condition="active=true^titleLIKEShipping and Receiving ^EQ" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="PO Referenced (48# indirect)" max_length="40" name="u_po_referenced" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="0" value="Choice 3"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
     </element>
 </database>

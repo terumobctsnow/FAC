@@ -2,8 +2,10 @@
     <sys_sg_button_instance action="INSERT_OR_UPDATE">
         <active>true</active>
         <button display_value="Close PKG Ticket">809d6c32db1b7300d91118df4b961902</button>
+        <color_theme/>
         <description/>
         <field_name/>
+        <icon/>
         <label>Close Ticket</label>
         <location>leading_swipe</location>
         <name>Close Ticket</name>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
+    <sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE">
+        <item_stream display_value="Active Packages Item Stream">59fe08b4db24c050d91118df4b961977</item_stream>
+        <master_item display_value="Active Packages Master Item">15fe4cb4db24c050d91118df4b96194b</master_item>
+        <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-10-14 16:30:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d1fe4cb4db24c050d91118df4b961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_d1fe4cb4db24c050d91118df4b961954</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-14 16:30:39</sys_updated_on>
+    </sys_sg_item_stream_m2m_master_item>
+</record_update>

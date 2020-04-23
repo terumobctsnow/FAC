@@ -12,6 +12,7 @@
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description><![CDATA[<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-size: 12.0pt; line-height: 107%; color: black; background: white;">OVERVIEW</span></strong></p>
 <p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 12.0pt; line-height: 107%; color: black; background: white;">Please submit the following information to schedule the room arrangement and accessories needed for your meeting.&nbsp; Contact the Facilities Help Desk at (x4346) if your room arrangement request is within 24hrs&nbsp;or if you have&nbsp;any questions.&nbsp;&nbsp;</span><strong style="word-spacing: 0px; orphans: 2; widows: 2;"><span style="font-family: 'Calibri',sans-serif;">Note: Submitting this room set-up request does not reserve the conference room.&nbsp; Room reservations must be done in MS Outlook.</span></strong></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
         <group/>
@@ -63,15 +64,15 @@
         <sys_created_on>2018-03-12 18:51:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>677b2831db34d7404dc4f236bf961964</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_name>Conference or Focus Room Set-Up</sys_name>
         <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
         <sys_update_name>sc_cat_item_producer_677b2831db34d7404dc4f236bf961964</sys_update_name>
-        <sys_updated_by>gfehnel</sys_updated_by>
-        <sys_updated_on>2018-07-27 16:44:04</sys_updated_on>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2020-03-04 22:28:19</sys_updated_on>
         <table_name>x_tebc2_fac_manage_fac_management_table</table_name>
         <template display_value="Conference or Focus Room Set-up">af3703bedb4917800743f076bf9619be</template>
         <type>item</type>
@@ -127,6 +128,7 @@
         <compressed>true</compressed>
         <content_type>image/png</content_type>
         <file_name>icon</file_name>
+        <hash/>
         <image_height>50</image_height>
         <image_width>50</image_width>
         <size_bytes>3714</size_bytes>
@@ -165,6 +167,7 @@
         <compressed>true</compressed>
         <content_type>image/png</content_type>
         <file_name>picture</file_name>
+        <hash/>
         <image_height>50</image_height>
         <image_width>50</image_width>
         <size_bytes>3714</size_bytes>

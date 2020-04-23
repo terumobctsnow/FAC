@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="DELETE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <collection>x_tebc2_fac_manage_fac_management_table</collection>
+        <condition table="x_tebc2_fac_manage_fac_management_table">stateCHANGESTO3^ORstateCHANGESTO4^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="true" value="4"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name>approval.cancelled</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>&nbsp;&nbsp;<font face="Courier New">${mail_script:fac_from}</font></p>
+<p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"><font size="3">The following SSR has now been closed.</font></p>
+<p>&nbsp;</p>
+<p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"><font size="3">SSR#: ${number}&nbsp;<span class="Apple-converted-space">&nbsp;</span></font><br /><font size="3">Category: ${category}</font><br /><font size="3">Item: ${item}</font><br /><font size="3">Requester: ${u_requester}</font><br /><font size="3">Date Needed: ${due_date}</font></p>
+<p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"><font size="3">Close notes: ${close_notes}<br /></font></p>
+<p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;">&nbsp;</p>
+<p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"><font size="3">Please contact the Facilities Help Desk (x4346) if you have any questions. </font></p>
+<p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"><font size="3">Thanks!</font></p>
+<p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"><font size="3">&nbsp;</font></p>
+<p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"><font size="3">&nbsp;</font></p>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Requester - Closed facilities request</name>
+        <omit_watermark>false</omit_watermark>
+        <order>400</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>u_requester</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>${number} - ${item} has now been closed</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-07-12 21:24:11</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>300746026f286600739d841dba3ee40d</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Requester - Closed facilities request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sysevent_email_action_300746026f286600739d841dba3ee40d</sys_update_name>
+        <sys_updated_by>ttaylor</sys_updated_by>
+        <sys_updated_on>2017-02-24 18:22:00</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FAC Management">182118596f542200739d841dba3ee4f7</application>
+        <file_path/>
+        <instance_id>77d7af506ff51140ffcca9cc5d3ee449</instance_id>
+        <instance_name>terumobct</instance_name>
+        <name>sysevent_email_action_300746026f286600739d841dba3ee40d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;collection&gt;x_tebc2_fac_manage_fac_management_table&lt;/collection&gt;&lt;condition table="x_tebc2_fac_manage_fac_management_table"&gt;stateCHANGESTO3^ORstateCHANGESTO4^EQ&lt;item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/&gt;&lt;item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="true" value="4"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;description/&gt;&lt;event_name&gt;approval.cancelled&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;engine&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&amp;nbsp;&lt;font face="Courier New"&gt;${mail_script:fac_from}&lt;/font&gt;&lt;/p&gt;
+&lt;p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"&gt;&lt;font size="3"&gt;The following SSR has now been closed.&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"&gt;&lt;font size="3"&gt;SSR#: ${number}&amp;nbsp;&lt;span class="Apple-converted-space"&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;br /&gt;&lt;font size="3"&gt;Category: ${category}&lt;/font&gt;&lt;br /&gt;&lt;font size="3"&gt;Item: ${item}&lt;/font&gt;&lt;br /&gt;&lt;font size="3"&gt;Requester: ${u_requester}&lt;/font&gt;&lt;br /&gt;&lt;font size="3"&gt;Date Needed: ${due_date}&lt;/font&gt;&lt;/p&gt;
+&lt;p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"&gt;&lt;font size="3"&gt;Close notes: ${close_notes}&lt;br /&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"&gt;&lt;font size="3"&gt;Please contact the Facilities Help Desk (x4346) if you have any questions. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"&gt;&lt;font size="3"&gt;Thanks!&lt;/font&gt;&lt;/p&gt;
+&lt;p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"&gt;&lt;font size="3"&gt;&amp;nbsp;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"&gt;&lt;font size="3"&gt;&amp;nbsp;&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;Requester - Closed facilities request&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;400&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;u_requester&lt;/recipient_fields&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;${number} - ${item} has now been closed&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jalexan&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-07-12 21:24:11&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;300746026f286600739d841dba3ee40d&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;Requester - Closed facilities request&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="FAC Management" source="x_tebc2_fac_manage"&gt;182118596f542200739d841dba3ee4f7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="FAC Management"&gt;182118596f542200739d841dba3ee4f7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_300746026f286600739d841dba3ee40d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ttaylor&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-02-24 18:22:00&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template/&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>925979198</payload_hash>
+        <record_name>Requester - Closed facilities request</record_name>
+        <reverted_from/>
+        <source>e9dcc06d0fcd66000c7a937f62050e19</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ttaylor</sys_created_by>
+        <sys_created_on>2017-02-24 18:22:00</sys_created_on>
+        <sys_id>490f524713cd7e006bf7b6076144b0b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>15a715bb5400000000</sys_recorded_at>
+        <sys_updated_by>ttaylor</sys_updated_by>
+        <sys_updated_on>2017-02-24 18:22:00</sys_updated_on>
+        <type>Notification</type>
+        <u_link>[code]&lt;a title="sysevent_email_action_300746026f286600739d841dba3ee40d" class="linked" href="sysevent_email_action.do?sys_id=300746026f286600739d841dba3ee40d"&gt;sysevent_email_action_300746026f286600739d841dba3ee40d&lt;/a&gt;[/code]</u_link>
+        <update_guid/>
+        <update_guid_history/>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ttaylor</sys_created_by>
+        <sys_created_on>2018-04-12 22:26:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sysevent_email_action">sysevent_email_action</sys_db_object>
+        <sys_id>2b6493a279b44e7da3bcdc6da74570f1</sys_id>
+        <sys_metadata>300746026f286600739d841dba3ee40d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requester - Closed facilities request</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_parent display_value="FAC Management">582118596f542200739d841dba3ee4f7</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_scope_delete display_value="">9391a06a538a4baaacdb46ca9f813089</sys_scope_delete>
+        <sys_update_name>sysevent_email_action_300746026f286600739d841dba3ee40d</sys_update_name>
+        <sys_update_version display_value="sysevent_email_action_300746026f286600739d841dba3ee40d">490f524713cd7e006bf7b6076144b0b8</sys_update_version>
+        <sys_updated_by>ttaylor</sys_updated_by>
+        <sys_updated_on>2018-04-12 22:26:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher">
+    <sys_sg_applet_launcher action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_offline>false</available_offline>
+        <header_button/>
+        <header_titles/>
+        <hide_empty_sections>true</hide_empty_sections>
+        <name>Facilities Management</name>
+        <required_roles>x_tebc2_fac_manage.user</required_roles>
+        <search_config/>
+        <sys_class_name>sys_sg_applet_launcher</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-10-08 15:38:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f57981b6db98c810d91118df4b96198e</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Facilities Management</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_f57981b6db98c810d91118df4b96198e</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2020-02-27 04:12:47</sys_updated_on>
+        <title>Facilities Management</title>
+    </sys_sg_applet_launcher>
+</record_update>

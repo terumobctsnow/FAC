@@ -2,8 +2,10 @@
     <sys_sg_button_instance action="INSERT_OR_UPDATE">
         <active>true</active>
         <button display_value="Add Comments PKG">28a6b836db5b7300d91118df4b9619f2</button>
+        <color_theme/>
         <description/>
         <field_name/>
+        <icon/>
         <label>Add Comments</label>
         <location>leading_swipe</location>
         <name>Add Comments</name>

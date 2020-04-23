@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>400</order>
+        <sc_cat_item display_value="Badge Access">7de658d96f542200739d841dba3ee422</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2020-01-07 21:56:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>29c88f04dbd24890d91118df4b961975</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Badge Location.Badge Access</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>io_set_item_29c88f04dbd24890d91118df4b961975</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2020-01-07 21:57:08</sys_updated_on>
+        <variable_set display_value="Badge Location">76ea2172db828090d91118df4b961955</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FAC Management">182118596f542200739d841dba3ee4f7</application>
+        <file_path/>
+        <instance_id>3bd7af506ff51140ffcca9cc5d3ee43e</instance_id>
+        <instance_name>terumobctdev</instance_name>
+        <name>io_set_item_29c88f04dbd24890d91118df4b961975</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>400</order><sc_cat_item display_value="Badge Access">7de658d96f542200739d841dba3ee422</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>sswartwood</sys_created_by><sys_created_on>2020-01-07 21:56:56</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>29c88f04dbd24890d91118df4b961975</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Badge Location.Badge Access</sys_name><sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope><sys_update_name>io_set_item_29c88f04dbd24890d91118df4b961975</sys_update_name><sys_updated_by>sswartwood</sys_updated_by><sys_updated_on>2020-01-07 21:57:08</sys_updated_on><variable_set display_value="Badge Location">76ea2172db828090d91118df4b961955</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>-1668203690</payload_hash>
+        <record_name>Badge Location.Badge Access</record_name>
+        <reverted_from/>
+        <source>e9dcc06d0fcd66000c7a937f62050e19</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2020-01-07 21:57:08</sys_created_on>
+        <sys_id>64d84784dbd24890d91118df4b9619b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f8202f0400000001</sys_recorded_at>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2020-01-07 21:57:08</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <u_link>[code]&lt;a title="io_set_item_29c88f04dbd24890d91118df4b961975" class="linked" href="io_set_item.do?sys_id=29c88f04dbd24890d91118df4b961975"&gt;io_set_item_29c88f04dbd24890d91118df4b961975&lt;/a&gt;[/code]</u_link>
+        <update_guid>2cd847846ad2489073e919da2679a0af</update_guid>
+        <update_guid_history>2cd847846ad2489073e919da2679a0af:-1668203690,adc8c384a6d248902a14db9fba3139f1:-368743175</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">555c5f90db9a8890d91118df4b9619c2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2020-01-08 18:00:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>b978a132540e4ca898e38eef1fde9e64</sys_id>
+        <sys_metadata>29c88f04dbd24890d91118df4b961975</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Badge Location.Badge Access</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_scope_delete display_value="">9391a06a538a4baaacdb46ca9f813089</sys_scope_delete>
+        <sys_update_name>io_set_item_29c88f04dbd24890d91118df4b961975</sys_update_name>
+        <sys_update_version display_value="io_set_item_29c88f04dbd24890d91118df4b961975">64d84784dbd24890d91118df4b9619b0</sys_update_version>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2020-01-08 18:00:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

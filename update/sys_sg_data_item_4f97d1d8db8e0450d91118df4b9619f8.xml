@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <name>FAC SSR Master</name>
+        <query_condition table="x_tebc2_fac_manage_fac_management_table">sys_id={{FAC_Sys_ID_IP}}<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="{{FAC_Sys_ID_IP}}"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-12-26 22:05:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4f97d1d8db8e0450d91118df4b9619f8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>FAC SSR Master</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_data_item_4f97d1d8db8e0450d91118df4b9619f8</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-12-26 22:06:47</sys_updated_on>
+        <table>x_tebc2_fac_manage_fac_management_table</table>
+    </sys_sg_data_item>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_segment">
+    <sys_sg_item_stream_m2m_segment action="INSERT_OR_UPDATE">
+        <item_stream display_value="FAC_Assigned_ItemStream2">43b1ac9cdb1780d0d91118df4b961957</item_stream>
+        <segment display_value="FAC_Assigned_StreamSegment2">ae2ed894db1780d0d91118df4b961967</segment>
+        <sys_class_name>sys_sg_item_stream_m2m_segment</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2020-02-26 22:20:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>35ad6490db9780d0d91118df4b9619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_segment_35ad6490db9780d0d91118df4b9619d2</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2020-02-26 22:20:52</sys_updated_on>
+    </sys_sg_item_stream_m2m_segment>
+</record_update>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
     <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
         <description/>
         <event_name>x_tebc2_fac_manage.package_delivery_remi</event_name>
         <fired_by>Package pickup reminder workflow</fired_by>

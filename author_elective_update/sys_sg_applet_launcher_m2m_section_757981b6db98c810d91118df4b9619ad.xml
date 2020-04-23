@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
+    <sys_sg_applet_launcher_m2m_section action="DELETE">
+        <applet_launcher display_value="Facilities Management">f57981b6db98c810d91118df4b96198e</applet_launcher>
+        <order>0</order>
+        <section display_value="Package Pickup">797981b6db98c810d91118df4b96198a</section>
+        <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-10-08 15:38:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>757981b6db98c810d91118df4b9619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_757981b6db98c810d91118df4b9619ad</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-08 15:38:25</sys_updated_on>
+    </sys_sg_applet_launcher_m2m_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FAC Management">182118596f542200739d841dba3ee4f7</application>
+        <file_path/>
+        <instance_id>3bd7af506ff51140ffcca9cc5d3ee43e</instance_id>
+        <instance_name>terumobctdev</instance_name>
+        <name>sys_sg_applet_launcher_m2m_section_757981b6db98c810d91118df4b9619ad</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section"><sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE"><applet_launcher display_value="Facilities Management">f57981b6db98c810d91118df4b96198e</applet_launcher><order>0</order><section display_value="Package Pickup">797981b6db98c810d91118df4b96198a</section><sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name><sys_created_by>sswartwood</sys_created_by><sys_created_on>2019-10-08 15:38:25</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>757981b6db98c810d91118df4b9619ad</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope><sys_update_name>sys_sg_applet_launcher_m2m_section_757981b6db98c810d91118df4b9619ad</sys_update_name><sys_updated_by>sswartwood</sys_updated_by><sys_updated_on>2019-10-08 15:38:25</sys_updated_on></sys_sg_applet_launcher_m2m_section></record_update>]]></payload>
+        <payload_hash>-471104418</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a4094d36db98c810d91118df4b9619de</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-10-08 15:38:25</sys_created_on>
+        <sys_id>fd7981b6db98c810d91118df4b9619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16dac0582c10000001</sys_recorded_at>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-08 15:38:25</sys_updated_on>
+        <type>Applet Launcher Sections</type>
+        <u_link>[code]&lt;a title="sys_sg_applet_launcher_m2m_section_757981b6db98c810d91118df4b9619ad" class="linked" href="sys_sg_applet_launcher_m2m_section.do?sys_id=757981b6db98c810d91118df4b9619ad"&gt;sys_sg_applet_launcher_m2m_section_757981b6db98c810d91118df4b9619ad&lt;/a&gt;[/code]</u_link>
+        <update_guid>b57981b67e98c810dca194ce99a1beae</update_guid>
+        <update_guid_history>b57981b67e98c810dca194ce99a1beae:-471104418</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-10-08 15:48:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_applet_launcher_m2m_section">sys_sg_applet_launcher_m2m_section</sys_db_object>
+        <sys_id>29485c3fefe840b38db503402dd3e4f9</sys_id>
+        <sys_metadata>757981b6db98c810d91118df4b9619ad</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_scope_delete display_value="">9391a06a538a4baaacdb46ca9f813089</sys_scope_delete>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_757981b6db98c810d91118df4b9619ad</sys_update_name>
+        <sys_update_version display_value="sys_sg_applet_launcher_m2m_section_757981b6db98c810d91118df4b9619ad">fd7981b6db98c810d91118df4b9619ae</sys_update_version>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-08 15:48:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

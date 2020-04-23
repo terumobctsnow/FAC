@@ -67,8 +67,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
         <sys_update_name>item_option_new_eb8741536f4ba2001d90f00dba3ee4bc</sys_update_name>
-        <sys_updated_by>gfehnel</sys_updated_by>
-        <sys_updated_on>2019-08-21 19:19:03</sys_updated_on>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2020-02-18 17:15:41</sys_updated_on>
         <table/>
         <tooltip/>
         <type>5</type>

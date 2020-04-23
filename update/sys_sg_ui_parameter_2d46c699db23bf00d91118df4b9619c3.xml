@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
     <sys_sg_ui_parameter action="INSERT_OR_UPDATE">
-        <button display_value="Edit_FAC">e1c50299db23bf00d91118df4b961954</button>
+        <button display_value="Edit_FAC_state">e1c50299db23bf00d91118df4b961954</button>
         <button_parent_table/>
         <carried>false</carried>
         <constant/>

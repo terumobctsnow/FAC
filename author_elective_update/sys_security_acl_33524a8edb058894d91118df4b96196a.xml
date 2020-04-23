@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>false</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description/>
+        <name>x_tebc2_fac_manage_packages</name>
+        <operation display_value="create">create</operation>
+        <script><![CDATA[	if(gs.hasRole('x_tebc2_fac_manage.packages_user'))
+		answer = true;
+	else
+		answer = false;]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-11-12 18:40:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>33524a8edb058894d91118df4b96196a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_tebc2_fac_manage_packages</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_security_acl_33524a8edb058894d91118df4b96196a</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-11-12 18:43:47</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FAC Management">182118596f542200739d841dba3ee4f7</application>
+        <file_path/>
+        <instance_id>3bd7af506ff51140ffcca9cc5d3ee43e</instance_id>
+        <instance_name>terumobctdev</instance_name>
+        <name>sys_security_acl_33524a8edb058894d91118df4b96196a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;condition/&gt;&lt;description/&gt;&lt;name&gt;x_tebc2_fac_manage_packages&lt;/name&gt;&lt;operation display_value="create"&gt;create&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[	if(gs.hasRole('x_tebc2_fac_manage.packages_user'))
+		answer = true;
+	else
+		answer = false;]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sswartwood&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-12 18:40:03&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;33524a8edb058894d91118df4b96196a&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_tebc2_fac_manage_packages&lt;/sys_name&gt;&lt;sys_package display_value="FAC Management" source="x_tebc2_fac_manage"&gt;182118596f542200739d841dba3ee4f7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="FAC Management"&gt;182118596f542200739d841dba3ee4f7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_33524a8edb058894d91118df4b96196a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;sswartwood&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-12 18:43:47&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-746420506</payload_hash>
+        <record_name>x_tebc2_fac_manage_packages</record_name>
+        <reverted_from/>
+        <source>d1e090efdb984010d91118df4b961984</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-11-12 18:43:47</sys_created_on>
+        <sys_id>5e83c642db458894d91118df4b9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e60edcba90000001</sys_recorded_at>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-11-12 18:43:47</sys_updated_on>
+        <type>Access Control</type>
+        <u_link>[code]&lt;a title="sys_security_acl_33524a8edb058894d91118df4b96196a" class="linked" href="sys_security_acl.do?sys_id=33524a8edb058894d91118df4b96196a"&gt;sys_security_acl_33524a8edb058894d91118df4b96196a&lt;/a&gt;[/code]</u_link>
+        <update_guid>d283c642e84588947e8b7b3b2b3d3ee1</update_guid>
+        <update_guid_history>d283c642e84588947e8b7b3b2b3d3ee1:-746420506,27a2cece5705889480233700badd7b7f:355745581</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-11-12 20:33:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>08d60c454dd840c080da75e090e5a900</sys_id>
+        <sys_metadata>33524a8edb058894d91118df4b96196a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_tebc2_fac_manage_packages</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_parent display_value="x_tebc2_fac_manage_packages">5c5ff3c4dbcef700d7f6138b4b9619ff</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_scope_delete display_value="">9391a06a538a4baaacdb46ca9f813089</sys_scope_delete>
+        <sys_update_name>sys_security_acl_33524a8edb058894d91118df4b96196a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_33524a8edb058894d91118df4b96196a">5e83c642db458894d91118df4b9619e1</sys_update_version>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-11-12 20:33:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

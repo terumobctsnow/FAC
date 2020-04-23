@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by>assignment_group</group_by>
+        <name>FAC Groups Unassigned by Group</name>
+        <query_condition table="x_tebc2_fac_manage_fac_management_table">active=true^assignment_groupDYNAMICd6435e965f510100a9ad2572f2b47744^assigned_toISEMPTY^assignment_group={{Unassigned by Group Item Parameter}}<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="assignment_group" goto="false" newquery="false" operator="DYNAMIC" or="false" value="d6435e965f510100a9ad2572f2b47744"/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="false" value="{{Unassigned by Group Item Parameter}}"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-12-26 20:57:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7f288d58db4e0450d91118df4b96193e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>FAC Groups Unassigned by Group</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_data_item_7f288d58db4e0450d91118df4b96193e</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-12-26 22:04:36</sys_updated_on>
+        <table>x_tebc2_fac_manage_fac_management_table</table>
+    </sys_sg_data_item>
+</record_update>

@@ -2,28 +2,30 @@
     <sys_sg_button_instance action="INSERT_OR_UPDATE">
         <active>true</active>
         <button display_value="Close PKG Ticket">809d6c32db1b7300d91118df4b961902</button>
+        <color_theme>primary</color_theme>
         <description/>
         <field_name/>
+        <icon/>
         <label>Close Ticket</label>
         <location>top</location>
         <name>Close Ticket</name>
         <order>5</order>
-        <parent>527f2c36db1b7300d91118df4b96194f</parent>
+        <parent>997941b6db98c810d91118df4b9619b0</parent>
         <parent_table>sys_sg_details_screen</parent_table>
         <sys_class_name>sys_sg_button_instance</sys_class_name>
         <sys_created_by>ccampbell</sys_created_by>
         <sys_created_on>2019-08-19 20:46:29</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>0f70f8b6db1b7300d91118df4b961977</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Close Ticket</sys_name>
         <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
         <sys_update_name>sys_sg_button_instance_0f70f8b6db1b7300d91118df4b961977</sys_update_name>
-        <sys_updated_by>ccampbell</sys_updated_by>
-        <sys_updated_on>2019-08-19 21:19:43</sys_updated_on>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-08 15:38:23</sys_updated_on>
         <table/>
     </sys_sg_button_instance>
 </record_update>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_assignment">
+    <sysrule_assignment action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_tebc2_fac_manage_fac_management_table">item=Conference or Focus Room Setup - New^EQ<item display_value="Conference or Focus Room Set-up" endquery="false" field="item" goto="false" newquery="false" operator="=" or="false" value="Conference or Focus Room Setup - New"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <group display_value="Custodial" name="Custodial">14df53d90fc56600d7f9534f62050e1d</group>
+        <match_conditions>ALL</match_conditions>
+        <name>Confernece or Focus Room Setup</name>
+        <order>100</order>
+        <script>/**&#13;
+* Example:&#13;
+* The following script requires personalizing the instance to add the Malware category and the Security assignment group.&#13;
+* if (current.category == "Hardware")&#13;
+*    current.assignment_group.setDisplayValue("Hardware"); &#13;
+* else if (current.category == "Software")&#13;
+*    current.assignment_group.setDisplayValue("Software");&#13;
+* else if (current.category == "Malware")&#13;
+*    current.assignment_group.setDisplayValue("Security");	&#13;
+*&#13;
+* Another Example:&#13;
+* Release Planning Example, which assigns the last person assigned to a release to the current release.&#13;
+* current.release.product.service.assigned_to;&#13;
+*/</script>
+        <sys_class_name>sysrule_assignment</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-11-08 22:29:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>8ee052fcdb0dc094d91118df4b9619e2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Confernece or Focus Room Setup</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sysrule_assignment_8ee052fcdb0dc094d91118df4b9619e2</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-11-08 22:30:16</sys_updated_on>
+        <table>x_tebc2_fac_manage_fac_management_table</table>
+        <user/>
+    </sysrule_assignment>
+</record_update>

@@ -12,6 +12,7 @@
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description><![CDATA[<p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"><span style="font-size: x-large;"> Drivers will endeavor to complete the Warehouse to Warehouse moves within 24 hours of the request (Mon-Fri).</span></p>
 <p> </p>]]></description>
+        <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
         <group/>
@@ -63,15 +64,15 @@
         <sys_created_on>2016-11-17 19:55:04</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>782c745f6f0ba2001d90f00dba3ee45a</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Warehouse to Warehouse Pallet/Equipment Move</sys_name>
         <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
         <sys_update_name>sc_cat_item_producer_782c745f6f0ba2001d90f00dba3ee45a</sys_update_name>
-        <sys_updated_by>gfehnel</sys_updated_by>
-        <sys_updated_on>2019-05-15 13:39:58</sys_updated_on>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2020-02-18 17:21:31</sys_updated_on>
         <table_name>x_tebc2_fac_manage_fac_management_table</table_name>
         <template display_value="Warehouse Pallet or Equipment Move">904115176f4ba2001d90f00dba3ee477</template>
         <type>item</type>
@@ -127,6 +128,7 @@
         <compressed>true</compressed>
         <content_type>image/png</content_type>
         <file_name>icon</file_name>
+        <hash/>
         <image_height/>
         <image_width/>
         <size_bytes>1639</size_bytes>
@@ -185,6 +187,7 @@ djjDJz4h4fzly2dnZjJIJFKlVoaTaT0/N9k1rQj7KrCIh4EfHQSLYbBq4zcCEEMiCH/sTRL+B/t+
         <compressed>true</compressed>
         <content_type>image/png</content_type>
         <file_name>picture</file_name>
+        <hash/>
         <image_height/>
         <image_width/>
         <size_bytes>1639</size_bytes>

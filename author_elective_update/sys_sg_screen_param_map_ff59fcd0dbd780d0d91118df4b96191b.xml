@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_param_map">
+    <sys_sg_screen_param_map action="DELETE">
+        <item_parameter display_value="AssigmentGroup">62d2bc98db9780d0d91118df4b961911</item_parameter>
+        <screen display_value="Assigned Selected Group (Screen 2)">dc8467c8dbdf40d0d91118df4b9619c5</screen>
+        <sys_class_name>sys_sg_screen_param_map</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2020-02-26 23:11:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ff59fcd0dbd780d0d91118df4b96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>62d2bc98db9780d0d91118df4b961911</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_screen_param_map_ff59fcd0dbd780d0d91118df4b96191b</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2020-02-26 23:11:39</sys_updated_on>
+        <ui_parameter display_value="fac_assigmentGroup">3383f4d8db9780d0d91118df4b96191f</ui_parameter>
+    </sys_sg_screen_param_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FAC Management">182118596f542200739d841dba3ee4f7</application>
+        <file_path/>
+        <instance_id>3bd7af506ff51140ffcca9cc5d3ee43e</instance_id>
+        <instance_name>terumobctdev</instance_name>
+        <name>sys_sg_screen_param_map_ff59fcd0dbd780d0d91118df4b96191b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_param_map"><sys_sg_screen_param_map action="INSERT_OR_UPDATE"><item_parameter display_value="AssigmentGroup">62d2bc98db9780d0d91118df4b961911</item_parameter><screen display_value="Assigned Selected Group (Screen 2)">dc8467c8dbdf40d0d91118df4b9619c5</screen><sys_class_name>sys_sg_screen_param_map</sys_class_name><sys_created_by>sswartwood</sys_created_by><sys_created_on>2020-02-26 23:11:39</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>ff59fcd0dbd780d0d91118df4b96191b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>62d2bc98db9780d0d91118df4b961911</sys_name><sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope><sys_update_name>sys_sg_screen_param_map_ff59fcd0dbd780d0d91118df4b96191b</sys_update_name><sys_updated_by>sswartwood</sys_updated_by><sys_updated_on>2020-02-26 23:11:39</sys_updated_on><ui_parameter display_value="fac_assigmentGroup">3383f4d8db9780d0d91118df4b96191f</ui_parameter></sys_sg_screen_param_map></record_update>]]></payload>
+        <payload_hash>-1734934604</payload_hash>
+        <record_name>62d2bc98db9780d0d91118df4b961911</record_name>
+        <reverted_from/>
+        <source>719d3da2db4b4890d91118df4b961972</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2020-02-26 23:11:40</sys_created_on>
+        <sys_id>b759fcd0dbd780d0d91118df4b96191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17083c523f20000001</sys_recorded_at>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2020-02-26 23:11:40</sys_updated_on>
+        <type>Screen parameters mapping</type>
+        <u_link>[code]&lt;a title="sys_sg_screen_param_map_ff59fcd0dbd780d0d91118df4b96191b" class="linked" href="sys_sg_screen_param_map.do?sys_id=ff59fcd0dbd780d0d91118df4b96191b"&gt;sys_sg_screen_param_map_ff59fcd0dbd780d0d91118df4b96191b&lt;/a&gt;[/code]</u_link>
+        <update_guid>bf59fcd089d780d0ad8508b770a8bc1d</update_guid>
+        <update_guid_history>bf59fcd089d780d0ad8508b770a8bc1d:-1734934604</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2020-02-26 23:27:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_screen_param_map">sys_sg_screen_param_map</sys_db_object>
+        <sys_id>5f906771b3e140608337510fa7b37440</sys_id>
+        <sys_metadata>ff59fcd0dbd780d0d91118df4b96191b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>62d2bc98db9780d0d91118df4b961911</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_scope_delete display_value="">9391a06a538a4baaacdb46ca9f813089</sys_scope_delete>
+        <sys_update_name>sys_sg_screen_param_map_ff59fcd0dbd780d0d91118df4b96191b</sys_update_name>
+        <sys_update_version display_value="sys_sg_screen_param_map_ff59fcd0dbd780d0d91118df4b96191b">b759fcd0dbd780d0d91118df4b96191e</sys_update_version>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2020-02-26 23:27:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

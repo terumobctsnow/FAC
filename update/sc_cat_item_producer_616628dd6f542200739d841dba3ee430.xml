@@ -11,6 +11,7 @@
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description/>
+        <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
         <group/>
@@ -126,6 +127,7 @@
         <compressed>true</compressed>
         <content_type>image/png</content_type>
         <file_name>icon</file_name>
+        <hash/>
         <image_height>43</image_height>
         <image_width>50</image_width>
         <size_bytes>3817</size_bytes>
@@ -164,17 +166,18 @@
         <compressed>true</compressed>
         <content_type>image/png</content_type>
         <file_name>picture</file_name>
+        <hash/>
         <image_height>43</image_height>
         <image_width>50</image_width>
         <size_bytes>3817</size_bytes>
         <size_compressed>3840</size_compressed>
-        <state/>
+        <state>available</state>
         <sys_created_by>ttaylor</sys_created_by>
         <sys_created_on>2018-08-22 16:12:48</sys_created_on>
         <sys_id>dc52eb8edb046f00d7f6138b4b961919</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>ttaylor</sys_updated_by>
-        <sys_updated_on>2018-08-22 16:12:48</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2020-02-27 18:32:31</sys_updated_on>
         <table_name>ZZ_YYsc_cat_item_producer</table_name>
         <table_sys_id>616628dd6f542200739d841dba3ee430</table_sys_id>
     </sys_attachment>

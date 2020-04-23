@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="package_pickup_location" table="x_tebc2_fac_manage_packages" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_pickup_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>810 Building Package Pickup</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_packages</name>
+            <sequence/>
+            <sys_created_by>ccampbell</sys_created_by>
+            <sys_created_on>2019-06-10 19:32:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7b00c018dbcef700d7f6138b4b961930</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ccampbell</sys_updated_by>
+            <sys_updated_on>2019-06-10 19:32:01</sys_updated_on>
+            <value>810 Building Package Pickup</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_pickup_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>811 Building Package Pickup</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_packages</name>
+            <sequence/>
+            <sys_created_by>ccampbell</sys_created_by>
+            <sys_created_on>2019-06-10 19:34:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6320c018dbcef700d7f6138b4b961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ccampbell</sys_updated_by>
+            <sys_updated_on>2019-06-10 19:34:19</sys_updated_on>
+            <value>811 Building Package Pickup</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>package_pickup_location</element>
+            <name>x_tebc2_fac_manage_packages</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>ccampbell</sys_created_by>
+            <sys_created_on>2019-06-10 19:32:01</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>3120ccd4dbcef700d7f6138b4b9619c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>package_pickup_location</sys_name>
+            <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+            <sys_update_name>sys_choice_x_tebc2_fac_manage_packages_package_pickup_location</sys_update_name>
+            <sys_updated_by>ccampbell</sys_updated_by>
+            <sys_updated_on>2019-06-10 19:32:01</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FAC Management">182118596f542200739d841dba3ee4f7</application>
+        <file_path/>
+        <instance_id>77d7af506ff51140ffcca9cc5d3ee449</instance_id>
+        <instance_name>terumobct</instance_name>
+        <name>sys_choice_x_tebc2_fac_manage_packages_package_pickup_location</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="package_pickup_location" table="x_tebc2_fac_manage_packages" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>package_pickup_location</element><hint/><inactive>false</inactive><label>810 Building Package Pickup</label><language>en</language><name>x_tebc2_fac_manage_packages</name><sequence/><sys_created_by>ccampbell</sys_created_by><sys_created_on>2019-06-10 19:32:01</sys_created_on><sys_domain>global</sys_domain><sys_id>7b00c018dbcef700d7f6138b4b961930</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ccampbell</sys_updated_by><sys_updated_on>2019-06-10 19:32:01</sys_updated_on><value>810 Building Package Pickup</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>package_pickup_location</element><hint/><inactive>false</inactive><label>811 Building Package Pickup</label><language>en</language><name>x_tebc2_fac_manage_packages</name><sequence/><sys_created_by>ccampbell</sys_created_by><sys_created_on>2019-06-10 19:34:19</sys_created_on><sys_domain>global</sys_domain><sys_id>6320c018dbcef700d7f6138b4b961957</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ccampbell</sys_updated_by><sys_updated_on>2019-06-10 19:34:19</sys_updated_on><value>811 Building Package Pickup</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>package_pickup_location</element><name>x_tebc2_fac_manage_packages</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>ccampbell</sys_created_by><sys_created_on>2019-06-10 19:32:01</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>3120ccd4dbcef700d7f6138b4b9619c0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>package_pickup_location</sys_name><sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope><sys_update_name>sys_choice_x_tebc2_fac_manage_packages_package_pickup_location</sys_update_name><sys_updated_by>ccampbell</sys_updated_by><sys_updated_on>2019-06-10 19:32:01</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>1920477914</payload_hash>
+        <record_name>Packages.Package Pickup Location</record_name>
+        <reverted_from/>
+        <source>e9dcc06d0fcd66000c7a937f62050e19</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-07-24 15:09:05</sys_created_on>
+        <sys_id>03e9a19edbb2f700ef18e3a84b96199d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>16c24875a0d0000001</sys_recorded_at>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-07-24 15:29:04</sys_updated_on>
+        <type>Choice list</type>
+        <u_link>sys_choice_x_tebc2_fac_manage_packages_package_pickup_location</u_link>
+        <update_guid>57a0885897cef70082fa414552259d9b</update_guid>
+        <update_guid_history>57a0885897cef70082fa414552259d9b:1920477914,b520ccd45ecef7003a3ce3b9b43ae6c2:169089212</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ccampbell</sys_created_by>
+        <sys_created_on>2019-11-16 03:08:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>8be9a19edbb2f700ef18e3a84b961998</sys_id>
+        <sys_metadata>8be9a19edbb2f700ef18e3a84b961998</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>package_pickup_location</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_scope_delete display_value="">9391a06a538a4baaacdb46ca9f813089</sys_scope_delete>
+        <sys_update_name>sys_choice_x_tebc2_fac_manage_packages_package_pickup_location</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_tebc2_fac_manage_packages_package_pickup_location">03e9a19edbb2f700ef18e3a84b96199d</sys_update_version>
+        <sys_updated_by>ccampbell</sys_updated_by>
+        <sys_updated_on>2019-11-16 03:08:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

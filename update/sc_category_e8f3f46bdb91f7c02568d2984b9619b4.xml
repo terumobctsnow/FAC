@@ -40,6 +40,7 @@
         <compressed>true</compressed>
         <content_type>image/png</content_type>
         <file_name>homepage_image</file_name>
+        <hash/>
         <image_height>84</image_height>
         <image_width>96</image_width>
         <size_bytes>8965</size_bytes>
@@ -78,6 +79,7 @@
         <compressed>true</compressed>
         <content_type>image/png</content_type>
         <file_name>mobile_picture</file_name>
+        <hash/>
         <image_height>84</image_height>
         <image_width>96</image_width>
         <size_bytes>8965</size_bytes>

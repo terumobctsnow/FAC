@@ -45,6 +45,7 @@
 <div><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Item</strong>: ${item}</span></div>
 <div><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Date Needed</strong>: ${due_date}</span></div>
 <div><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">${mail_script:fac_from}</span></div>
+<div>&nbsp;</div>
 <p><span style="font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
 <p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>]]></message_html>
         <message_list/>
@@ -68,7 +69,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>379d6657dbd113c00743f076bf961953</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Facilities - Assignment Group</sys_name>
         <sys_overrides/>
         <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
@@ -76,8 +77,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
         <sys_update_name>sysevent_email_action_379d6657dbd113c00743f076bf961953</sys_update_name>
-        <sys_updated_by>ttaylor</sys_updated_by>
-        <sys_updated_on>2018-04-11 16:42:18</sys_updated_on>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2020-02-06 20:56:01</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

@@ -6,10 +6,10 @@
         <constant/>
         <default_value/>
         <default_value_type>none</default_value_type>
-        <field_name/>
+        <field_name>sender</field_name>
         <input_source>user</input_source>
         <input_style>inline</input_style>
-        <input_type>text</input_type>
+        <input_type>list</input_type>
         <mandatory>true</mandatory>
         <multi_select>false</multi_select>
         <name>Carrier from</name>
@@ -24,15 +24,15 @@
         <sys_created_on>2019-08-19 21:02:19</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>39047c3edb1b7300d91118df4b9619d1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Carrier from</sys_name>
         <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
         <sys_update_name>sys_sg_ui_parameter_39047c3edb1b7300d91118df4b9619d1</sys_update_name>
-        <sys_updated_by>ccampbell</sys_updated_by>
-        <sys_updated_on>2019-08-19 21:35:56</sys_updated_on>
-        <table_name/>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-16 20:32:06</sys_updated_on>
+        <table_name>x_tebc2_fac_manage_packages</table_name>
     </sys_sg_ui_parameter>
 </record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_behalf_of_associate" label="On behalf of Associate" language="en" table="x_tebc2_fac_manage_packages">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_behalf_of_associate</element>
+            <help/>
+            <hint/>
+            <label>On behalf of Associate</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_packages</name>
+            <plural>On behalf of Associates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sswartwood</sys_created_by>
+            <sys_created_on>2019-10-08 13:53:41</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>e3717c3edbd4c810d91118df4b96196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>On behalf of Associate</sys_name>
+            <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+            <sys_update_name>sys_documentation_x_tebc2_fac_manage_packages_u_behalf_of_associate_en</sys_update_name>
+            <sys_updated_by>sswartwood</sys_updated_by>
+            <sys_updated_on>2019-10-08 13:53:41</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

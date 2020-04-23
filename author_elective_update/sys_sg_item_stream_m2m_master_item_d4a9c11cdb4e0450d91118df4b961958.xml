@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
+    <sys_sg_item_stream_m2m_master_item action="DELETE">
+        <item_stream display_value="FAC Unassigned by Group Item Stream">cca9011cdb4e0450d91118df4b961998</item_stream>
+        <master_item display_value="FAC Unassigned by Group Master Item">58a9c11cdb4e0450d91118df4b961953</master_item>
+        <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-12-26 21:04:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d4a9c11cdb4e0450d91118df4b961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_d4a9c11cdb4e0450d91118df4b961958</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-12-26 21:04:12</sys_updated_on>
+    </sys_sg_item_stream_m2m_master_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FAC Management">182118596f542200739d841dba3ee4f7</application>
+        <file_path/>
+        <instance_id>3bd7af506ff51140ffcca9cc5d3ee43e</instance_id>
+        <instance_name>terumobctdev</instance_name>
+        <name>sys_sg_item_stream_m2m_master_item_d4a9c11cdb4e0450d91118df4b961958</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item"><sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE"><item_stream display_value="FAC Unassigned by Group Item Stream">cca9011cdb4e0450d91118df4b961998</item_stream><master_item display_value="FAC Unassigned by Group Master Item">58a9c11cdb4e0450d91118df4b961953</master_item><sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name><sys_created_by>sswartwood</sys_created_by><sys_created_on>2019-12-26 21:04:12</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>d4a9c11cdb4e0450d91118df4b961958</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope><sys_update_name>sys_sg_item_stream_m2m_master_item_d4a9c11cdb4e0450d91118df4b961958</sys_update_name><sys_updated_by>sswartwood</sys_updated_by><sys_updated_on>2019-12-26 21:04:12</sys_updated_on></sys_sg_item_stream_m2m_master_item></record_update>]]></payload>
+        <payload_hash>-2124161273</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>7215a5961b710890492a8734ec4bcb41</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-12-26 21:04:12</sys_created_on>
+        <sys_id>54a9c11cdb4e0450d91118df4b96195a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f44062c720000001</sys_recorded_at>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-12-26 21:04:12</sys_updated_on>
+        <type>Item Stream M2M Master Item</type>
+        <u_link>[code]&lt;a title="sys_sg_item_stream_m2m_master_item_d4a9c11cdb4e0450d91118df4b961958" class="linked" href="sys_sg_item_stream_m2m_master_item.do?sys_id=d4a9c11cdb4e0450d91118df4b961958"&gt;sys_sg_item_stream_m2m_master_item_d4a9c11cdb4e0450d91118df4b961958&lt;/a&gt;[/code]</u_link>
+        <update_guid>d8a9c11cb94e04507b1029f772db2259</update_guid>
+        <update_guid_history>d8a9c11cb94e04507b1029f772db2259:-2124161273</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-12-26 22:19:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_item_stream_m2m_master_item">sys_sg_item_stream_m2m_master_item</sys_db_object>
+        <sys_id>545f73d05beb47149a67bcdaf1c37dc4</sys_id>
+        <sys_metadata>d4a9c11cdb4e0450d91118df4b961958</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_scope_delete display_value="">9391a06a538a4baaacdb46ca9f813089</sys_scope_delete>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_d4a9c11cdb4e0450d91118df4b961958</sys_update_name>
+        <sys_update_version display_value="sys_sg_item_stream_m2m_master_item_d4a9c11cdb4e0450d91118df4b961958">54a9c11cdb4e0450d91118df4b96195a</sys_update_version>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-12-26 22:19:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

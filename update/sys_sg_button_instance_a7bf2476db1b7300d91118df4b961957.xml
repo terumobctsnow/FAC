@@ -2,8 +2,10 @@
     <sys_sg_button_instance action="INSERT_OR_UPDATE">
         <active>true</active>
         <button display_value="Reassign PKG">002b643edb177300d91118df4b9619f9</button>
+        <color_theme/>
         <description/>
         <field_name/>
+        <icon/>
         <label>Reassign</label>
         <location>leading_swipe</location>
         <name>Reassign</name>

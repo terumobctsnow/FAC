@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_assignment_group" label="Package group" language="en" table="x_tebc2_fac_manage_packages">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_assignment_group</element>
+            <help/>
+            <hint/>
+            <label>Package group</label>
+            <language>en</language>
+            <name>x_tebc2_fac_manage_packages</name>
+            <plural>Package groups</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sswartwood</sys_created_by>
+            <sys_created_on>2019-10-22 20:57:29</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>88c81ad3db2008d0d91118df4b9619b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Package group</sys_name>
+            <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+            <sys_update_name>sys_documentation_x_tebc2_fac_manage_packages_u_assignment_group_en</sys_update_name>
+            <sys_updated_by>sswartwood</sys_updated_by>
+            <sys_updated_on>2019-10-22 20:57:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

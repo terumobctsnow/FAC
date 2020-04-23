@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button">
+    <sys_sg_button action="DELETE">
+        <acknowledgement_confirm_label>I Agree</acknowledgement_confirm_label>
+        <allow_images_upload>false</allow_images_upload>
+        <auto_redirection>false</auto_redirection>
+        <button_table_field_name/>
+        <cancel_label/>
+        <condition/>
+        <condition_script/>
+        <condition_type>declarative</condition_type>
+        <confirm_label/>
+        <confirmation_message/>
+        <context>global</context>
+        <description/>
+        <destination_screen display_value="Package Pickup">597941b6db98c810d91118df4b9619a5</destination_screen>
+        <external_browser>false</external_browser>
+        <failure_message/>
+        <field_name/>
+        <jump_to_previous>false</jump_to_previous>
+        <jump_to_screen>false</jump_to_screen>
+        <link_label/>
+        <link_url/>
+        <mail_address/>
+        <mail_content/>
+        <mail_subject/>
+        <name>Launcher Button</name>
+        <phone_number/>
+        <phone_type>cellular</phone_type>
+        <preconditions>none</preconditions>
+        <relative_url>true</relative_url>
+        <roles/>
+        <save_signature_before_action_execution>false</save_signature_before_action_execution>
+        <select_current_record>false</select_current_record>
+        <show_acknowledgement>false</show_acknowledgement>
+        <show_confirmation>false</show_confirmation>
+        <show_refresh_on_previous>false</show_refresh_on_previous>
+        <show_signature>false</show_signature>
+        <sms/>
+        <success_message/>
+        <sys_class_name>sys_sg_button</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-10-14 20:35:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0ef6417cdb280450d91118df4b961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Launcher Button</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_button_0ef6417cdb280450d91118df4b961965</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-14 20:35:22</sys_updated_on>
+        <table/>
+        <take_value_from_field>false</take_value_from_field>
+        <type>redirection</type>
+        <use_overlay>false</use_overlay>
+        <write_back_action_item/>
+    </sys_sg_button>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FAC Management">182118596f542200739d841dba3ee4f7</application>
+        <file_path/>
+        <instance_id>3bd7af506ff51140ffcca9cc5d3ee43e</instance_id>
+        <instance_name>terumobctdev</instance_name>
+        <name>sys_sg_button_0ef6417cdb280450d91118df4b961965</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button"><sys_sg_button action="INSERT_OR_UPDATE"><acknowledgement_confirm_label>I Agree</acknowledgement_confirm_label><allow_images_upload>false</allow_images_upload><auto_redirection>false</auto_redirection><button_table_field_name/><cancel_label/><condition/><condition_script/><condition_type>declarative</condition_type><confirm_label/><confirmation_message/><context>global</context><description/><destination_screen display_value="Package Pickup">597941b6db98c810d91118df4b9619a5</destination_screen><external_browser>false</external_browser><failure_message/><field_name/><jump_to_previous>false</jump_to_previous><jump_to_screen>false</jump_to_screen><link_label/><link_url/><mail_address/><mail_content/><mail_subject/><name>Launcher Button</name><phone_number/><phone_type>cellular</phone_type><preconditions>none</preconditions><relative_url>true</relative_url><roles/><save_signature_before_action_execution>false</save_signature_before_action_execution><select_current_record>false</select_current_record><show_acknowledgement>false</show_acknowledgement><show_confirmation>false</show_confirmation><show_refresh_on_previous>false</show_refresh_on_previous><show_signature>false</show_signature><sms/><success_message/><sys_class_name>sys_sg_button</sys_class_name><sys_created_by>sswartwood</sys_created_by><sys_created_on>2019-10-14 20:35:22</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>0ef6417cdb280450d91118df4b961965</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Launcher Button</sys_name><sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope><sys_update_name>sys_sg_button_0ef6417cdb280450d91118df4b961965</sys_update_name><sys_updated_by>sswartwood</sys_updated_by><sys_updated_on>2019-10-14 20:35:22</sys_updated_on><table/><take_value_from_field>false</take_value_from_field><type>redirection</type><use_overlay>false</use_overlay><write_back_action_item/></sys_sg_button></record_update>]]></payload>
+        <payload_hash>184277290</payload_hash>
+        <record_name>Launcher Button</record_name>
+        <reverted_from/>
+        <source>21b2dc77db548410d91118df4b96194f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-10-14 20:35:22</sys_created_on>
+        <sys_id>82f6417cdb280450d91118df4b961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16dcbfb878a0000001</sys_recorded_at>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-14 20:35:22</sys_updated_on>
+        <type>Function</type>
+        <u_link>[code]&lt;a title="sys_sg_button_0ef6417cdb280450d91118df4b961965" class="linked" href="sys_sg_button.do?sys_id=0ef6417cdb280450d91118df4b961965"&gt;sys_sg_button_0ef6417cdb280450d91118df4b961965&lt;/a&gt;[/code]</u_link>
+        <update_guid>8af6417c8b280450df80bd86ebe5a367</update_guid>
+        <update_guid_history>8af6417c8b280450df80bd86ebe5a367:184277290</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-10-16 19:47:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_button">sys_sg_button</sys_db_object>
+        <sys_id>0371b445c82a4ac58eeff65d7dc4f8a9</sys_id>
+        <sys_metadata>0ef6417cdb280450d91118df4b961965</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Launcher Button</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_scope_delete display_value="">9391a06a538a4baaacdb46ca9f813089</sys_scope_delete>
+        <sys_update_name>sys_sg_button_0ef6417cdb280450d91118df4b961965</sys_update_name>
+        <sys_update_version display_value="sys_sg_button_0ef6417cdb280450d91118df4b961965">82f6417cdb280450d91118df4b961968</sys_update_version>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-16 19:47:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

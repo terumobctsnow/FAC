@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_po_referenced</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-11-08 21:22:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4571c678dbc9c094d91118df4b961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_po_referenced</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_ui_policy_action_4571c678dbc9c094d91118df4b961924</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-11-08 21:22:33</sys_updated_on>
+        <table>x_tebc2_fac_manage_packages</table>
+        <ui_policy display_value="Required fields">4d7f6836db1b7300d91118df4b96196d</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

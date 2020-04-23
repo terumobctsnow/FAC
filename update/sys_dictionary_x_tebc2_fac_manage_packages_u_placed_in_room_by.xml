@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true,encode_utf8=false</attributes>
         <audit>false</audit>
         <calculation/>
         <choice/>
@@ -15,8 +15,8 @@
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
+        <dependent>u_assignment_group</dependent>
+        <dependent_on_field>u_assignment_group</dependent_on_field>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
@@ -39,9 +39,9 @@
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual>active=true^roles=x_tebc2_fac_manage.user^EQ</reference_qual>
-        <reference_qual_condition table="sys_user">active=true^roles=x_tebc2_fac_manage.user^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item endquery="false" field="roles" goto="false" newquery="false" operator="=" or="false" value="x_tebc2_fac_manage.user"/>
+        <reference_qual>active=true^titleLIKEShipping and Receiving ^EQ</reference_qual>
+        <reference_qual_condition table="sys_user">active=true^titleLIKEShipping and Receiving ^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="title" goto="false" newquery="false" operator="LIKE" or="false" value="Shipping and Receiving"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <reference_type/>
@@ -52,8 +52,8 @@
         <sys_created_by>sswartwood</sys_created_by>
         <sys_created_on>2019-08-19 20:39:26</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>7bde68f2db1b7300d91118df4b96197b</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_id>5a47077edb03fb40066f18df4b9619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Placed in Room by</sys_name>
         <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
         <sys_policy/>
@@ -61,11 +61,11 @@
         <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
         <sys_update_name>sys_dictionary_x_tebc2_fac_manage_packages_u_placed_in_room_by</sys_update_name>
         <sys_updated_by>sswartwood</sys_updated_by>
-        <sys_updated_on>2019-08-29 17:13:55</sys_updated_on>
+        <sys_updated_on>2019-11-16 03:48:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
+        <use_dependent_field>true</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>

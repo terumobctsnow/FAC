@@ -68,7 +68,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>eddce617dbd113c00743f076bf9619fe</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Facilities - assigned to</sys_name>
         <sys_overrides/>
         <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
@@ -76,8 +76,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
         <sys_update_name>sysevent_email_action_eddce617dbd113c00743f076bf9619fe</sys_update_name>
-        <sys_updated_by>ttaylor</sys_updated_by>
-        <sys_updated_on>2018-04-11 16:38:52</sys_updated_on>
+        <sys_updated_by>gfehnel</sys_updated_by>
+        <sys_updated_on>2019-10-25 14:46:56</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

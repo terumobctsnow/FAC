@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_assignment">
     <sysrule_assignment action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <condition table="x_tebc2_fac_manage_fac_management_table">buildingIN11158 1st Floor,11158 2nd Floor,11158 3rd Floor^EQ<item endquery="false" field="building" goto="false" newquery="false" operator="IN" or="false" value="11158 1st Floor,11158 2nd Floor,11158 3rd Floor"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
@@ -29,7 +29,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>5e953ca0db0b1300d91118df4b961926</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Building 11158 Auto Assignment</sys_name>
         <sys_overrides/>
         <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
@@ -37,8 +37,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
         <sys_update_name>sysrule_assignment_5e953ca0db0b1300d91118df4b961926</sys_update_name>
-        <sys_updated_by>mleighton</sys_updated_by>
-        <sys_updated_on>2018-06-28 19:08:20</sys_updated_on>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-11-08 22:30:52</sys_updated_on>
         <table>x_tebc2_fac_manage_fac_management_table</table>
         <user display_value="Nezira Kustura (nkususb)">6347e2a20fd7e100539437f692050e38</user>
     </sysrule_assignment>

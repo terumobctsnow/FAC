@@ -11,7 +11,7 @@
 	return '';  // return the calculated value
 
 })(current);</calculation>
-        <choice/>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Carrier from</column_label>
@@ -55,7 +55,7 @@
         <sys_created_on>2019-06-10 19:35:00</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>cdc04498dbcef700d7f6138b4b96194b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Carrier from</sys_name>
         <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
         <sys_policy/>
@@ -63,7 +63,7 @@
         <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
         <sys_update_name>sys_dictionary_x_tebc2_fac_manage_packages_sender</sys_update_name>
         <sys_updated_by>sswartwood</sys_updated_by>
-        <sys_updated_on>2019-08-19 20:39:27</sys_updated_on>
+        <sys_updated_on>2019-11-16 03:43:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

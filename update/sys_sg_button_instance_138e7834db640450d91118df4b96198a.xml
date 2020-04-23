@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Change Package for">7fcc74b8db240450d91118df4b96195f</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon/>
+        <label>Change Package for</label>
+        <location>top</location>
+        <name>Change Package for</name>
+        <order>10</order>
+        <parent>5284d4bbdb548410d91118df4b961920</parent>
+        <parent_table>sys_sg_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-10-14 19:58:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>138e7834db640450d91118df4b96198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Change Package for</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_button_instance_138e7834db640450d91118df4b96198a</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-14 19:58:36</sys_updated_on>
+        <table>x_tebc2_fac_manage_packages</table>
+    </sys_sg_button_instance>
+</record_update>

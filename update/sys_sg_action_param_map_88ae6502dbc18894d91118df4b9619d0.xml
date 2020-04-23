@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Pickup PKG2">0e36a586db818894d91118df4b961956</button>
+        <item_parameter display_value="POReferenced">9ccda102dbc18894d91118df4b9619c0</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-11-12 17:12:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>88ae6502dbc18894d91118df4b9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9ccda102dbc18894d91118df4b9619c0</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_88ae6502dbc18894d91118df4b9619d0</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-11-12 17:12:37</sys_updated_on>
+        <ui_parameter display_value="PO Referenced (48# indirect) ">4efd2542dbc18894d91118df4b9619e5</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

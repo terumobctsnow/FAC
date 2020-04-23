@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
+    <sys_sg_screen_field action="DELETE">
+        <data_item_field_name>state</data_item_field_name>
+        <description_text/>
+        <description_text_field/>
+        <description_text_type/>
+        <field_name/>
+        <hidden>false</hidden>
+        <order>80</order>
+        <record_id_field/>
+        <screen display_value="Details">a3042919db6f7f00d91118df4b961927</screen>
+        <screen_data_item_table>x_tebc2_fac_manage_fac_management_table</screen_data_item_table>
+        <sys_class_name>sys_sg_screen_field</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-08-27 19:04:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a9c5a1d9db6f7f00d91118df4b961924</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_screen_field_a9c5a1d9db6f7f00d91118df4b961924</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-12-27 22:07:54</sys_updated_on>
+        <type>auto</type>
+        <value_only>false</value_only>
+    </sys_sg_screen_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FAC Management">182118596f542200739d841dba3ee4f7</application>
+        <file_path/>
+        <instance_id>3bd7af506ff51140ffcca9cc5d3ee43e</instance_id>
+        <instance_name>terumobctdev</instance_name>
+        <name>sys_sg_screen_field_a9c5a1d9db6f7f00d91118df4b961924</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field"><sys_sg_screen_field action="INSERT_OR_UPDATE"><data_item_field_name>state</data_item_field_name><description_text/><description_text_field/><description_text_type/><field_name/><hidden>false</hidden><order>80</order><record_id_field/><screen display_value="Details">a3042919db6f7f00d91118df4b961927</screen><screen_data_item_table>x_tebc2_fac_manage_fac_management_table</screen_data_item_table><sys_class_name>sys_sg_screen_field</sys_class_name><sys_created_by>sswartwood</sys_created_by><sys_created_on>2019-08-27 19:04:08</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>a9c5a1d9db6f7f00d91118df4b961924</sys_id><sys_mod_count>2</sys_mod_count><sys_name>state</sys_name><sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope><sys_update_name>sys_sg_screen_field_a9c5a1d9db6f7f00d91118df4b961924</sys_update_name><sys_updated_by>sswartwood</sys_updated_by><sys_updated_on>2019-12-27 22:07:54</sys_updated_on><type>auto</type><value_only>false</value_only></sys_sg_screen_field></record_update>]]></payload>
+        <payload_hash>1681600571</payload_hash>
+        <record_name>state</record_name>
+        <reverted_from/>
+        <source>7215a5961b710890492a8734ec4bcb41</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-12-27 22:07:54</sys_created_on>
+        <sys_id>7ec1ea24db8a8450d91118df4b9619af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f4966d73a0000001</sys_recorded_at>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-12-27 22:07:54</sys_updated_on>
+        <type>Screen fields</type>
+        <u_link>[code]&lt;a title="sys_sg_screen_field_a9c5a1d9db6f7f00d91118df4b961924" class="linked" href="sys_sg_screen_field.do?sys_id=a9c5a1d9db6f7f00d91118df4b961924"&gt;sys_sg_screen_field_a9c5a1d9db6f7f00d91118df4b961924&lt;/a&gt;[/code]</u_link>
+        <update_guid>36c1ea24ac8a845020187b92f2f0b4af</update_guid>
+        <update_guid_history>36c1ea24ac8a845020187b92f2f0b4af:1681600571,2cc1aa241f8a845097884d8dae5be214:-969763559,e5c5a1d9b56f7f00a2402792fca9e726:-535782708</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-12-27 22:08:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_screen_field">sys_sg_screen_field</sys_db_object>
+        <sys_id>ad79d5ecdbbe49a28a4e034c48959024</sys_id>
+        <sys_metadata>a9c5a1d9db6f7f00d91118df4b961924</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_scope_delete display_value="">9391a06a538a4baaacdb46ca9f813089</sys_scope_delete>
+        <sys_update_name>sys_sg_screen_field_a9c5a1d9db6f7f00d91118df4b961924</sys_update_name>
+        <sys_update_version display_value="sys_sg_screen_field_a9c5a1d9db6f7f00d91118df4b961924">7ec1ea24db8a8450d91118df4b9619af</sys_update_version>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-12-27 22:08:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

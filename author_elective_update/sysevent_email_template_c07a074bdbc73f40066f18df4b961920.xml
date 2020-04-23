@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="DELETE">
+        <collection>x_tebc2_fac_manage_packages</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;">I'm in the 158 building, please deliver to me here.</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>mailto.deliverto158</name>
+        <sms_alternate/>
+        <subject>Package Deliver to 158</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-08-08 16:21:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c07a074bdbc73f40066f18df4b961920</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>mailto.deliverto158</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sysevent_email_template_c07a074bdbc73f40066f18df4b961920</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-08-08 16:22:57</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FAC Management">182118596f542200739d841dba3ee4f7</application>
+        <file_path/>
+        <instance_id>3bd7af506ff51140ffcca9cc5d3ee43e</instance_id>
+        <instance_name>terumobctdev</instance_name>
+        <name>sysevent_email_template_c07a074bdbc73f40066f18df4b961920</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysevent_email_template"&gt;&lt;sysevent_email_template action="INSERT_OR_UPDATE"&gt;&lt;collection&gt;x_tebc2_fac_manage_packages&lt;/collection&gt;&lt;email_layout/&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"&gt;I'm in the 158 building, please deliver to me here.&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;mailto.deliverto158&lt;/name&gt;&lt;sms_alternate/&gt;&lt;subject&gt;Package Deliver to 158&lt;/subject&gt;&lt;sys_class_name&gt;sysevent_email_template&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sswartwood&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-08-08 16:21:54&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;c07a074bdbc73f40066f18df4b961920&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;mailto.deliverto158&lt;/sys_name&gt;&lt;sys_package display_value="FAC Management" source="x_tebc2_fac_manage"&gt;182118596f542200739d841dba3ee4f7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="FAC Management"&gt;182118596f542200739d841dba3ee4f7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_template_c07a074bdbc73f40066f18df4b961920&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;sswartwood&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-08-08 16:22:57&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;/sysevent_email_template&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1109136072</payload_hash>
+        <record_name>mailto.deliverto158</record_name>
+        <reverted_from/>
+        <source>eebb6fc1db504010d91118df4b9619a7</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-10-03 16:58:02</sys_created_on>
+        <sys_id>47bbefc1db504010d91118df4b9619c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d928e9afa0000001</sys_recorded_at>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-03 16:58:02</sys_updated_on>
+        <type>Email Template</type>
+        <u_link>[code]&lt;a title="sysevent_email_template_c07a074bdbc73f40066f18df4b961920" class="linked" href="sysevent_email_template.do?sys_id=c07a074bdbc73f40066f18df4b961920"&gt;sysevent_email_template_c07a074bdbc73f40066f18df4b961920&lt;/a&gt;[/code]</u_link>
+        <update_guid>1faa834f9ec73f40ac1a50ee9fefc57c</update_guid>
+        <update_guid_history>1faa834f9ec73f40ac1a50ee9fefc57c:1109136072,007a074b84c73f4061c05819c98fe321:-1175464873</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-10-07 16:16:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sysevent_email_template">sysevent_email_template</sys_db_object>
+        <sys_id>5d022e9e6b704406ac76a2fde0eab2e4</sys_id>
+        <sys_metadata>c07a074bdbc73f40066f18df4b961920</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mailto.deliverto158</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_parent display_value="Packages">25cefb84dbcef700d7f6138b4b961924</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_scope_delete display_value="">9391a06a538a4baaacdb46ca9f813089</sys_scope_delete>
+        <sys_update_name>sysevent_email_template_c07a074bdbc73f40066f18df4b961920</sys_update_name>
+        <sys_update_version display_value="sysevent_email_template_c07a074bdbc73f40066f18df4b961920">47bbefc1db504010d91118df4b9619c4</sys_update_version>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-07 16:16:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

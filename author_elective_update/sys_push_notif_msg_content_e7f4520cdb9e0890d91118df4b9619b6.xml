@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_msg_content">
+    <sys_push_notif_msg_content action="DELETE">
+        <name>FAC Assigned to me</name>
+        <push_app display_value="ServiceNow Mobile Application">05ed2fb177002300258da2e2c81061c2</push_app>
+        <script><![CDATA[(function buildJSON(/*GlideRecord*/ current, /*String*/ message, /*Object*/ attributes) {
+
+    var layoutFieldGenerator = new global.NotificationLayoutFieldGenerator();
+    var identifier = layoutFieldGenerator.layoutField(current.sys_class_name, current.sys_id, "number");
+    var description = layoutFieldGenerator.layoutField(current.sys_class_name, current.sys_id, "category");
+    var status = layoutFieldGenerator.layoutField(current.sys_class_name, current.sys_id, "item");
+    var json = {};
+	var deepLinkGenerator = new global.MobileDeepLinkGenerator("Agent");
+    var link = deepLinkGenerator.getFormScreenLink('d97941b6db98c810d91118df4b9619f8', current.getTableName(), current.getValue("sys_id"));
+    json = {
+        "aps" : {
+            "sound" : "default"
+        },
+        "Link": link,
+        "Layout" : {
+            "Status": status,
+            "Identifier" : identifier,
+            "Description" : description
+        }
+    };
+    
+    return json;
+    
+})(current, message, attributes);]]></script>
+        <sys_class_name>sys_push_notif_msg_content</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2020-01-07 18:11:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e7f4520cdb9e0890d91118df4b9619b6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>FAC Assigned to me</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_push_notif_msg_content_e7f4520cdb9e0890d91118df4b9619b6</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2020-01-10 17:58:04</sys_updated_on>
+    </sys_push_notif_msg_content>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FAC Management">182118596f542200739d841dba3ee4f7</application>
+        <file_path/>
+        <instance_id>3bd7af506ff51140ffcca9cc5d3ee43e</instance_id>
+        <instance_name>terumobctdev</instance_name>
+        <name>sys_push_notif_msg_content_e7f4520cdb9e0890d91118df4b9619b6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_push_notif_msg_content"&gt;&lt;sys_push_notif_msg_content action="INSERT_OR_UPDATE"&gt;&lt;name&gt;FAC Assigned to me&lt;/name&gt;&lt;push_app display_value="ServiceNow Mobile Application"&gt;05ed2fb177002300258da2e2c81061c2&lt;/push_app&gt;&lt;script&gt;&lt;![CDATA[(function buildJSON(/*GlideRecord*/ current, /*String*/ message, /*Object*/ attributes) {
+
+    var layoutFieldGenerator = new global.NotificationLayoutFieldGenerator();
+    var identifier = layoutFieldGenerator.layoutField(current.sys_class_name, current.sys_id, "number");
+    var description = layoutFieldGenerator.layoutField(current.sys_class_name, current.sys_id, "category");
+    var status = layoutFieldGenerator.layoutField(current.sys_class_name, current.sys_id, "item");
+    var json = {};
+	var deepLinkGenerator = new global.MobileDeepLinkGenerator("Agent");
+    var link = deepLinkGenerator.getFormScreenLink('d97941b6db98c810d91118df4b9619f8', current.getTableName(), current.getValue("sys_id"));
+    json = {
+        "aps" : {
+            "sound" : "default"
+        },
+        "Link": link,
+        "Layout" : {
+            "Status": status,
+            "Identifier" : identifier,
+            "Description" : description
+        }
+    };
+    
+    return json;
+    
+})(current, message, attributes);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_push_notif_msg_content&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sswartwood&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-01-07 18:11:02&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;e7f4520cdb9e0890d91118df4b9619b6&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;FAC Assigned to me&lt;/sys_name&gt;&lt;sys_package display_value="FAC Management" source="x_tebc2_fac_manage"&gt;182118596f542200739d841dba3ee4f7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="FAC Management"&gt;182118596f542200739d841dba3ee4f7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_push_notif_msg_content_e7f4520cdb9e0890d91118df4b9619b6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;sswartwood&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-01-10 17:58:04&lt;/sys_updated_on&gt;&lt;/sys_push_notif_msg_content&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>889464981</payload_hash>
+        <record_name>FAC Assigned to me</record_name>
+        <reverted_from/>
+        <source>fd641688db9e0890d91118df4b96196d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2020-01-10 17:58:04</sys_created_on>
+        <sys_id>b3dead0ddb128c90d91118df4b961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f909b263d0000001</sys_recorded_at>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2020-01-10 17:58:04</sys_updated_on>
+        <type>Push Notification Message Content</type>
+        <u_link>[code]&lt;a title="sys_push_notif_msg_content_e7f4520cdb9e0890d91118df4b9619b6" class="linked" href="sys_push_notif_msg_content.do?sys_id=e7f4520cdb9e0890d91118df4b9619b6"&gt;sys_push_notif_msg_content_e7f4520cdb9e0890d91118df4b9619b6&lt;/a&gt;[/code]</u_link>
+        <update_guid>7bdead0d0f128c907d68372baad51542</update_guid>
+        <update_guid_history>7bdead0d0f128c907d68372baad51542:889464981,2b7ee18db7128c900fb5fabd76c47c74:-1272878318,853d610d17128c9012c56401e5e9b729:889464981,af6552c8b19e08908d2aa768f940e0f2:-1528808189,db45d60c249e08901743ed820f14ba44:-1195103766,d8151688f59e0890166aae4eb3811e73:1842489000</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2020-01-10 18:01:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_push_notif_msg_content">sys_push_notif_msg_content</sys_db_object>
+        <sys_id>1e9e8029004a4f8b8a10b258c7d604b1</sys_id>
+        <sys_metadata>e7f4520cdb9e0890d91118df4b9619b6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FAC Assigned to me</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_scope_delete display_value="">9391a06a538a4baaacdb46ca9f813089</sys_scope_delete>
+        <sys_update_name>sys_push_notif_msg_content_e7f4520cdb9e0890d91118df4b9619b6</sys_update_name>
+        <sys_update_version display_value="sys_push_notif_msg_content_e7f4520cdb9e0890d91118df4b9619b6">b3dead0ddb128c90d91118df4b961943</sys_update_version>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2020-01-10 18:01:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

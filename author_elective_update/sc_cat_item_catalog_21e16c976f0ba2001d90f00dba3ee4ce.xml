@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Warehouse to Warehouse Pallet/Equipment Move">a1c124976f0ba2001d90f00dba3ee451</sc_cat_item>
+        <sc_catalog display_value="Facilities Catalog">f8b190996f542200739d841dba3ee47a</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-11-17 17:48:16</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>21e16c976f0ba2001d90f00dba3ee4ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Facilities Catalog.Warehouse to Warehouse Pallet/Equipment Move</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_21e16c976f0ba2001d90f00dba3ee4ce</sys_update_name>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-11-17 17:48:16</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FAC Management">182118596f542200739d841dba3ee4f7</application>
+        <file_path/>
+        <instance_id>77d7af506ff51140ffcca9cc5d3ee449</instance_id>
+        <instance_name>terumobct</instance_name>
+        <name>sc_cat_item_catalog_21e16c976f0ba2001d90f00dba3ee4ce</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Warehouse to Warehouse Pallet/Equipment Move">a1c124976f0ba2001d90f00dba3ee451</sc_cat_item><sc_catalog display_value="Facilities Catalog">f8b190996f542200739d841dba3ee47a</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>jalexan</sys_created_by><sys_created_on>2016-11-17 17:48:16</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>21e16c976f0ba2001d90f00dba3ee4ce</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Facilities Catalog.Warehouse to Warehouse Pallet/Equipment Move</sys_name><sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope><sys_update_name>sc_cat_item_catalog_21e16c976f0ba2001d90f00dba3ee4ce</sys_update_name><sys_updated_by>jalexan</sys_updated_by><sys_updated_on>2016-11-17 17:48:16</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1791140073</payload_hash>
+        <record_name>Facilities Catalog.Warehouse to Warehouse Pallet/Equipment Move</record_name>
+        <reverted_from/>
+        <source>6867c3c0db287240002b7a8eaf961915</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2017-01-21 17:05:14</sys_created_on>
+        <sys_id>45670fc0db287240002b7a8eaf961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>159c1fd35100000000</sys_recorded_at>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2017-01-21 17:05:14</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <u_link>[code]&lt;a title="sc_cat_item_catalog_21e16c976f0ba2001d90f00dba3ee4ce" class="linked" href="sc_cat_item_catalog.do?sys_id=21e16c976f0ba2001d90f00dba3ee4ce"&gt;sc_cat_item_catalog_21e16c976f0ba2001d90f00dba3ee4ce&lt;/a&gt;[/code]</u_link>
+        <update_guid/>
+        <update_guid_history/>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">32288fc0db287240002b7a8eaf96191e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2017-01-21 17:08:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>5fdc84570e6040bcb7d27d5745bdcff9</sys_id>
+        <sys_metadata>21e16c976f0ba2001d90f00dba3ee4ce</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Facilities Catalog.Warehouse to Warehouse Pallet/Equipment Move</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_parent display_value="">a1c124976f0ba2001d90f00dba3ee451</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_scope_delete display_value="">9391a06a538a4baaacdb46ca9f813089</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_21e16c976f0ba2001d90f00dba3ee4ce</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_21e16c976f0ba2001d90f00dba3ee4ce">45670fc0db287240002b7a8eaf961929</sys_update_version>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2017-01-21 17:08:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

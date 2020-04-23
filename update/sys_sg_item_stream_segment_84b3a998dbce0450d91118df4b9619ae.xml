@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_segment">
+    <sys_sg_item_stream_segment action="INSERT_OR_UPDATE">
+        <interleave_order_direction>asc</interleave_order_direction>
+        <name>FAC Groups Unassigned by Group</name>
+        <order/>
+        <screen display_value="FAC Unassigned by Group (aplet)">661a51d0dbce0450d91118df4b9619f8</screen>
+        <sys_class_name>sys_sg_item_stream_segment</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-12-26 22:58:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>84b3a998dbce0450d91118df4b9619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FAC Groups Unassigned by Group</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_item_stream_segment_84b3a998dbce0450d91118df4b9619ae</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-12-26 22:58:56</sys_updated_on>
+    </sys_sg_item_stream_segment>
+</record_update>

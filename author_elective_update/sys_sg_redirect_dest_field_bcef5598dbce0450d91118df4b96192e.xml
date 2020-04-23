@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_redirect_dest_field">
+    <sys_sg_redirect_dest_field action="DELETE">
+        <button display_value="Open Unssigned SSrs by Screen by Group">fcef5598dbce0450d91118df4b961929</button>
+        <button_table>x_tebc2_fac_manage_fac_management_table</button_table>
+        <constant_value/>
+        <destination_ui_parameter display_value="Unassigned Incident By Group Item Parameter">693a1190dbce0450d91118df4b9619c5</destination_ui_parameter>
+        <source_field/>
+        <source_ui_parameter/>
+        <sys_class_name>sys_sg_redirect_dest_field</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-12-26 22:41:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bcef5598dbce0450d91118df4b96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>693a1190dbce0450d91118df4b9619c5</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_redirect_dest_field_bcef5598dbce0450d91118df4b96192e</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-12-26 22:41:27</sys_updated_on>
+        <type>field</type>
+    </sys_sg_redirect_dest_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FAC Management">182118596f542200739d841dba3ee4f7</application>
+        <file_path/>
+        <instance_id>3bd7af506ff51140ffcca9cc5d3ee43e</instance_id>
+        <instance_name>terumobctdev</instance_name>
+        <name>sys_sg_redirect_dest_field_bcef5598dbce0450d91118df4b96192e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_redirect_dest_field"><sys_sg_redirect_dest_field action="INSERT_OR_UPDATE"><button display_value="Open Unssigned SSrs by Screen by Group">fcef5598dbce0450d91118df4b961929</button><button_table>x_tebc2_fac_manage_fac_management_table</button_table><constant_value/><destination_ui_parameter display_value="Unassigned Incident By Group Item Parameter">693a1190dbce0450d91118df4b9619c5</destination_ui_parameter><source_field/><source_ui_parameter/><sys_class_name>sys_sg_redirect_dest_field</sys_class_name><sys_created_by>sswartwood</sys_created_by><sys_created_on>2019-12-26 22:41:27</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>bcef5598dbce0450d91118df4b96192e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>693a1190dbce0450d91118df4b9619c5</sys_name><sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope><sys_update_name>sys_sg_redirect_dest_field_bcef5598dbce0450d91118df4b96192e</sys_update_name><sys_updated_by>sswartwood</sys_updated_by><sys_updated_on>2019-12-26 22:41:27</sys_updated_on><type>field</type></sys_sg_redirect_dest_field></record_update>]]></payload>
+        <payload_hash>1451148005</payload_hash>
+        <record_name>693a1190dbce0450d91118df4b9619c5</record_name>
+        <reverted_from/>
+        <source>7215a5961b710890492a8734ec4bcb41</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-12-26 22:41:27</sys_created_on>
+        <sys_id>bcef5598dbce0450d91118df4b961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f445f35330000001</sys_recorded_at>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-12-26 22:41:27</sys_updated_on>
+        <type>Redirection destination fields</type>
+        <u_link>[code]&lt;a title="sys_sg_redirect_dest_field_bcef5598dbce0450d91118df4b96192e" class="linked" href="sys_sg_redirect_dest_field.do?sys_id=bcef5598dbce0450d91118df4b96192e"&gt;sys_sg_redirect_dest_field_bcef5598dbce0450d91118df4b96192e&lt;/a&gt;[/code]</u_link>
+        <update_guid>b4ef55981dce04504fd31d2ad6302031</update_guid>
+        <update_guid_history>b4ef55981dce04504fd31d2ad6302031:1451148005</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-12-26 22:42:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_redirect_dest_field">sys_sg_redirect_dest_field</sys_db_object>
+        <sys_id>294509f1c99e4b4082fb070bf76c1000</sys_id>
+        <sys_metadata>bcef5598dbce0450d91118df4b96192e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>693a1190dbce0450d91118df4b9619c5</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_scope_delete display_value="">9391a06a538a4baaacdb46ca9f813089</sys_scope_delete>
+        <sys_update_name>sys_sg_redirect_dest_field_bcef5598dbce0450d91118df4b96192e</sys_update_name>
+        <sys_update_version display_value="sys_sg_redirect_dest_field_bcef5598dbce0450d91118df4b96192e">bcef5598dbce0450d91118df4b961931</sys_update_version>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-12-26 22:42:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

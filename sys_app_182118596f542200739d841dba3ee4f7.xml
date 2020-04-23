@@ -3,6 +3,7 @@
         <active>true</active>
         <can_edit_in_studio>false</can_edit_in_studio>
         <enforce_license>log</enforce_license>
+        <guided_setup_guid/>
         <js_level>helsinki_es5</js_level>
         <licensable>true</licensable>
         <license_category>none</license_category>
@@ -17,21 +18,21 @@
         <scoped_administration>false</scoped_administration>
         <short_description/>
         <source>x_tebc2_fac_manage</source>
-        <store_correlation_id/>
+        <store_correlation_id>REPOAPP0000197880</store_correlation_id>
         <store_url/>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>jalexan</sys_created_by>
         <sys_created_on>2016-08-04 18:12:27</sys_created_on>
         <sys_id>182118596f542200739d841dba3ee4f7</sys_id>
-        <sys_mod_count>19</sys_mod_count>
-        <sys_updated_by>guest</sys_updated_by>
-        <sys_updated_on>2019-08-19 19:06:22</sys_updated_on>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2020-02-28 21:55:59</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.15</version>
+        <version>2.1.0</version>
     </sys_app>
 </record_update>

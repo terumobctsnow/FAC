@@ -7,8 +7,8 @@
         <affected_field_on_event/>
         <category display_value="FAC Management" name="FAC Management">5cb361c5db610300002b7a8eaf961946</category>
         <collection>x_tebc2_fac_manage_fac_management_table</collection>
-        <condition table="x_tebc2_fac_manage_fac_management_table">stateCHANGESTO3^ORstateCHANGESTO4^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
-            <item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="true" value="4"/>
+        <condition table="x_tebc2_fac_manage_fac_management_table">stateCHANGESTO3^ORstateCHANGESTO4^EQ<item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+            <item display_value="Closed Incomplete" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="true" value="4"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>

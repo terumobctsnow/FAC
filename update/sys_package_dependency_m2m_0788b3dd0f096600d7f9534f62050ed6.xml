@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="ITIL Services" source="com.snc.service">74fa67500f311100b176fb1792050e97</dependency>
+        <min_version/>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2016-08-04 18:12:39</sys_created_on>
+        <sys_id>0788b3dd0f096600d7f9534f62050ed6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2016-08-04 18:12:39</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

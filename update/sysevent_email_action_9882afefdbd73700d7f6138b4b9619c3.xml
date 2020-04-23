@@ -35,8 +35,11 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">You have received a package.&nbsp; Please review the details below and click an option to reply back via an automated email with how you&rsquo;d like to proceed </span></p>
-<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>SSR</strong>#: ${number}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Package for:</strong> ${pacakge_for}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Pickup Location:</strong> ${package_pickup_location}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Barcode:</strong> ${package_barcode}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Carrier from:</strong> ${sender}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Placed in room by:</strong> ${u_placed_in_room_by}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Additional Information:</strong> ${u_additional_info}</span></p>
+        <message_html><![CDATA[<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt; color: #ff0000;">Do not reply to this email.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">You have received a package.&nbsp; Please review the details below and click an option to reply back via an automated email with how you&rsquo;d like to proceed.&nbsp;</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">Ensure to hit "SEND" on the email upon choosing an option below. </span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt; color: #ff0000;">You will receive a reminder email until you take action.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>SSR</strong>#: ${number}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Package for:</strong> ${pacakge_for}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Pickup Location:</strong> ${package_pickup_location}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Package Tracking Number:</strong> ${package_barcode}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Carrier from:</strong> ${sender}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Placed in room by:</strong> ${u_placed_in_room_by}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Package Status: </strong>${u_package_status}<strong><br /></strong></span><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Additional Information:</strong> ${u_additional_info}</span></p>
 <p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">${mailto:mailto.packagereceived}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">${mailto:mailto.packagenotfound}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">${mailto:mailto.deliverto158}</span></p>
 <p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Additional comments:</strong> ${comments}<br /></span></p>
 <p>&nbsp;</p>]]></message_html>
@@ -53,7 +56,7 @@
         <send_self>false</send_self>
         <sms_alternate/>
         <style/>
-        <subject>${number} - Reminder: package is waiting for pickup - 3</subject>
+        <subject>${number} - Reminder: package is waiting for pickup </subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>sswartwood</sys_created_by>
@@ -61,7 +64,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>9882afefdbd73700d7f6138b4b9619c3</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Package Reminder</sys_name>
         <sys_overrides/>
         <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
@@ -70,7 +73,7 @@
         <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
         <sys_update_name>sysevent_email_action_9882afefdbd73700d7f6138b4b9619c3</sys_update_name>
         <sys_updated_by>sswartwood</sys_updated_by>
-        <sys_updated_on>2019-08-29 17:23:04</sys_updated_on>
+        <sys_updated_on>2020-03-19 23:11:41</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

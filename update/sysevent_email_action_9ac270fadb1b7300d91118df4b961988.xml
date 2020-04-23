@@ -37,8 +37,8 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">The following has been assigned to your group but has not been assigned to a specific individual:</span></p>
-<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>SSR</strong>#: ${number}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Package for:</strong> ${pacakge_for}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Pickup Location:</strong> ${package_pickup_location}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Barcode:</strong> ${package_barcode}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Carrier from:</strong> ${sender}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Placed in room by:</strong> ${u_placed_in_room_by}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Additional Information:</strong> ${u_additional_info}<br /></span></p>
+        <message_html><![CDATA[<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">The following has been assigned to your group:</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>SSR</strong>#: ${URI_REF}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Package for:</strong> ${pacakge_for}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Pickup Location:</strong> ${package_pickup_location}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Package Tracking Number:</strong> ${package_barcode}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Carrier from:</strong> ${sender}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Placed in room by:</strong> ${u_placed_in_room_by}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Package Status: </strong>${u_package_status}<strong><br /></strong></span><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Additional Information:</strong> ${u_additional_info}<br /></span></p>
 <p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Additional comments:</strong> ${comments}</span></p>
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
@@ -54,7 +54,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>${number} - Pacakge Delivery has been assigned to your group</subject>
+        <subject>${number} - Package Delivery has been assigned to your group</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>sswartwood</sys_created_by>
@@ -62,7 +62,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>9ac270fadb1b7300d91118df4b961988</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Package - Assignment Group</sys_name>
         <sys_overrides/>
         <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
@@ -71,7 +71,7 @@
         <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
         <sys_update_name>sysevent_email_action_9ac270fadb1b7300d91118df4b961988</sys_update_name>
         <sys_updated_by>sswartwood</sys_updated_by>
-        <sys_updated_on>2019-08-29 16:32:40</sys_updated_on>
+        <sys_updated_on>2019-11-21 18:32:20</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

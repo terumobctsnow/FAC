@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="hasLabels=true" audit="true" extends="task" label="FAC Management" max_length="40" name="x_tebc2_fac_manage_fac_management_table" sizeclass="25055" text_index="true" type="collection">
+    <element attributes="hasLabels=true" audit="true" extends="task" label="FAC Management" max_length="40" name="x_tebc2_fac_manage_fac_management_table" sizeclass="29831" text_index="true" type="collection">
         <element label="Additional recycle containers" max_length="40" name="additional_recycle" type="string"/>
         <element label="Additional trash container" max_length="40" name="additional_trash" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Alternate Contact" max_length="32" name="alternate_contact" reference="sys_user" type="reference"/>

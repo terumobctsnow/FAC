@@ -2,23 +2,25 @@
     <sys_sg_details_screen action="INSERT_OR_UPDATE">
         <application_roles/>
         <available_offline>false</available_offline>
-        <data_item display_value="WHS My Group Unassigned">81d22155db6f7f00d91118df4b96199f</data_item>
+        <data_item/>
         <description>Warehouse tickets unassigned in my group.</description>
+        <dynamic_prefetch_count/>
         <fetch_type>not_required</fetch_type>
         <hidden>false</hidden>
+        <hide_filters>false</hide_filters>
         <icon display_value="building">b8aa2d91dbaf7f00d91118df4b9619fb</icon>
-        <item_view display_value="My Groups Work Unassigned detail item view">c5aae191dbaf7f00d91118df4b96194d</item_view>
+        <item_view/>
         <name>Details</name>
-        <order>10</order>
-        <parent>4daa6d91dbaf7f00d91118df4b961901</parent>
-        <parent_table>sys_sg_master_item</parent_table>
+        <order/>
+        <parent/>
+        <parent_table/>
         <roles_override/>
         <sys_class_name>sys_sg_details_screen</sys_class_name>
         <sys_created_by>sswartwood</sys_created_by>
-        <sys_created_on/>
+        <sys_created_on>2019-10-03 17:17:20</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>59aa6d91dbaf7f00d91118df4b961983</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Details</sys_name>
         <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
         <sys_policy/>
@@ -26,6 +28,7 @@
         <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
         <sys_update_name>sys_sg_details_screen_59aa6d91dbaf7f00d91118df4b961983</sys_update_name>
         <sys_updated_by>sswartwood</sys_updated_by>
-        <sys_updated_on>2019-08-27 19:28:43</sys_updated_on>
+        <sys_updated_on>2020-02-26 16:29:07</sys_updated_on>
+        <table>x_tebc2_fac_manage_fac_management_table</table>
     </sys_sg_details_screen>
 </record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Warehouse to Warehouse Pallet/Equipment Move">782c745f6f0ba2001d90f00dba3ee45a</sc_cat_item>
+        <sc_category display_value="Move Assistance/Office Set-Up">cee4dc996f542200739d841dba3ee45d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-11-17 19:55:05</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>9fee709f6f0ba2001d90f00dba3ee436</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Move Assistance/Office Set-Up.Warehouse to Warehouse Pallet/Equipment Move</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sc_cat_item_category_9fee709f6f0ba2001d90f00dba3ee436</sys_update_name>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-11-17 19:55:05</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FAC Management">182118596f542200739d841dba3ee4f7</application>
+        <file_path/>
+        <instance_id>77d7af506ff51140ffcca9cc5d3ee449</instance_id>
+        <instance_name>terumobct</instance_name>
+        <name>sc_cat_item_category_9fee709f6f0ba2001d90f00dba3ee436</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Warehouse to Warehouse Pallet/Equipment Move">782c745f6f0ba2001d90f00dba3ee45a</sc_cat_item><sc_category display_value="Move Assistance/Office Set-Up">cee4dc996f542200739d841dba3ee45d</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>jalexan</sys_created_by><sys_created_on>2016-11-17 19:55:05</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>9fee709f6f0ba2001d90f00dba3ee436</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Move Assistance/Office Set-Up.Warehouse to Warehouse Pallet/Equipment Move</sys_name><sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope><sys_update_name>sc_cat_item_category_9fee709f6f0ba2001d90f00dba3ee436</sys_update_name><sys_updated_by>jalexan</sys_updated_by><sys_updated_on>2016-11-17 19:55:05</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1458361224</payload_hash>
+        <record_name>Move Assistance/Office Set-Up.Warehouse to Warehouse Pallet/Equipment Move</record_name>
+        <reverted_from/>
+        <source>6867c3c0db287240002b7a8eaf961915</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2017-01-21 17:05:14</sys_created_on>
+        <sys_id>d5670fc0db287240002b7a8eaf96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>159c1fd35100000000</sys_recorded_at>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2017-01-21 17:05:14</sys_updated_on>
+        <type>Sc Cat Item Category</type>
+        <u_link>[code]&lt;a title="sc_cat_item_category_9fee709f6f0ba2001d90f00dba3ee436" class="linked" href="sc_cat_item_category.do?sys_id=9fee709f6f0ba2001d90f00dba3ee436"&gt;sc_cat_item_category_9fee709f6f0ba2001d90f00dba3ee436&lt;/a&gt;[/code]</u_link>
+        <update_guid/>
+        <update_guid_history/>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">0f36f0f3db593fc0ef18e3a84b961993</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>gfehnel</sys_created_by>
+        <sys_created_on>2019-05-15 13:39:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>0849d1414db54dc0806f527ab2c2c100</sys_id>
+        <sys_metadata>9fee709f6f0ba2001d90f00dba3ee436</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Move Assistance/Office Set-Up.Warehouse to Warehouse Pallet/Equipment Move</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_parent display_value="Warehouse to Warehouse Pallet/Equipment Move">782c745f6f0ba2001d90f00dba3ee45a</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_scope_delete display_value="">9391a06a538a4baaacdb46ca9f813089</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_9fee709f6f0ba2001d90f00dba3ee436</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_9fee709f6f0ba2001d90f00dba3ee436">d5670fc0db287240002b7a8eaf96192b</sys_update_version>
+        <sys_updated_by>gfehnel</sys_updated_by>
+        <sys_updated_on>2019-05-15 13:39:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

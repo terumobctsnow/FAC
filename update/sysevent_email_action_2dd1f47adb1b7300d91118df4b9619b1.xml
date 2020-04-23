@@ -2,7 +2,7 @@
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>false</action_insert>
         <action_update>true</action_update>
-        <active>true</active>
+        <active>false</active>
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
@@ -38,7 +38,7 @@
         <mandatory>false</mandatory>
         <message/>
         <message_html><![CDATA[<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">The following SSR has been assigned to you.</span></p>
-<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>SSR</strong>#: ${number}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Package for:</strong> ${pacakge_for}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Pickup Location:</strong> ${package_pickup_location}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Barcode:</strong> ${package_barcode}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Carrier from:</strong> ${sender}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Placed in room by:</strong> ${u_placed_in_room_by}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Additional Information:</strong> ${u_additional_info}<br /></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>SSR</strong>#: ${number}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Package for:</strong> ${pacakge_for}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Pickup Location:</strong> ${package_pickup_location}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Package Tracking Number:</strong> ${package_barcode}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Carrier from:</strong> ${sender}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Placed in room by:</strong> ${u_placed_in_room_by}</span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Additional Information:</strong> ${u_additional_info}<br /></span></p>
 <p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Additional comments:</strong> ${comments}</span></p>
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
@@ -62,7 +62,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>2dd1f47adb1b7300d91118df4b9619b1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Package - Assign to</sys_name>
         <sys_overrides/>
         <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
@@ -71,7 +71,7 @@
         <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
         <sys_update_name>sysevent_email_action_2dd1f47adb1b7300d91118df4b9619b1</sys_update_name>
         <sys_updated_by>sswartwood</sys_updated_by>
-        <sys_updated_on>2019-08-29 16:32:55</sys_updated_on>
+        <sys_updated_on>2019-10-18 15:46:35</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

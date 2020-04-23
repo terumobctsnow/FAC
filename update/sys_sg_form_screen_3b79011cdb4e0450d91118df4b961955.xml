@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_screen">
+    <sys_sg_form_screen action="INSERT_OR_UPDATE">
+        <application_roles/>
+        <available_offline>false</available_offline>
+        <data_item/>
+        <description/>
+        <dynamic_prefetch_count/>
+        <fetch_type>not_required</fetch_type>
+        <hidden>false</hidden>
+        <hide_filters>false</hide_filters>
+        <icon display_value="FAC Unassigned by Group Icon">7779c5d8db4e0450d91118df4b961979</icon>
+        <item_view display_value="FAC Unassigned by Group Header Item View">bb79c5d8db4e0450d91118df4b96197b</item_view>
+        <name>FAC Unassigned by Group</name>
+        <order/>
+        <parent/>
+        <parent_table/>
+        <roles_override/>
+        <sys_class_name>sys_sg_form_screen</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-12-26 21:03:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3b79011cdb4e0450d91118df4b961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FAC Unassigned by Group</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_form_screen_3b79011cdb4e0450d91118df4b961955</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-12-26 21:03:38</sys_updated_on>
+        <table/>
+    </sys_sg_form_screen>
+</record_update>

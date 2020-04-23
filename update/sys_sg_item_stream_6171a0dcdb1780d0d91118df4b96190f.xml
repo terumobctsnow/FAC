@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
+    <sys_sg_item_stream action="INSERT_OR_UPDATE">
+        <data_item display_value="FAC_Assigned_Group_1">e4cf9b04dbdf40d0d91118df4b961915</data_item>
+        <interleaved_field/>
+        <name>FAC_Assigned_itemStream1</name>
+        <sys_class_name>sys_sg_item_stream</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2020-02-26 21:27:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6171a0dcdb1780d0d91118df4b96190f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FAC_Assigned_itemStream1</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_item_stream_6171a0dcdb1780d0d91118df4b96190f</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2020-02-26 21:27:24</sys_updated_on>
+        <table/>
+    </sys_sg_item_stream>
+</record_update>

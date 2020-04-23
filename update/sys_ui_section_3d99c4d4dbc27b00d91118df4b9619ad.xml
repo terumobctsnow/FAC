@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>sswartwood</sys_created_by>
-            <sys_created_on>2019-08-29 16:35:06</sys_created_on>
-            <sys_id>4ed65331dbe77340d91118df4b961906</sys_id>
+            <sys_created_on>2019-11-08 21:21:32</sys_created_on>
+            <sys_id>4e418278dbc9c094d91118df4b961994</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_packages" sys_domain="global" view="Default view">3d99c4d4dbc27b00d91118df4b9619ad</sys_ui_section>
             <sys_updated_by>sswartwood</sys_updated_by>
-            <sys_updated_on>2019-08-29 16:35:06</sys_updated_on>
+            <sys_updated_on>2019-11-08 21:21:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>pacakge_for</element>
             <position>1</position>
             <sys_created_by>sswartwood</sys_created_by>
-            <sys_created_on>2019-08-29 16:35:06</sys_created_on>
-            <sys_id>0ad65331dbe77340d91118df4b961907</sys_id>
+            <sys_created_on>2019-11-08 21:21:32</sys_created_on>
+            <sys_id>0a418278dbc9c094d91118df4b961995</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_packages" sys_domain="global" view="Default view">3d99c4d4dbc27b00d91118df4b9619ad</sys_ui_section>
             <sys_updated_by>sswartwood</sys_updated_by>
-            <sys_updated_on>2019-08-29 16:35:06</sys_updated_on>
+            <sys_updated_on>2019-11-08 21:21:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>package_pickup_location</element>
             <position>2</position>
             <sys_created_by>sswartwood</sys_created_by>
-            <sys_created_on>2019-08-29 16:35:06</sys_created_on>
-            <sys_id>8ed65331dbe77340d91118df4b961907</sys_id>
+            <sys_created_on>2019-11-08 21:21:32</sys_created_on>
+            <sys_id>8e418278dbc9c094d91118df4b961995</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_packages" sys_domain="global" view="Default view">3d99c4d4dbc27b00d91118df4b9619ad</sys_ui_section>
             <sys_updated_by>sswartwood</sys_updated_by>
-            <sys_updated_on>2019-08-29 16:35:06</sys_updated_on>
+            <sys_updated_on>2019-11-08 21:21:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,69 +46,69 @@
             <element>sender</element>
             <position>3</position>
             <sys_created_by>sswartwood</sys_created_by>
-            <sys_created_on>2019-08-29 16:35:06</sys_created_on>
-            <sys_id>06d65331dbe77340d91118df4b961908</sys_id>
+            <sys_created_on>2019-11-08 21:21:32</sys_created_on>
+            <sys_id>06418278dbc9c094d91118df4b961996</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_packages" sys_domain="global" view="Default view">3d99c4d4dbc27b00d91118df4b9619ad</sys_ui_section>
             <sys_updated_by>sswartwood</sys_updated_by>
-            <sys_updated_on>2019-08-29 16:35:06</sys_updated_on>
+            <sys_updated_on>2019-11-08 21:21:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>package_barcode</element>
+            <element>u_carrier_other</element>
             <position>4</position>
             <sys_created_by>sswartwood</sys_created_by>
-            <sys_created_on>2019-08-29 16:35:06</sys_created_on>
-            <sys_id>8ad65331dbe77340d91118df4b961908</sys_id>
+            <sys_created_on>2019-11-08 21:21:32</sys_created_on>
+            <sys_id>8a418278dbc9c094d91118df4b961996</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_packages" sys_domain="global" view="Default view">3d99c4d4dbc27b00d91118df4b9619ad</sys_ui_section>
             <sys_updated_by>sswartwood</sys_updated_by>
-            <sys_updated_on>2019-08-29 16:35:06</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_placed_in_room_by</element>
-            <position>5</position>
-            <sys_created_by>sswartwood</sys_created_by>
-            <sys_created_on>2019-08-29 16:35:06</sys_created_on>
-            <sys_id>02d65331dbe77340d91118df4b961909</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_packages" sys_domain="global" view="Default view">3d99c4d4dbc27b00d91118df4b9619ad</sys_ui_section>
-            <sys_updated_by>sswartwood</sys_updated_by>
-            <sys_updated_on>2019-08-29 16:35:06</sys_updated_on>
+            <sys_updated_on>2019-11-08 21:21:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>6</position>
+            <position>5</position>
             <sys_created_by>sswartwood</sys_created_by>
-            <sys_created_on>2019-08-29 16:35:06</sys_created_on>
-            <sys_id>86d65331dbe77340d91118df4b961909</sys_id>
+            <sys_created_on>2019-11-08 21:21:32</sys_created_on>
+            <sys_id>02418278dbc9c094d91118df4b961997</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_packages" sys_domain="global" view="Default view">3d99c4d4dbc27b00d91118df4b9619ad</sys_ui_section>
             <sys_updated_by>sswartwood</sys_updated_by>
-            <sys_updated_on>2019-08-29 16:35:06</sys_updated_on>
+            <sys_updated_on>2019-11-08 21:21:32</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>7</position>
+            <position>6</position>
             <sys_created_by>sswartwood</sys_created_by>
-            <sys_created_on>2019-08-29 16:35:06</sys_created_on>
-            <sys_id>0ed65331dbe77340d91118df4b961909</sys_id>
+            <sys_created_on>2019-11-08 21:21:32</sys_created_on>
+            <sys_id>86418278dbc9c094d91118df4b961997</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_packages" sys_domain="global" view="Default view">3d99c4d4dbc27b00d91118df4b9619ad</sys_ui_section>
             <sys_updated_by>sswartwood</sys_updated_by>
-            <sys_updated_on>2019-08-29 16:35:06</sys_updated_on>
+            <sys_updated_on>2019-11-08 21:21:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_package_status</element>
+            <position>7</position>
+            <sys_created_by>sswartwood</sys_created_by>
+            <sys_created_on>2019-11-08 21:21:32</sys_created_on>
+            <sys_id>0e418278dbc9c094d91118df4b961997</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_packages" sys_domain="global" view="Default view">3d99c4d4dbc27b00d91118df4b9619ad</sys_ui_section>
+            <sys_updated_by>sswartwood</sys_updated_by>
+            <sys_updated_on>2019-11-08 21:21:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,55 +116,69 @@
             <element>opened_at</element>
             <position>8</position>
             <sys_created_by>sswartwood</sys_created_by>
-            <sys_created_on>2019-08-29 16:35:06</sys_created_on>
-            <sys_id>82d65331dbe77340d91118df4b96190a</sys_id>
+            <sys_created_on>2019-11-08 21:21:32</sys_created_on>
+            <sys_id>82418278dbc9c094d91118df4b961998</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_packages" sys_domain="global" view="Default view">3d99c4d4dbc27b00d91118df4b9619ad</sys_ui_section>
             <sys_updated_by>sswartwood</sys_updated_by>
-            <sys_updated_on>2019-08-29 16:35:06</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>opened_by</element>
-            <position>9</position>
-            <sys_created_by>sswartwood</sys_created_by>
-            <sys_created_on>2019-08-29 16:35:06</sys_created_on>
-            <sys_id>0ad65331dbe77340d91118df4b96190a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_packages" sys_domain="global" view="Default view">3d99c4d4dbc27b00d91118df4b9619ad</sys_ui_section>
-            <sys_updated_by>sswartwood</sys_updated_by>
-            <sys_updated_on>2019-08-29 16:35:06</sys_updated_on>
+            <sys_updated_on>2019-11-08 21:21:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assignment_group</element>
-            <position>10</position>
+            <position>9</position>
             <sys_created_by>sswartwood</sys_created_by>
-            <sys_created_on>2019-08-29 16:35:06</sys_created_on>
-            <sys_id>8ed65331dbe77340d91118df4b96190a</sys_id>
+            <sys_created_on>2019-11-08 21:21:32</sys_created_on>
+            <sys_id>0a418278dbc9c094d91118df4b961998</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_packages" sys_domain="global" view="Default view">3d99c4d4dbc27b00d91118df4b9619ad</sys_ui_section>
             <sys_updated_by>sswartwood</sys_updated_by>
-            <sys_updated_on>2019-08-29 16:35:06</sys_updated_on>
+            <sys_updated_on>2019-11-08 21:21:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assigned_to</element>
-            <position>11</position>
+            <element>u_placed_in_room_by</element>
+            <position>10</position>
             <sys_created_by>sswartwood</sys_created_by>
-            <sys_created_on>2019-08-29 16:35:06</sys_created_on>
-            <sys_id>06d65331dbe77340d91118df4b96190b</sys_id>
+            <sys_created_on>2019-11-08 21:21:32</sys_created_on>
+            <sys_id>8e418278dbc9c094d91118df4b961998</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_packages" sys_domain="global" view="Default view">3d99c4d4dbc27b00d91118df4b9619ad</sys_ui_section>
             <sys_updated_by>sswartwood</sys_updated_by>
-            <sys_updated_on>2019-08-29 16:35:06</sys_updated_on>
+            <sys_updated_on>2019-11-08 21:21:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>package_barcode</element>
+            <position>11</position>
+            <sys_created_by>sswartwood</sys_created_by>
+            <sys_created_on>2019-11-08 21:21:32</sys_created_on>
+            <sys_id>06418278dbc9c094d91118df4b961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_packages" sys_domain="global" view="Default view">3d99c4d4dbc27b00d91118df4b9619ad</sys_ui_section>
+            <sys_updated_by>sswartwood</sys_updated_by>
+            <sys_updated_on>2019-11-08 21:21:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_po_referenced</element>
+            <position>12</position>
+            <sys_created_by>sswartwood</sys_created_by>
+            <sys_created_on>2019-11-08 21:21:32</sys_created_on>
+            <sys_id>8a418278dbc9c094d91118df4b961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tebc2_fac_manage_packages" sys_domain="global" view="Default view">3d99c4d4dbc27b00d91118df4b9619ad</sys_ui_section>
+            <sys_updated_by>sswartwood</sys_updated_by>
+            <sys_updated_on>2019-11-08 21:21:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

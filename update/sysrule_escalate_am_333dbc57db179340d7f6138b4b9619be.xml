@@ -4,7 +4,7 @@
         <assignment_script/>
         <calendar display_value="Monday thru Friday (9 - 5)">bea4c03cc611227801d411166792a145</calendar>
         <condition table="x_tebc2_fac_manage_fac_management_table">assigned_to=2b47e2a20fd7e100539437f692050e41^stateIN1,8,2^EQ<item display_table="sys_user" display_value="Habib Habyarimana (hhabusb)" endquery="false" field="assigned_to" goto="false" newquery="false" operator="=" or="false" value="2b47e2a20fd7e100539437f692050e41"/>
-            <item endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="1,8,2"/>
+            <item display_value="1,8,2" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="1,8,2"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <description>Reminder to reassign tickets</description>

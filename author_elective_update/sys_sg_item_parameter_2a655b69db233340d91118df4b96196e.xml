@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="DELETE">
+        <default_value/>
+        <name>Edit_Assignment_Group_FAC_IP</name>
+        <parent>a57406d5db23bf00d91118df4b9619e7</parent>
+        <parent_table>sys_sg_write_back_action_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-08-28 21:50:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2a655b69db233340d91118df4b96196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit_Assignment_Group_FAC_IP</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_2a655b69db233340d91118df4b96196e</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-08-28 21:50:29</sys_updated_on>
+        <type>string</type>
+    </sys_sg_item_parameter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FAC Management">182118596f542200739d841dba3ee4f7</application>
+        <file_path/>
+        <instance_id>77d7af506ff51140ffcca9cc5d3ee449</instance_id>
+        <instance_name>terumobct</instance_name>
+        <name>sys_sg_item_parameter_2a655b69db233340d91118df4b96196e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter"><sys_sg_item_parameter action="INSERT_OR_UPDATE"><default_value/><name>Edit_Assignment_Group_FAC_IP</name><parent>a57406d5db23bf00d91118df4b9619e7</parent><parent_table>sys_sg_write_back_action_item</parent_table><sys_class_name>sys_sg_item_parameter</sys_class_name><sys_created_by>sswartwood</sys_created_by><sys_created_on>2019-08-28 21:50:29</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>2a655b69db233340d91118df4b96196e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Edit_Assignment_Group_FAC_IP</sys_name><sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope><sys_update_name>sys_sg_item_parameter_2a655b69db233340d91118df4b96196e</sys_update_name><sys_updated_by>sswartwood</sys_updated_by><sys_updated_on>2019-08-28 21:50:29</sys_updated_on><type>string</type></sys_sg_item_parameter></record_update>]]></payload>
+        <payload_hash>1288021449</payload_hash>
+        <record_name>Edit_Assignment_Group_FAC_IP</record_name>
+        <reverted_from/>
+        <source>9c2693cbdb8500108fda3e0439961939</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-11-16 03:18:41</sys_created_on>
+        <sys_id>0e2617cbdb8500108fda3e04399619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e723847240000001</sys_recorded_at>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-11-16 03:18:41</sys_updated_on>
+        <type>Item Parameter</type>
+        <u_link>[code]&lt;a title="sys_sg_item_parameter_2a655b69db233340d91118df4b96196e" class="linked" href="sys_sg_item_parameter.do?sys_id=2a655b69db233340d91118df4b96196e"&gt;sys_sg_item_parameter_2a655b69db233340d91118df4b96196e&lt;/a&gt;[/code]</u_link>
+        <update_guid>8c755ba5c4233340b7d1ed2c9d525182</update_guid>
+        <update_guid_history>8c755ba5c4233340b7d1ed2c9d525182:1288021449</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2020-02-27 18:13:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_item_parameter">sys_sg_item_parameter</sys_db_object>
+        <sys_id>060fc94179a34afca2a6adc1cbf50611</sys_id>
+        <sys_metadata>2a655b69db233340d91118df4b96196e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit_Assignment_Group_FAC_IP</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_scope_delete display_value="">9391a06a538a4baaacdb46ca9f813089</sys_scope_delete>
+        <sys_update_name>sys_sg_item_parameter_2a655b69db233340d91118df4b96196e</sys_update_name>
+        <sys_update_version display_value="sys_sg_item_parameter_2a655b69db233340d91118df4b96196e">0e2617cbdb8500108fda3e04399619c1</sys_update_version>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2020-02-27 18:13:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -12,6 +12,7 @@
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description><![CDATA[<p style="font: 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000000; text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;"><span style="font-size: x-large;">To find a room and specify a setup, please <strong><a title="click here" href="http://worknet.bct.gambro.net/myworknet/confroom/" target="_blank"><u><span style="color: #0000ff;">click here</span></u></a><span style="color: #0000ff;">&nbsp;</span></strong>to open the Conference Room Setup Tool on myWorkNet.&nbsp; You will be prompted to login and submit your request through the Room Setup Tool at this time.&nbsp; If you have any questions please contact the Facilities Help Desk at (x4346). At this time you do not need to click the Submit button below.</span></p>
 <p>&nbsp;</p>]]></description>
+        <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
         <group/>
@@ -127,6 +128,7 @@
         <compressed>true</compressed>
         <content_type>image/png</content_type>
         <file_name>icon</file_name>
+        <hash/>
         <image_height/>
         <image_width/>
         <size_bytes>3714</size_bytes>
@@ -220,6 +222,7 @@ VIqwshIEUn15be2OhhMjcJ8Idfc+rN2PEL/cwZ6J/TkJXLVASLiJfr2ufdT/ANEP25qCDgAA</data>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
         <file_name>picture</file_name>
+        <hash/>
         <image_height/>
         <image_width/>
         <size_bytes>3714</size_bytes>

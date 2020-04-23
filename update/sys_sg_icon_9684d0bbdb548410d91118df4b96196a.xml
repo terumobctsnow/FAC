@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon">
+    <sys_sg_icon action="INSERT_OR_UPDATE">
+        <icon>{"Shape":"Circle","FontName":"now-mobile-icons","Value":"f14d","Name":"icon-Share-Square","FontColor":"#FF8C3E","BackgroundColor":"#FF8C3E"}</icon>
+        <name>icon-Share-Square</name>
+        <sys_class_name>sys_sg_icon</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-10-11 14:21:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9684d0bbdb548410d91118df4b96196a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>icon-Share-Square</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_icon_9684d0bbdb548410d91118df4b96196a</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-14 17:01:48</sys_updated_on>
+        <type>font</type>
+    </sys_sg_icon>
+</record_update>

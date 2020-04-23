@@ -2,20 +2,22 @@
     <sys_sg_button_instance action="INSERT_OR_UPDATE">
         <active>true</active>
         <button display_value="FAC View Variable Options">32a0cb29db2fff00d91118df4b96198e</button>
+        <color_theme>primary</color_theme>
         <description/>
         <field_name/>
+        <icon/>
         <label>See Variables</label>
         <location>top</location>
         <name>See Variables</name>
         <order>6</order>
-        <parent>2a19e19ddb6f7f00d91118df4b96198b</parent>
+        <parent>e87901b6db98c810d91118df4b9619fc</parent>
         <parent_table>sys_sg_details_screen</parent_table>
         <sys_class_name>sys_sg_button_instance</sys_class_name>
         <sys_created_by>sswartwood</sys_created_by>
         <sys_created_on>2019-08-28 21:14:49</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>fd4d4b69db6fff00d91118df4b96191c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>See Variables</sys_name>
         <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
         <sys_policy/>
@@ -23,7 +25,7 @@
         <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
         <sys_update_name>sys_sg_button_instance_fd4d4b69db6fff00d91118df4b96191c</sys_update_name>
         <sys_updated_by>sswartwood</sys_updated_by>
-        <sys_updated_on>2019-08-28 21:14:49</sys_updated_on>
+        <sys_updated_on>2019-10-08 15:38:21</sys_updated_on>
         <table/>
     </sys_sg_button_instance>
 </record_update>

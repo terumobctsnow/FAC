@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
     <sys_sg_screen_field action="INSERT_OR_UPDATE">
         <data_item_field_name>alternate_contact</data_item_field_name>
+        <description_text/>
+        <description_text_field/>
+        <description_text_type/>
+        <field_name/>
         <hidden>false</hidden>
-        <order>40</order>
+        <order>70</order>
+        <record_id_field/>
         <screen display_value="Details">a3042919db6f7f00d91118df4b961927</screen>
         <screen_data_item_table>x_tebc2_fac_manage_fac_management_table</screen_data_item_table>
         <sys_class_name>sys_sg_screen_field</sys_class_name>
@@ -10,7 +15,7 @@
         <sys_created_on>2019-08-27 19:04:07</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>ddc5a1d9db6f7f00d91118df4b961911</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>alternate_contact</sys_name>
         <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
         <sys_policy/>
@@ -18,7 +23,8 @@
         <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
         <sys_update_name>sys_sg_screen_field_ddc5a1d9db6f7f00d91118df4b961911</sys_update_name>
         <sys_updated_by>sswartwood</sys_updated_by>
-        <sys_updated_on>2019-08-27 19:04:07</sys_updated_on>
+        <sys_updated_on>2019-12-27 22:11:09</sys_updated_on>
         <type>auto</type>
+        <value_only>false</value_only>
     </sys_sg_screen_field>
 </record_update>

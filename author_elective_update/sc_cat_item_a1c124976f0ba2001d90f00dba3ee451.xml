@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="DELETE">
+        <active>true</active>
+        <availability>on_both</availability>
+        <billable>false</billable>
+        <category/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <entitlement_script/>
+        <group/>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Warehouse to Warehouse Pallet/Equipment Move</name>
+        <no_cart>false</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>false</omit_price>
+        <order>500</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("./com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=a1c124976f0ba2001d90f00dba3ee451&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <roles/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <short_description/>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-11-17 17:48:15</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>a1c124976f0ba2001d90f00dba3ee451</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Warehouse to Warehouse Pallet/Equipment Move</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sc_cat_item_a1c124976f0ba2001d90f00dba3ee451</sys_update_name>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2017-01-21 17:08:38</sys_updated_on>
+        <template/>
+        <type>item</type>
+        <u_og_include>false</u_og_include>
+        <u_use_item_task_stages>true</u_use_item_task_stages>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="DELETE" query="documentkey=a1c124976f0ba2001d90f00dba3ee451"/>
+    <fx_price action="DELETE" query="id=a1c124976f0ba2001d90f00dba3ee451"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>a1c124976f0ba2001d90f00dba3ee451</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-11-17 17:48:15</sys_created_on>
+        <sys_id>95e16c976f0ba2001d90f00dba3ee4cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-11-17 17:48:15</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>a1c124976f0ba2001d90f00dba3ee451</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2016-11-17 17:48:15</sys_created_on>
+        <sys_id>99e16c976f0ba2001d90f00dba3ee4cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2016-11-17 17:48:15</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FAC Management">182118596f542200739d841dba3ee4f7</application>
+        <file_path/>
+        <instance_id>77d7af506ff51140ffcca9cc5d3ee449</instance_id>
+        <instance_name>terumobct</instance_name>
+        <name>sc_cat_item_a1c124976f0ba2001d90f00dba3ee451</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item"><sc_cat_item action="INSERT_OR_UPDATE"><active>true</active><availability>on_both</availability><billable>false</billable><category/><cost>0</cost><custom_cart/><delivery_plan/><delivery_plan_script/><delivery_time>1970-01-03 00:00:00</delivery_time><description/><entitlement_script/><group/><icon/><ignore_price>false</ignore_price><image/><list_price>0</list_price><location/><meta/><mobile_hide_price>false</mobile_hide_price><mobile_picture/><mobile_picture_type>use_desktop_picture</mobile_picture_type><model/><name>Warehouse to Warehouse Pallet/Equipment Move</name><no_cart>false</no_cart><no_order>false</no_order><no_order_now>false</no_order_now><no_proceed_checkout>false</no_proceed_checkout><no_quantity>false</no_quantity><no_search>false</no_search><omit_price>false</omit_price><order>500</order><ordered_item_link/><picture/><preview>JavaScript: popupOpenStandard("./com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=a1c124976f0ba2001d90f00dba3ee451&amp;sysparm_preview=true", "summary");</preview><price>0</price><recurring_frequency/><recurring_price>0</recurring_price><roles/><sc_catalogs/><sc_ic_item_staging/><sc_ic_version/><short_description/><start_closed>false</start_closed><sys_class_name>sc_cat_item</sys_class_name><sys_created_by>jalexan</sys_created_by><sys_created_on>2016-11-17 17:48:15</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>a1c124976f0ba2001d90f00dba3ee451</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Warehouse to Warehouse Pallet/Equipment Move</sys_name><sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope><sys_update_name>sc_cat_item_a1c124976f0ba2001d90f00dba3ee451</sys_update_name><sys_updated_by>jalexan</sys_updated_by><sys_updated_on>2017-01-21 17:08:38</sys_updated_on><template/><type>item</type><u_og_include>false</u_og_include><u_use_item_task_stages>true</u_use_item_task_stages><use_sc_layout>true</use_sc_layout><vendor/><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><workflow/></sc_cat_item><sys_translated_text action="delete_multiple" query="documentkey=a1c124976f0ba2001d90f00dba3ee451"/><fx_price action="delete_multiple" query="id=a1c124976f0ba2001d90f00dba3ee451"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price</field><id>a1c124976f0ba2001d90f00dba3ee451</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>jalexan</sys_created_by><sys_created_on>2016-11-17 17:48:15</sys_created_on><sys_id>95e16c976f0ba2001d90f00dba3ee4cd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>jalexan</sys_updated_by><sys_updated_on>2016-11-17 17:48:15</sys_updated_on><table>sc_cat_item</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>recurring_price</field><id>a1c124976f0ba2001d90f00dba3ee451</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>jalexan</sys_created_by><sys_created_on>2016-11-17 17:48:15</sys_created_on><sys_id>99e16c976f0ba2001d90f00dba3ee4cd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>jalexan</sys_updated_by><sys_updated_on>2016-11-17 17:48:15</sys_updated_on><table>sc_cat_item</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>-1243563637</payload_hash>
+        <record_name>Warehouse to Warehouse Pallet/Equipment Move</record_name>
+        <reverted_from/>
+        <source>e9dcc06d0fcd66000c7a937f62050e19</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2017-01-21 17:08:38</sys_created_on>
+        <sys_id>be288304db287240002b7a8eaf9619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>159c20051f00000000</sys_recorded_at>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2017-01-21 17:08:38</sys_updated_on>
+        <type>Catalog Item</type>
+        <u_link>[code]&lt;a title="sc_cat_item_a1c124976f0ba2001d90f00dba3ee451" class="linked" href="sc_cat_item.do?sys_id=a1c124976f0ba2001d90f00dba3ee451"&gt;sc_cat_item_a1c124976f0ba2001d90f00dba3ee451&lt;/a&gt;[/code]</u_link>
+        <update_guid/>
+        <update_guid_history/>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">cb288304db287240002b7a8eaf9619cc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jalexan</sys_created_by>
+        <sys_created_on>2017-01-21 17:08:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sc_cat_item">sc_cat_item</sys_db_object>
+        <sys_id>4c52398aa92744d9aad766f19ba92799</sys_id>
+        <sys_metadata>a1c124976f0ba2001d90f00dba3ee451</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Warehouse to Warehouse Pallet/Equipment Move</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_scope_delete display_value="">9391a06a538a4baaacdb46ca9f813089</sys_scope_delete>
+        <sys_update_name>sc_cat_item_a1c124976f0ba2001d90f00dba3ee451</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_a1c124976f0ba2001d90f00dba3ee451">be288304db287240002b7a8eaf9619c9</sys_update_version>
+        <sys_updated_by>jalexan</sys_updated_by>
+        <sys_updated_on>2017-01-21 17:08:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

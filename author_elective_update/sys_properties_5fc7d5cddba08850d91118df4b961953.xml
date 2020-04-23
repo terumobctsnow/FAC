@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description/>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_tebc2_fac_manage.glide.sg.list.max_items_number</name>
+        <read_roles/>
+        <suffix>glide.sg.list.max_items_number</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-10-15 16:27:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5fc7d5cddba08850d91118df4b961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_tebc2_fac_manage.glide.sg.list.max_items_number</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_properties_5fc7d5cddba08850d91118df4b961953</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-15 16:27:39</sys_updated_on>
+        <type>string</type>
+        <value>3000</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=5fc7d5cddba08850d91118df4b961953"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FAC Management">182118596f542200739d841dba3ee4f7</application>
+        <file_path/>
+        <instance_id>3bd7af506ff51140ffcca9cc5d3ee43e</instance_id>
+        <instance_name>terumobctdev</instance_name>
+        <name>sys_properties_5fc7d5cddba08850d91118df4b961953</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description/><ignore_cache>false</ignore_cache><is_private>false</is_private><name>x_tebc2_fac_manage.glide.sg.list.max_items_number</name><read_roles/><suffix>glide.sg.list.max_items_number</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>sswartwood</sys_created_by><sys_created_on>2019-10-15 16:27:39</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>5fc7d5cddba08850d91118df4b961953</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_tebc2_fac_manage.glide.sg.list.max_items_number</sys_name><sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope><sys_update_name>sys_properties_5fc7d5cddba08850d91118df4b961953</sys_update_name><sys_updated_by>sswartwood</sys_updated_by><sys_updated_on>2019-10-15 16:27:39</sys_updated_on><type>string</type><value>3000</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=5fc7d5cddba08850d91118df4b961953"/></record_update>]]></payload>
+        <payload_hash>-2010463430</payload_hash>
+        <record_name>x_tebc2_fac_manage.glide.sg.list.max_items_number</record_name>
+        <reverted_from/>
+        <source>21b2dc77db548410d91118df4b96194f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-10-15 16:27:41</sys_created_on>
+        <sys_id>67d759cddba08850d91118df4b9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16dd03f21b70000001</sys_recorded_at>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-15 16:27:41</sys_updated_on>
+        <type>System Property</type>
+        <u_link>[code]&lt;a title="sys_properties_5fc7d5cddba08850d91118df4b961953" class="linked" href="sys_properties.do?sys_id=5fc7d5cddba08850d91118df4b961953"&gt;sys_properties_5fc7d5cddba08850d91118df4b961953&lt;/a&gt;[/code]</u_link>
+        <update_guid>a7d759cd25a08850b4aae9104fcddcaa</update_guid>
+        <update_guid_history>a7d759cd25a08850b4aae9104fcddcaa:-2010463430</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-10-15 20:26:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>54e686f710b64c4496d1275f1d62bb90</sys_id>
+        <sys_metadata>5fc7d5cddba08850d91118df4b961953</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_tebc2_fac_manage.glide.sg.list.max_items_number</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_scope_delete display_value="">9391a06a538a4baaacdb46ca9f813089</sys_scope_delete>
+        <sys_update_name>sys_properties_5fc7d5cddba08850d91118df4b961953</sys_update_name>
+        <sys_update_version display_value="sys_properties_5fc7d5cddba08850d91118df4b961953">67d759cddba08850d91118df4b9619ab</sys_update_version>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-15 20:26:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

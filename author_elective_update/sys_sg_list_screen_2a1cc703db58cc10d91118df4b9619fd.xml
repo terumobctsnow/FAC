@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen">
+    <sys_sg_list_screen action="DELETE">
+        <application_roles/>
+        <available_offline>false</available_offline>
+        <data_item/>
+        <description/>
+        <dynamic_prefetch_count/>
+        <fetch_type>on_demand</fetch_type>
+        <hidden>false</hidden>
+        <hide_filters>false</hide_filters>
+        <icon display_value="icon-Comment">561cc703db58cc10d91118df4b9619f7</icon>
+        <item_view/>
+        <name>Help Needed</name>
+        <order/>
+        <parent/>
+        <parent_table/>
+        <roles_override/>
+        <style>regular</style>
+        <sys_class_name>sys_sg_list_screen</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-10-09 19:47:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2a1cc703db58cc10d91118df4b9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Help Needed</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_sg_list_screen_2a1cc703db58cc10d91118df4b9619fd</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-09 19:47:39</sys_updated_on>
+    </sys_sg_list_screen>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="FAC Management">182118596f542200739d841dba3ee4f7</application>
+        <file_path/>
+        <instance_id>3bd7af506ff51140ffcca9cc5d3ee43e</instance_id>
+        <instance_name>terumobctdev</instance_name>
+        <name>sys_sg_list_screen_2a1cc703db58cc10d91118df4b9619fd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen"><sys_sg_list_screen action="INSERT_OR_UPDATE"><application_roles/><available_offline>false</available_offline><data_item/><description/><dynamic_prefetch_count/><fetch_type>on_demand</fetch_type><hidden>false</hidden><hide_filters>false</hide_filters><icon display_value="icon-Comment">561cc703db58cc10d91118df4b9619f7</icon><item_view/><name>Help Needed</name><order/><parent/><parent_table/><roles_override/><style>regular</style><sys_class_name>sys_sg_list_screen</sys_class_name><sys_created_by>sswartwood</sys_created_by><sys_created_on>2019-10-09 19:47:39</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>2a1cc703db58cc10d91118df4b9619fd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Help Needed</sys_name><sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope><sys_update_name>sys_sg_list_screen_2a1cc703db58cc10d91118df4b9619fd</sys_update_name><sys_updated_by>sswartwood</sys_updated_by><sys_updated_on>2019-10-09 19:47:39</sys_updated_on></sys_sg_list_screen></record_update>]]></payload>
+        <payload_hash>1282462584</payload_hash>
+        <record_name>Help Needed</record_name>
+        <reverted_from/>
+        <source>1d99c176db98c810d91118df4b961997</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-10-09 19:47:39</sys_created_on>
+        <sys_id>661c0b03db58cc10d91118df4b961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16db2100ed60000001</sys_recorded_at>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-09 19:47:39</sys_updated_on>
+        <type>List screen</type>
+        <u_link>[code]&lt;a title="sys_sg_list_screen_2a1cc703db58cc10d91118df4b9619fd" class="linked" href="sys_sg_list_screen.do?sys_id=2a1cc703db58cc10d91118df4b9619fd"&gt;sys_sg_list_screen_2a1cc703db58cc10d91118df4b9619fd&lt;/a&gt;[/code]</u_link>
+        <update_guid>6e1cc703fe58cc106b073fd1ec62bbff</update_guid>
+        <update_guid_history>6e1cc703fe58cc106b073fd1ec62bbff:1282462584</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-10-14 16:57:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_sg_list_screen">sys_sg_list_screen</sys_db_object>
+        <sys_id>065f198ba84d4dfa82041fc89e193ae4</sys_id>
+        <sys_metadata>2a1cc703db58cc10d91118df4b9619fd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Help Needed</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_scope_delete display_value="">9391a06a538a4baaacdb46ca9f813089</sys_scope_delete>
+        <sys_update_name>sys_sg_list_screen_2a1cc703db58cc10d91118df4b9619fd</sys_update_name>
+        <sys_update_version display_value="sys_sg_list_screen_2a1cc703db58cc10d91118df4b9619fd">661c0b03db58cc10d91118df4b961900</sys_update_version>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-10-14 16:57:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter">
     <sys_filter action="INSERT_OR_UPDATE">
-        <filter table="x_tebc2_security_application_table">stateIN1,3^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="1,3"/>
+        <filter table="x_tebc2_security_application_table">stateIN1,3^EQ<item display_value="1,3" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="1,3"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <group/>

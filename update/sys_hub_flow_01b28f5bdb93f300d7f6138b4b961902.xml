@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
@@ -25,9 +25,11 @@
         <sys_created_by>sswartwood</sys_created_by>
         <sys_created_on>2019-08-21 20:42:17</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
         <sys_id>01b28f5bdb93f300d7f6138b4b961902</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Package Reminder - Stan</sys_name>
+        <sys_overrides/>
         <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
@@ -38,4 +40,23 @@
         <type>flow</type>
     </sys_hub_flow>
     <sys_variable_value action="delete_multiple" query="document_key=01b28f5bdb93f300d7f6138b4b961902"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=01b28f5bdb93f300d7f6138b4b961902^sys_idNOT IN49b28f5bdb93f300d7f6138b4b961902"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>01b28f5bdb93f300d7f6138b4b961902</id>
+        <name>Package Reminder - Stan</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-08-21 20:42:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>49b28f5bdb93f300d7f6138b4b961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Package Reminder - Stan</sys_name>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_49b28f5bdb93f300d7f6138b4b961902</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-08-21 20:42:17</sys_updated_on>
+    </sys_flow_cat_variable_model>
 </record_update>

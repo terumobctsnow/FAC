@@ -8,6 +8,7 @@
         <name>Specific Location</name>
         <order>100</order>
         <read_roles/>
+        <set_attributes/>
         <sys_class_name>item_option_new_set</sys_class_name>
         <sys_created_by>jalexan</sys_created_by>
         <sys_created_on>2016-06-28 15:06:50</sys_created_on>

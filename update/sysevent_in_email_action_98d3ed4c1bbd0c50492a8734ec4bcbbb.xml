@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition table="sys_email">subjectLIKEPackage Deliver to 1215^EQ<item endquery="false" field="subject" goto="false" newquery="false" operator="LIKE" or="false" value="Package Deliver to 1215"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <from/>
+        <name>FAC - deliver package to 1215</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script/>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>sswartwood</sys_created_by>
+        <sys_created_on>2019-12-13 18:04:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>98d3ed4c1bbd0c50492a8734ec4bcbbb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FAC - deliver package to 1215</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FAC Management" source="x_tebc2_fac_manage">182118596f542200739d841dba3ee4f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FAC Management">182118596f542200739d841dba3ee4f7</sys_scope>
+        <sys_update_name>sysevent_in_email_action_98d3ed4c1bbd0c50492a8734ec4bcbbb</sys_update_name>
+        <sys_updated_by>sswartwood</sys_updated_by>
+        <sys_updated_on>2019-12-13 18:04:48</sys_updated_on>
+        <table>x_tebc2_fac_manage_packages</table>
+        <template>assignment_group=051987d8dbb67b00d91118df4b96190a^u_package_status=4^EQ</template>
+        <type>reply</type>
+    </sysevent_in_email_action>
+</record_update>
